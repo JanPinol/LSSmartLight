@@ -1,0 +1,3672 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2163 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2163:     struct {
+[s S76 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S76 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"2173
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2173:     struct {
+[s S77 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S77 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"2162
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2162: typedef union {
+[u S75 `S76 1 `S77 1 ]
+[n S75 . . . ]
+"2184
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2184: extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF95)));
+[v _TRISDbits `VS75 ~T0 @X0 0 e@3989 ]
+"1719
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1719:     struct {
+[s S64 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S64 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1729
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1729:     struct {
+[s S65 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S65 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"1718
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1718: typedef union {
+[u S63 `S64 1 `S65 1 ]
+[n S63 . . . ]
+"1740
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1740: extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF93)));
+[v _TRISBbits `VS63 ~T0 @X0 0 e@3987 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\include/builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"146 ./TRFID.h
+[; ;./TRFID.h: 146: void MFRC522_Init();
+[v _MFRC522_Init `(v ~T0 @X0 0 e? ]
+"1104 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1104:     struct {
+[s S46 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . LATB0 LATB1 LATB2 LATB3 LATB4 LATB5 LATB6 LATB7 ]
+"1114
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1114:     struct {
+[s S47 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . LB0 LB1 LB2 LB3 LB4 LB5 LB6 LB7 ]
+"1103
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1103: typedef union {
+[u S45 `S46 1 `S47 1 ]
+[n S45 . . . ]
+"1125
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1125: extern volatile LATBbits_t LATBbits __attribute__((address(0xF8A)));
+[v _LATBbits `VS45 ~T0 @X0 0 e@3978 ]
+"1328
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1328:     struct {
+[s S52 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S52 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"1338
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1338:     struct {
+[s S53 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S53 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"1327
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1327: typedef union {
+[u S51 `S52 1 `S53 1 ]
+[n S51 . . . ]
+"1349
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1349: extern volatile LATDbits_t LATDbits __attribute__((address(0xF8C)));
+[v _LATDbits `VS51 ~T0 @X0 0 e@3980 ]
+"143 ./TRFID.h
+[; ;./TRFID.h: 143: void MFRC522_Reset();
+[v _MFRC522_Reset `(v ~T0 @X0 0 e? ]
+"140
+[; ;./TRFID.h: 140: void MFRC522_Wr(unsigned char Address, unsigned char value);
+[v _MFRC522_Wr `(v ~T0 @X0 0 ef2`uc`uc ]
+"145
+[; ;./TRFID.h: 145: void MFRC522_AntennaOff();
+[v _MFRC522_AntennaOff `(v ~T0 @X0 0 e? ]
+"144
+[; ;./TRFID.h: 144: void MFRC522_AntennaOn();
+[v _MFRC522_AntennaOn `(v ~T0 @X0 0 e? ]
+"139
+[; ;./TRFID.h: 139: unsigned char MFRC522_Rd(unsigned char Address);
+[v _MFRC522_Rd `(uc ~T0 @X0 0 ef1`uc ]
+"3 TRFID.c
+[; ;TRFID.c: 3: void MFRC522_Wr_1(unsigned char Address);
+[v _MFRC522_Wr_1 `(v ~T0 @X0 0 ef1`uc ]
+"4
+[; ;TRFID.c: 4: void MFRC522_Wr_2(unsigned char value);
+[v _MFRC522_Wr_2 `(v ~T0 @X0 0 ef1`uc ]
+"152 ./TRFID.h
+[; ;./TRFID.h: 152: char MFRC522_AntiColl( char *serNum );
+[v _MFRC522_AntiColl `(uc ~T0 @X0 0 ef1`*uc ]
+"647 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 647:     struct {
+[s S27 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S27 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"657
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 657:     struct {
+[s S28 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S28 . PSP0 PSP1 PSP2 PSP3 PSP4 PSP5 PSP6 PSP7 ]
+"667
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 667:     struct {
+[s S29 :5 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S29 . . P1B P1C P1D ]
+"673
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 673:     struct {
+[s S30 :7 `uc 1 :1 `uc 1 ]
+[n S30 . . SS2 ]
+"646
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 646: typedef union {
+[u S26 `S27 1 `S28 1 `S29 1 `S30 1 ]
+[n S26 . . . . . ]
+"678
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 678: extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF83)));
+[v _PORTDbits `VS26 ~T0 @X0 0 e@3971 ]
+"68 ./TAD_MENU.h
+[; ;./TAD_MENU.h: 68: void MENU_SaveUID(unsigned char UID[5]);
+[v _MENU_SaveUID `(v ~T0 @X0 0 ef1`*uc ]
+"52 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 52: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"284
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 284: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"463
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 463: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"643
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 643: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"785
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 785: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"988
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 988: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1100
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1100: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1212
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1212: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1324
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1324: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1436
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1436: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1488
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1488: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1493
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1493: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1710
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1710: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1715
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1715: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1932
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1932: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1937
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1937: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2154
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2154: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2159
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2159: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2376
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2376: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2381
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2381: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2540
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2540: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2605
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2605: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2682
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2682: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2759
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2759: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2836
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2836: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2902
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2902: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2968
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2968: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3034
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3034: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3100
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3100: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3107
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3107: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3114
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3114: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3121
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3121: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3126
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3126: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3331
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3331: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3336
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3336: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3587
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3587: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3592
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3592: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3599
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3599: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3604
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3604: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3611
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3611: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3616
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3616: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3623
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3623: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3630
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3630: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3742
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3742: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3749
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3749: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3756
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3756: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3763
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3763: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3853
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3853: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3932
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3932: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"4014
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4014: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4019
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4019: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4152
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4152: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4157
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4157: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4332
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4332: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4411
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4411: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4418
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4418: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4425
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4425: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4432
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4432: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4437
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4437: __asm("ECCP1CON equ 0FBDh");
+[; <" ECCP1CON equ 0FBDh ;# ">
+"4624
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4624: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4631
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4631: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4638
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4638: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4645
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4645: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4716
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4716: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4801
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4801: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4920
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4920: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4927
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4927: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4934
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4934: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4941
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4941: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5036
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5036: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5106
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5106: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5327
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5327: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5334
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5334: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5341
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5341: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5439
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5439: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5444
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5444: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5549
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5549: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5556
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5556: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5659
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5659: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5666
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5666: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5673
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5673: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5680
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5680: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5814
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5814: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5842
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5842: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5847
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5847: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6100
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6100: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6183
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6183: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6260
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6260: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6267
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6267: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6274
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6274: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6281
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6281: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6352
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6352: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6359
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6359: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6366
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6366: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6373
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6373: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6380
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6380: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6387
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6387: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6394
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6394: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6401
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6401: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6408
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6408: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6415
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6415: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6422
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6422: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6429
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6429: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6436
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6436: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6443
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6443: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6450
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6450: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6457
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6457: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6464
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6464: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6471
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6471: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6483
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6483: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6490
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6490: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6497
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6497: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6504
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6504: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6511
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6511: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6518
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6518: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6525
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6525: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6532
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6532: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6539
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6539: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6631
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6631: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6701
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6701: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6818
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6818: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6825
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6825: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6832
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6832: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6839
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6839: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6848
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6848: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6855
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6855: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6862
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6862: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6869
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6869: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6878
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6878: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6885
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6885: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6892
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6892: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6899
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6899: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6906
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6906: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6913
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6913: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6987
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6987: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6994
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6994: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"7001
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 7001: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7008
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 7008: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"27 ./TAD_TECLATMATRIU.h
+[; ;./TAD_TECLATMATRIU.h: 27: const unsigned char T_REBOTS = 10;
+[v _T_REBOTS `Cuc ~T0 @X0 1 e ]
+[i _T_REBOTS
+-> -> 10 `i `uc
+]
+[v F2731 `Cuc ~T0 @X0 -> 5 `i t ]
+"21 ./TAD_MENU.h
+[; ;./TAD_MENU.h: 21: const unsigned char uid_saved[6][5] = {
+[v _uid_saved `F2731 ~T0 @X0 -> 6 `i e ]
+[i _uid_saved
+:U ..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 227 `i `uc
+-> -> 194 `i `uc
+-> -> 38 `i `uc
+-> -> 219 `i `uc
+-> -> 220 `i `uc
+..
+:U ..
+-> -> 3 `i `uc
+-> -> 109 `i `uc
+-> -> 210 `i `uc
+-> -> 217 `i `uc
+-> -> 101 `i `uc
+..
+:U ..
+-> -> 61 `i `uc
+-> -> 230 `i `uc
+-> -> 151 `i `uc
+-> -> 63 `i `uc
+-> -> 115 `i `uc
+..
+:U ..
+-> -> 204 `i `uc
+-> -> 211 `i `uc
+-> -> 150 `i `uc
+-> -> 63 `i `uc
+-> -> 182 `i `uc
+..
+:U ..
+-> -> 136 `i `uc
+-> -> 5 `i `uc
+-> -> 106 `i `uc
+-> -> 202 `i `uc
+-> -> 45 `i `uc
+..
+..
+]
+[v F2733 `uc ~T0 @X0 -> 6 `i t ]
+"32
+[; ;./TAD_MENU.h: 32: static unsigned char leds_saved[6][6] = {
+[v _leds_saved `F2733 ~T0 @X0 -> 6 `i s ]
+[i _leds_saved
+:U ..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+..
+:U ..
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+-> -> 8 `i `uc
+-> -> 10 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+-> -> 8 `i `uc
+-> -> 10 `i `uc
+..
+..
+]
+"44
+[; ;./TAD_MENU.h: 44: const char menu_principal[] =
+[v _menu_principal `Cuc ~T0 @X0 -> 172 `i e ]
+[i _menu_principal
+:U ..
+-> 27 `c
+-> 91 `c
+-> 50 `c
+-> 74 `c
+-> 27 `c
+-> 91 `c
+-> 72 `c
+-> 13 `c
+-> 10 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 13 `c
+-> 10 `c
+-> 77 `c
+-> 101 `c
+-> 110 `c
+-> -6 `c
+-> 32 `c
+-> 112 `c
+-> 114 `c
+-> 105 `c
+-> 110 `c
+-> 99 `c
+-> 105 `c
+-> 112 `c
+-> 97 `c
+-> 108 `c
+-> 13 `c
+-> 10 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 13 `c
+-> 10 `c
+-> 84 `c
+-> 114 `c
+-> 105 `c
+-> 97 `c
+-> 32 `c
+-> 117 `c
+-> 110 `c
+-> 97 `c
+-> 32 `c
+-> 111 `c
+-> 112 `c
+-> 99 `c
+-> 105 `c
+-> -13 `c
+-> 58 `c
+-> 13 `c
+-> 10 `c
+-> 9 `c
+-> 49 `c
+-> 46 `c
+-> 32 `c
+-> 81 `c
+-> 117 `c
+-> 105 `c
+-> 32 `c
+-> 104 `c
+-> 105 `c
+-> 32 `c
+-> 104 `c
+-> 97 `c
+-> 32 `c
+-> 97 `c
+-> 32 `c
+-> 108 `c
+-> 97 `c
+-> 32 `c
+-> 115 `c
+-> 97 `c
+-> 108 `c
+-> 97 `c
+-> 63 `c
+-> 13 `c
+-> 10 `c
+-> 9 `c
+-> 50 `c
+-> 46 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 97 `c
+-> 114 `c
+-> 32 `c
+-> 99 `c
+-> 111 `c
+-> 110 `c
+-> 102 `c
+-> 105 `c
+-> 103 `c
+-> 117 `c
+-> 114 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 115 `c
+-> 13 `c
+-> 10 `c
+-> 9 `c
+-> 51 `c
+-> 46 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 100 `c
+-> 105 `c
+-> 102 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 114 `c
+-> 32 `c
+-> 104 `c
+-> 111 `c
+-> 114 `c
+-> 97 `c
+-> 32 `c
+-> 100 `c
+-> 101 `c
+-> 108 `c
+-> 32 `c
+-> 115 `c
+-> 105 `c
+-> 115 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 97 `c
+-> 13 `c
+-> 10 `c
+-> 79 `c
+-> 112 `c
+-> 99 `c
+-> 105 `c
+-> -13 `c
+-> 58 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"55
+[; ;./TAD_MENU.h: 55: const char res_a_mostrar[] = "\r\nRes a mostrar";
+[v _res_a_mostrar `Cuc ~T0 @X0 -> 16 `i e ]
+[i _res_a_mostrar
+:U ..
+-> 13 `c
+-> 10 `c
+-> 82 `c
+-> 101 `c
+-> 115 `c
+-> 32 `c
+-> 97 `c
+-> 32 `c
+-> 109 `c
+-> 111 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 97 `c
+-> 114 `c
+-> 0 `c
+..
+]
+"56
+[; ;./TAD_MENU.h: 56: const char hora_sistema[] = "\r\nHora del sistema: ";
+[v _hora_sistema `Cuc ~T0 @X0 -> 21 `i e ]
+[i _hora_sistema
+:U ..
+-> 13 `c
+-> 10 `c
+-> 72 `c
+-> 111 `c
+-> 114 `c
+-> 97 `c
+-> 32 `c
+-> 100 `c
+-> 101 `c
+-> 108 `c
+-> 32 `c
+-> 115 `c
+-> 105 `c
+-> 115 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 97 `c
+-> 58 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"57
+[; ;./TAD_MENU.h: 57: const char separador_hora[] = ":";
+[v _separador_hora `Cuc ~T0 @X0 -> 2 `i e ]
+[i _separador_hora
+:U ..
+-> 58 `c
+-> 0 `c
+..
+]
+"58
+[; ;./TAD_MENU.h: 58: const char enter_aplicar[] = "\r\nEnter per aplicar... ";
+[v _enter_aplicar `Cuc ~T0 @X0 -> 24 `i e ]
+[i _enter_aplicar
+:U ..
+-> 13 `c
+-> 10 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 112 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 97 `c
+-> 112 `c
+-> 108 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 114 `c
+-> 46 `c
+-> 46 `c
+-> 46 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"59
+[; ;./TAD_MENU.h: 59: const char canvis_aplicats[] = "\r\nCanvis aplicats.";
+[v _canvis_aplicats `Cuc ~T0 @X0 -> 19 `i e ]
+[i _canvis_aplicats
+:U ..
+-> 13 `c
+-> 10 `c
+-> 67 `c
+-> 97 `c
+-> 110 `c
+-> 118 `c
+-> 105 `c
+-> 115 `c
+-> 32 `c
+-> 97 `c
+-> 112 `c
+-> 108 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 116 `c
+-> 115 `c
+-> 46 `c
+-> 0 `c
+..
+]
+"8 TRFID.c
+[; ;TRFID.c: 8: char* TagType;
+[v _TagType `*uc ~T0 @X0 1 e ]
+"9
+[; ;TRFID.c: 9: unsigned char t;
+[v _t `uc ~T0 @X0 1 e ]
+"10
+[; ;TRFID.c: 10: static char state;
+[v _state `uc ~T0 @X0 1 s ]
+"11
+[; ;TRFID.c: 11: static char _status = 0;
+[v __status `uc ~T0 @X0 1 s ]
+[i __status
+-> -> 0 `i `uc
+]
+"13
+[; ;TRFID.c: 13: unsigned char i;
+[v _i `uc ~T0 @X0 1 e ]
+"15
+[; ;TRFID.c: 15: void InitPortDirections() {
+[v _InitPortDirections `(v ~T0 @X0 1 ef ]
+{
+[e :U _InitPortDirections ]
+[f ]
+"16
+[; ;TRFID.c: 16:     TRISDbits.TRISD6 = 1;
+[e = . . _TRISDbits 0 6 -> -> 1 `i `uc ]
+"17
+[; ;TRFID.c: 17:     TRISDbits.TRISD7 = 0;
+[e = . . _TRISDbits 0 7 -> -> 0 `i `uc ]
+"18
+[; ;TRFID.c: 18:     TRISBbits.TRISB0 = 0;
+[e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
+"19
+[; ;TRFID.c: 19:     TRISBbits.TRISB1 = 0;
+[e = . . _TRISBbits 0 1 -> -> 0 `i `uc ]
+"20
+[; ;TRFID.c: 20:     TRISDbits.TRISD5 = 0;
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+"21
+[; ;TRFID.c: 21: }
+[e :UE 302 ]
+}
+"23
+[; ;TRFID.c: 23: void delay_us(char howMany) {
+[v _delay_us `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _delay_us ]
+[v _howMany `uc ~T0 @X0 1 r1 ]
+[f ]
+"25
+[; ;TRFID.c: 25:     char x;
+[v _x `uc ~T0 @X0 1 a ]
+"26
+[; ;TRFID.c: 26:     for (x = 0; x < howMany * 16; x++) __nop();
+{
+[e = _x -> -> 0 `i `uc ]
+[e $U 307  ]
+[e :U 304 ]
+[e ( ___nop ..  ]
+[e ++ _x -> -> 1 `i `uc ]
+[e :U 307 ]
+[e $ < -> _x `i * -> _howMany `i -> 16 `i 304  ]
+[e :U 305 ]
+}
+"27
+[; ;TRFID.c: 27: }
+[e :UE 303 ]
+}
+"29
+[; ;TRFID.c: 29: void RFID_Init() {
+[v _RFID_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _RFID_Init ]
+[f ]
+"30
+[; ;TRFID.c: 30:     InitPortDirections();
+[e ( _InitPortDirections ..  ]
+"31
+[; ;TRFID.c: 31:     MFRC522_Init();
+[e ( _MFRC522_Init ..  ]
+"32
+[; ;TRFID.c: 32: }
+[e :UE 308 ]
+}
+"34
+[; ;TRFID.c: 34: void MFRC522_Init() {
+[v _MFRC522_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _MFRC522_Init ]
+[f ]
+"35
+[; ;TRFID.c: 35:     LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"36
+[; ;TRFID.c: 36:     LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"38
+[; ;TRFID.c: 38:     MFRC522_Reset();
+[e ( _MFRC522_Reset ..  ]
+"39
+[; ;TRFID.c: 39:     MFRC522_Wr(0x2A, 0x8D);
+[e ( _MFRC522_Wr (2 , -> -> 42 `i `uc -> -> 141 `i `uc ]
+"40
+[; ;TRFID.c: 40:     MFRC522_Wr(0x2B, 0x3E);
+[e ( _MFRC522_Wr (2 , -> -> 43 `i `uc -> -> 62 `i `uc ]
+"41
+[; ;TRFID.c: 41:     MFRC522_Wr(0x2D, 30);
+[e ( _MFRC522_Wr (2 , -> -> 45 `i `uc -> -> 30 `i `uc ]
+"42
+[; ;TRFID.c: 42:     MFRC522_Wr(0x2C, 0);
+[e ( _MFRC522_Wr (2 , -> -> 44 `i `uc -> -> 0 `i `uc ]
+"43
+[; ;TRFID.c: 43:     MFRC522_Wr(0x15, 0x40);
+[e ( _MFRC522_Wr (2 , -> -> 21 `i `uc -> -> 64 `i `uc ]
+"44
+[; ;TRFID.c: 44:     MFRC522_Wr(0x11, 0x3D);
+[e ( _MFRC522_Wr (2 , -> -> 17 `i `uc -> -> 61 `i `uc ]
+"46
+[; ;TRFID.c: 46:     MFRC522_AntennaOff();
+[e ( _MFRC522_AntennaOff ..  ]
+"47
+[; ;TRFID.c: 47:     MFRC522_AntennaOn();
+[e ( _MFRC522_AntennaOn ..  ]
+"48
+[; ;TRFID.c: 48: }
+[e :UE 309 ]
+}
+"50
+[; ;TRFID.c: 50: void MFRC522_Clear_Bit(char addr, char mask) {
+[v _MFRC522_Clear_Bit `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _MFRC522_Clear_Bit ]
+[v _addr `uc ~T0 @X0 1 r1 ]
+[v _mask `uc ~T0 @X0 1 r2 ]
+[f ]
+"51
+[; ;TRFID.c: 51:     unsigned char tmp = MFRC522_Rd(addr);
+[v _tmp `uc ~T0 @X0 1 a ]
+[e = _tmp ( _MFRC522_Rd (1 -> _addr `uc ]
+"52
+[; ;TRFID.c: 52:     MFRC522_Wr(addr, tmp & ~mask);
+[e ( _MFRC522_Wr (2 , -> _addr `uc -> & -> _tmp `i ~ -> _mask `i `uc ]
+"53
+[; ;TRFID.c: 53: }
+[e :UE 310 ]
+}
+"55
+[; ;TRFID.c: 55: void MFRC522_Set_Bit(char addr, char mask) {
+[v _MFRC522_Set_Bit `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _MFRC522_Set_Bit ]
+[v _addr `uc ~T0 @X0 1 r1 ]
+[v _mask `uc ~T0 @X0 1 r2 ]
+[f ]
+"56
+[; ;TRFID.c: 56:     unsigned char tmp = MFRC522_Rd(addr);
+[v _tmp `uc ~T0 @X0 1 a ]
+[e = _tmp ( _MFRC522_Rd (1 -> _addr `uc ]
+"57
+[; ;TRFID.c: 57:     MFRC522_Wr(addr, tmp | mask);
+[e ( _MFRC522_Wr (2 , -> _addr `uc -> | -> _tmp `i -> _mask `i `uc ]
+"58
+[; ;TRFID.c: 58: }
+[e :UE 311 ]
+}
+"60
+[; ;TRFID.c: 60: void MFRC522_Reset() {
+[v _MFRC522_Reset `(v ~T0 @X0 1 ef ]
+{
+[e :U _MFRC522_Reset ]
+[f ]
+"61
+[; ;TRFID.c: 61:     LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"62
+[; ;TRFID.c: 62:     delay_us(1);
+[e ( _delay_us (1 -> -> 1 `i `uc ]
+"63
+[; ;TRFID.c: 63:     LATDbits.LATD5 = 0;
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"64
+[; ;TRFID.c: 64:     delay_us(1);
+[e ( _delay_us (1 -> -> 1 `i `uc ]
+"65
+[; ;TRFID.c: 65:     LATDbits.LATD5 = 1;
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"66
+[; ;TRFID.c: 66:     delay_us(1);
+[e ( _delay_us (1 -> -> 1 `i `uc ]
+"67
+[; ;TRFID.c: 67:     MFRC522_Wr(0x01, 0x0F);
+[e ( _MFRC522_Wr (2 , -> -> 1 `i `uc -> -> 15 `i `uc ]
+"68
+[; ;TRFID.c: 68:     delay_us(1);
+[e ( _delay_us (1 -> -> 1 `i `uc ]
+"69
+[; ;TRFID.c: 69: }
+[e :UE 312 ]
+}
+"71
+[; ;TRFID.c: 71: void MFRC522_AntennaOn() {
+[v _MFRC522_AntennaOn `(v ~T0 @X0 1 ef ]
+{
+[e :U _MFRC522_AntennaOn ]
+[f ]
+"72
+[; ;TRFID.c: 72:     unsigned char stt = MFRC522_Rd(0x14);
+[v _stt `uc ~T0 @X0 1 a ]
+[e = _stt ( _MFRC522_Rd (1 -> -> 20 `i `uc ]
+"73
+[; ;TRFID.c: 73:     MFRC522_Set_Bit(0x14, 0x03);
+[e ( _MFRC522_Set_Bit (2 , -> -> 20 `i `uc -> -> 3 `i `uc ]
+"74
+[; ;TRFID.c: 74: }
+[e :UE 313 ]
+}
+"76
+[; ;TRFID.c: 76: void MFRC522_AntennaOff() {
+[v _MFRC522_AntennaOff `(v ~T0 @X0 1 ef ]
+{
+[e :U _MFRC522_AntennaOff ]
+[f ]
+"77
+[; ;TRFID.c: 77:     MFRC522_Clear_Bit(0x14, 0x03);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 20 `i `uc -> -> 3 `i `uc ]
+"78
+[; ;TRFID.c: 78: }
+[e :UE 314 ]
+}
+"80
+[; ;TRFID.c: 80: void MFRC522_CRC(char *dataIn, char length, char *dataOut) {
+[v _MFRC522_CRC `(v ~T0 @X0 1 ef3`*uc`uc`*uc ]
+{
+[e :U _MFRC522_CRC ]
+[v _dataIn `*uc ~T0 @X0 1 r1 ]
+[v _length `uc ~T0 @X0 1 r2 ]
+[v _dataOut `*uc ~T0 @X0 1 r3 ]
+[f ]
+"81
+[; ;TRFID.c: 81:     static char step = 1;
+[v F2827 `uc ~T0 @X0 1 s step ]
+[i F2827
+-> -> 1 `i `uc
+]
+"82
+[; ;TRFID.c: 82:     static char i = 0;
+[v F2828 `uc ~T0 @X0 1 s i ]
+[i F2828
+-> -> 0 `i `uc
+]
+"83
+[; ;TRFID.c: 83:     static char n;
+[v F2829 `uc ~T0 @X0 1 s n ]
+"85
+[; ;TRFID.c: 85:     switch (step) {
+[e $U 317  ]
+{
+"86
+[; ;TRFID.c: 86:         case 1:
+[e :U 318 ]
+"87
+[; ;TRFID.c: 87:             MFRC522_Clear_Bit(0x05, 0x04);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 5 `i `uc -> -> 4 `i `uc ]
+"88
+[; ;TRFID.c: 88:             MFRC522_Set_Bit(0x0A, 0x80);
+[e ( _MFRC522_Set_Bit (2 , -> -> 10 `i `uc -> -> 128 `i `uc ]
+"89
+[; ;TRFID.c: 89:             i = 0;
+[e = F2828 -> -> 0 `i `uc ]
+"90
+[; ;TRFID.c: 90:             step = 2;
+[e = F2827 -> -> 2 `i `uc ]
+"91
+[; ;TRFID.c: 91:             break;
+[e $U 316  ]
+"93
+[; ;TRFID.c: 93:         case 2:
+[e :U 319 ]
+"94
+[; ;TRFID.c: 94:             if (i < length) {
+[e $ ! < -> F2828 `i -> _length `i 320  ]
+{
+"95
+[; ;TRFID.c: 95:                 MFRC522_Wr(0x09, dataIn[i++]);
+[e ( _MFRC522_Wr (2 , -> -> 9 `i `uc -> *U + _dataIn * -> ++ F2828 -> -> 1 `i `uc `ux -> -> # *U _dataIn `ui `ux `uc ]
+"96
+[; ;TRFID.c: 96:             } else {
+}
+[e $U 321  ]
+[e :U 320 ]
+{
+"97
+[; ;TRFID.c: 97:                 step = 3;
+[e = F2827 -> -> 3 `i `uc ]
+"98
+[; ;TRFID.c: 98:             }
+}
+[e :U 321 ]
+"99
+[; ;TRFID.c: 99:             break;
+[e $U 316  ]
+"101
+[; ;TRFID.c: 101:         case 3:
+[e :U 322 ]
+"102
+[; ;TRFID.c: 102:             MFRC522_Wr(0x01, 0x03);
+[e ( _MFRC522_Wr (2 , -> -> 1 `i `uc -> -> 3 `i `uc ]
+"103
+[; ;TRFID.c: 103:             step = 4;
+[e = F2827 -> -> 4 `i `uc ]
+"104
+[; ;TRFID.c: 104:             break;
+[e $U 316  ]
+"106
+[; ;TRFID.c: 106:         case 4:
+[e :U 323 ]
+"107
+[; ;TRFID.c: 107:             n = MFRC522_Rd(0x05);
+[e = F2829 -> ( _MFRC522_Rd (1 -> -> 5 `i `uc `uc ]
+"108
+[; ;TRFID.c: 108:             if (n & 0x04) step = 5;
+[e $ ! != & -> F2829 `i -> 4 `i -> 0 `i 324  ]
+[e = F2827 -> -> 5 `i `uc ]
+[e :U 324 ]
+"109
+[; ;TRFID.c: 109:             break;
+[e $U 316  ]
+"111
+[; ;TRFID.c: 111:         case 5:
+[e :U 325 ]
+"112
+[; ;TRFID.c: 112:             dataOut[0] = MFRC522_Rd(0x22);
+[e = *U + _dataOut * -> -> 0 `i `x -> -> # *U _dataOut `i `x -> ( _MFRC522_Rd (1 -> -> 34 `i `uc `uc ]
+"113
+[; ;TRFID.c: 113:             dataOut[1] = MFRC522_Rd(0x21);
+[e = *U + _dataOut * -> -> 1 `i `x -> -> # *U _dataOut `i `x -> ( _MFRC522_Rd (1 -> -> 33 `i `uc `uc ]
+"114
+[; ;TRFID.c: 114:             step = 1;
+[e = F2827 -> -> 1 `i `uc ]
+"115
+[; ;TRFID.c: 115:             break;
+[e $U 316  ]
+"116
+[; ;TRFID.c: 116:     }
+}
+[e $U 316  ]
+[e :U 317 ]
+[e [\ F2827 , $ -> 1 `i 318
+ , $ -> 2 `i 319
+ , $ -> 3 `i 322
+ , $ -> 4 `i 323
+ , $ -> 5 `i 325
+ 316 ]
+[e :U 316 ]
+"117
+[; ;TRFID.c: 117: }
+[e :UE 315 ]
+}
+"119
+[; ;TRFID.c: 119: void MFRC522_CRC_NOU(char *dataIn, char length, char *dataOut) {
+[v _MFRC522_CRC_NOU `(v ~T0 @X0 1 ef3`*uc`uc`*uc ]
+{
+[e :U _MFRC522_CRC_NOU ]
+[v _dataIn `*uc ~T0 @X0 1 r1 ]
+[v _length `uc ~T0 @X0 1 r2 ]
+[v _dataOut `*uc ~T0 @X0 1 r3 ]
+[f ]
+"120
+[; ;TRFID.c: 120:     static char step = 1;
+[v F2834 `uc ~T0 @X0 1 s step ]
+[i F2834
+-> -> 1 `i `uc
+]
+"121
+[; ;TRFID.c: 121:     static char i = 0;
+[v F2835 `uc ~T0 @X0 1 s i ]
+[i F2835
+-> -> 0 `i `uc
+]
+"122
+[; ;TRFID.c: 122:     static char n;
+[v F2836 `uc ~T0 @X0 1 s n ]
+"123
+[; ;TRFID.c: 123:     static char wr_state = 0;
+[v F2837 `uc ~T0 @X0 1 s wr_state ]
+[i F2837
+-> -> 0 `i `uc
+]
+"125
+[; ;TRFID.c: 125:     switch (step) {
+[e $U 328  ]
+{
+"126
+[; ;TRFID.c: 126:         case 1:
+[e :U 329 ]
+"127
+[; ;TRFID.c: 127:             MFRC522_Clear_Bit(0x05, 0x04);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 5 `i `uc -> -> 4 `i `uc ]
+"128
+[; ;TRFID.c: 128:             MFRC522_Set_Bit(0x0A, 0x80);
+[e ( _MFRC522_Set_Bit (2 , -> -> 10 `i `uc -> -> 128 `i `uc ]
+"129
+[; ;TRFID.c: 129:             i = 0;
+[e = F2835 -> -> 0 `i `uc ]
+"130
+[; ;TRFID.c: 130:             step = 2;
+[e = F2834 -> -> 2 `i `uc ]
+"131
+[; ;TRFID.c: 131:             break;
+[e $U 327  ]
+"133
+[; ;TRFID.c: 133:         case 2:
+[e :U 330 ]
+"134
+[; ;TRFID.c: 134:             if (i < length) {
+[e $ ! < -> F2835 `i -> _length `i 331  ]
+{
+"135
+[; ;TRFID.c: 135:                 if (wr_state == 0) {
+[e $ ! == -> F2837 `i -> 0 `i 332  ]
+{
+"136
+[; ;TRFID.c: 136:                     MFRC522_Wr_1(0x09);
+[e ( _MFRC522_Wr_1 (1 -> -> 9 `i `uc ]
+"137
+[; ;TRFID.c: 137:                     wr_state = 1;
+[e = F2837 -> -> 1 `i `uc ]
+"138
+[; ;TRFID.c: 138:                 } else {
+}
+[e $U 333  ]
+[e :U 332 ]
+{
+"139
+[; ;TRFID.c: 139:                     MFRC522_Wr_2(dataIn[i++]);
+[e ( _MFRC522_Wr_2 (1 -> *U + _dataIn * -> ++ F2835 -> -> 1 `i `uc `ux -> -> # *U _dataIn `ui `ux `uc ]
+"140
+[; ;TRFID.c: 140:                     wr_state = 0;
+[e = F2837 -> -> 0 `i `uc ]
+"141
+[; ;TRFID.c: 141:                 }
+}
+[e :U 333 ]
+"142
+[; ;TRFID.c: 142:             } else {
+}
+[e $U 334  ]
+[e :U 331 ]
+{
+"143
+[; ;TRFID.c: 143:                 step = 3;
+[e = F2834 -> -> 3 `i `uc ]
+"144
+[; ;TRFID.c: 144:             }
+}
+[e :U 334 ]
+"145
+[; ;TRFID.c: 145:             break;
+[e $U 327  ]
+"147
+[; ;TRFID.c: 147:         case 3:
+[e :U 335 ]
+"148
+[; ;TRFID.c: 148:             if (wr_state == 0) {
+[e $ ! == -> F2837 `i -> 0 `i 336  ]
+{
+"149
+[; ;TRFID.c: 149:                 MFRC522_Wr_1(0x01);
+[e ( _MFRC522_Wr_1 (1 -> -> 1 `i `uc ]
+"150
+[; ;TRFID.c: 150:                 wr_state = 1;
+[e = F2837 -> -> 1 `i `uc ]
+"151
+[; ;TRFID.c: 151:             } else {
+}
+[e $U 337  ]
+[e :U 336 ]
+{
+"152
+[; ;TRFID.c: 152:                 MFRC522_Wr_2(0x03);
+[e ( _MFRC522_Wr_2 (1 -> -> 3 `i `uc ]
+"153
+[; ;TRFID.c: 153:                 wr_state = 0;
+[e = F2837 -> -> 0 `i `uc ]
+"154
+[; ;TRFID.c: 154:                 step = 4;
+[e = F2834 -> -> 4 `i `uc ]
+"155
+[; ;TRFID.c: 155:             }
+}
+[e :U 337 ]
+"156
+[; ;TRFID.c: 156:             break;
+[e $U 327  ]
+"158
+[; ;TRFID.c: 158:         case 4:
+[e :U 338 ]
+"159
+[; ;TRFID.c: 159:             n = MFRC522_Rd(0x05);
+[e = F2836 -> ( _MFRC522_Rd (1 -> -> 5 `i `uc `uc ]
+"160
+[; ;TRFID.c: 160:             if (n & 0x04) step = 5;
+[e $ ! != & -> F2836 `i -> 4 `i -> 0 `i 339  ]
+[e = F2834 -> -> 5 `i `uc ]
+[e :U 339 ]
+"161
+[; ;TRFID.c: 161:             break;
+[e $U 327  ]
+"163
+[; ;TRFID.c: 163:         case 5:
+[e :U 340 ]
+"164
+[; ;TRFID.c: 164:             dataOut[0] = MFRC522_Rd(0x22);
+[e = *U + _dataOut * -> -> 0 `i `x -> -> # *U _dataOut `i `x -> ( _MFRC522_Rd (1 -> -> 34 `i `uc `uc ]
+"165
+[; ;TRFID.c: 165:             dataOut[1] = MFRC522_Rd(0x21);
+[e = *U + _dataOut * -> -> 1 `i `x -> -> # *U _dataOut `i `x -> ( _MFRC522_Rd (1 -> -> 33 `i `uc `uc ]
+"166
+[; ;TRFID.c: 166:             step = 1;
+[e = F2834 -> -> 1 `i `uc ]
+"167
+[; ;TRFID.c: 167:             break;
+[e $U 327  ]
+"168
+[; ;TRFID.c: 168:     }
+}
+[e $U 327  ]
+[e :U 328 ]
+[e [\ F2834 , $ -> 1 `i 329
+ , $ -> 2 `i 330
+ , $ -> 3 `i 335
+ , $ -> 4 `i 338
+ , $ -> 5 `i 340
+ 327 ]
+[e :U 327 ]
+"169
+[; ;TRFID.c: 169: }
+[e :UE 326 ]
+}
+"171
+[; ;TRFID.c: 171: char MFRC522_ReadCardSerial(unsigned char *str) {
+[v _MFRC522_ReadCardSerial `(uc ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _MFRC522_ReadCardSerial ]
+[v _str `*uc ~T0 @X0 1 r1 ]
+[f ]
+"172
+[; ;TRFID.c: 172:     char _status = MFRC522_AntiColl((char *)str);
+[v __status `uc ~T0 @X0 1 a ]
+[e = __status ( _MFRC522_AntiColl (1 -> _str `*uc ]
+"173
+[; ;TRFID.c: 173:     str[5] = 0;
+[e = *U + _str * -> -> 5 `i `x -> -> # *U _str `i `x -> -> 0 `i `uc ]
+"174
+[; ;TRFID.c: 174:     return (_status == 0);
+[e ) -> -> == -> __status `i -> 0 `i `i `uc ]
+[e $UE 341  ]
+"175
+[; ;TRFID.c: 175: }
+[e :UE 341 ]
+}
+"177
+[; ;TRFID.c: 177: char MFRC522_ToCard(char command, char *sendData, char sendLen, char *backData, unsigned *backLen) {
+[v _MFRC522_ToCard `(uc ~T0 @X0 1 ef5`uc`*uc`uc`*uc`*ui ]
+{
+[e :U _MFRC522_ToCard ]
+[v _command `uc ~T0 @X0 1 r1 ]
+[v _sendData `*uc ~T0 @X0 1 r2 ]
+[v _sendLen `uc ~T0 @X0 1 r3 ]
+[v _backData `*uc ~T0 @X0 1 r4 ]
+[v _backLen `*ui ~T0 @X0 1 r5 ]
+[f ]
+"178
+[; ;TRFID.c: 178:     static char _status = 2;
+[v F2847 `uc ~T0 @X0 1 s _status ]
+[i F2847
+-> -> 2 `i `uc
+]
+"179
+[; ;TRFID.c: 179:     static char irqEn = 0x00;
+[v F2848 `uc ~T0 @X0 1 s irqEn ]
+[i F2848
+-> -> 0 `i `uc
+]
+"180
+[; ;TRFID.c: 180:     static char waitIRq = 0x00;
+[v F2849 `uc ~T0 @X0 1 s waitIRq ]
+[i F2849
+-> -> 0 `i `uc
+]
+"181
+[; ;TRFID.c: 181:     static char lastBits;
+[v F2850 `uc ~T0 @X0 1 s lastBits ]
+"182
+[; ;TRFID.c: 182:     static char n;
+[v F2851 `uc ~T0 @X0 1 s n ]
+"183
+[; ;TRFID.c: 183:     static unsigned char rd;
+[v F2852 `uc ~T0 @X0 1 s rd ]
+"184
+[; ;TRFID.c: 184:     static unsigned int j;
+[v F2853 `ui ~T0 @X0 1 s j ]
+"185
+[; ;TRFID.c: 185:     static char state_aux = 0;
+[v F2854 `uc ~T0 @X0 1 s state_aux ]
+[i F2854
+-> -> 0 `i `uc
+]
+"186
+[; ;TRFID.c: 186:     static unsigned char tmp = 0x0;
+[v F2855 `uc ~T0 @X0 1 s tmp ]
+[i F2855
+-> -> 0 `i `uc
+]
+"188
+[; ;TRFID.c: 188:     switch (state_aux) {
+[e $U 344  ]
+{
+"189
+[; ;TRFID.c: 189:         case 0:
+[e :U 345 ]
+"190
+[; ;TRFID.c: 190:             switch (command) {
+[e $U 347  ]
+{
+"191
+[; ;TRFID.c: 191:                 case 0x0E:
+[e :U 348 ]
+"192
+[; ;TRFID.c: 192:                     irqEn = 0x12;
+[e = F2848 -> -> 18 `i `uc ]
+"193
+[; ;TRFID.c: 193:                     waitIRq = 0x10;
+[e = F2849 -> -> 16 `i `uc ]
+"194
+[; ;TRFID.c: 194:                     break;
+[e $U 346  ]
+"195
+[; ;TRFID.c: 195:                 case 0x0C:
+[e :U 349 ]
+"196
+[; ;TRFID.c: 196:                     irqEn = 0x77;
+[e = F2848 -> -> 119 `i `uc ]
+"197
+[; ;TRFID.c: 197:                     waitIRq = 0x30;
+[e = F2849 -> -> 48 `i `uc ]
+"198
+[; ;TRFID.c: 198:                     break;
+[e $U 346  ]
+"199
+[; ;TRFID.c: 199:                 default:
+[e :U 350 ]
+"200
+[; ;TRFID.c: 200:                     break;
+[e $U 346  ]
+"201
+[; ;TRFID.c: 201:             }
+}
+[e $U 346  ]
+[e :U 347 ]
+[e [\ _command , $ -> 14 `i 348
+ , $ -> 12 `i 349
+ 350 ]
+[e :U 346 ]
+"202
+[; ;TRFID.c: 202:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"203
+[; ;TRFID.c: 203:             break;
+[e $U 343  ]
+"205
+[; ;TRFID.c: 205:         case 1:
+[e :U 351 ]
+"206
+[; ;TRFID.c: 206:             MFRC522_Wr(0x02, irqEn | 0x80);
+[e ( _MFRC522_Wr (2 , -> -> 2 `i `uc -> | -> F2848 `i -> 128 `i `uc ]
+"207
+[; ;TRFID.c: 207:             tmp = 0x0;
+[e = F2855 -> -> 0 `i `uc ]
+"208
+[; ;TRFID.c: 208:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"209
+[; ;TRFID.c: 209:             break;
+[e $U 343  ]
+"211
+[; ;TRFID.c: 211:         case 2:
+[e :U 352 ]
+"212
+[; ;TRFID.c: 212:             tmp = MFRC522_Rd(0x04);
+[e = F2855 ( _MFRC522_Rd (1 -> -> 4 `i `uc ]
+"213
+[; ;TRFID.c: 213:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"214
+[; ;TRFID.c: 214:             break;
+[e $U 343  ]
+"216
+[; ;TRFID.c: 216:         case 3:
+[e :U 353 ]
+"217
+[; ;TRFID.c: 217:             MFRC522_Wr(0x04, tmp & ~0x80);
+[e ( _MFRC522_Wr (2 , -> -> 4 `i `uc -> & -> F2855 `i ~ -> 128 `i `uc ]
+"218
+[; ;TRFID.c: 218:             tmp = 0x0;
+[e = F2855 -> -> 0 `i `uc ]
+"219
+[; ;TRFID.c: 219:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"220
+[; ;TRFID.c: 220:             break;
+[e $U 343  ]
+"222
+[; ;TRFID.c: 222:         case 4:
+[e :U 354 ]
+"223
+[; ;TRFID.c: 223:             tmp = MFRC522_Rd(0x0A);
+[e = F2855 ( _MFRC522_Rd (1 -> -> 10 `i `uc ]
+"224
+[; ;TRFID.c: 224:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"225
+[; ;TRFID.c: 225:             break;
+[e $U 343  ]
+"227
+[; ;TRFID.c: 227:         case 5:
+[e :U 355 ]
+"228
+[; ;TRFID.c: 228:             MFRC522_Wr(0x0A, tmp | 0x80);
+[e ( _MFRC522_Wr (2 , -> -> 10 `i `uc -> | -> F2855 `i -> 128 `i `uc ]
+"229
+[; ;TRFID.c: 229:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"230
+[; ;TRFID.c: 230:             break;
+[e $U 343  ]
+"232
+[; ;TRFID.c: 232:         case 6:
+[e :U 356 ]
+"233
+[; ;TRFID.c: 233:             MFRC522_Wr(0x01, 0x00);
+[e ( _MFRC522_Wr (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"234
+[; ;TRFID.c: 234:             j = 0;
+[e = F2853 -> -> 0 `i `ui ]
+"235
+[; ;TRFID.c: 235:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"236
+[; ;TRFID.c: 236:             break;
+[e $U 343  ]
+"238
+[; ;TRFID.c: 238:         case 7:
+[e :U 357 ]
+"239
+[; ;TRFID.c: 239:             if (j < sendLen) {
+[e $ ! < F2853 -> _sendLen `ui 358  ]
+{
+"240
+[; ;TRFID.c: 240:                 MFRC522_Wr(0x09, sendData[j++]);
+[e ( _MFRC522_Wr (2 , -> -> 9 `i `uc -> *U + _sendData * -> ++ F2853 -> -> 1 `i `ui `ux -> -> # *U _sendData `ui `ux `uc ]
+"241
+[; ;TRFID.c: 241:             } else {
+}
+[e $U 359  ]
+[e :U 358 ]
+{
+"242
+[; ;TRFID.c: 242:                 state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"243
+[; ;TRFID.c: 243:             }
+}
+[e :U 359 ]
+"244
+[; ;TRFID.c: 244:             break;
+[e $U 343  ]
+"246
+[; ;TRFID.c: 246:         case 8:
+[e :U 360 ]
+"247
+[; ;TRFID.c: 247:             MFRC522_Wr(0x01, command);
+[e ( _MFRC522_Wr (2 , -> -> 1 `i `uc -> _command `uc ]
+"248
+[; ;TRFID.c: 248:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"249
+[; ;TRFID.c: 249:             break;
+[e $U 343  ]
+"251
+[; ;TRFID.c: 251:         case 9:
+[e :U 361 ]
+"252
+[; ;TRFID.c: 252:             if (command == 0x0C) {
+[e $ ! == -> _command `i -> 12 `i 362  ]
+{
+"253
+[; ;TRFID.c: 253:                 tmp = 0x0;
+[e = F2855 -> -> 0 `i `uc ]
+"254
+[; ;TRFID.c: 254:                 state_aux = 10;
+[e = F2854 -> -> 10 `i `uc ]
+"255
+[; ;TRFID.c: 255:             } else {
+}
+[e $U 363  ]
+[e :U 362 ]
+{
+"256
+[; ;TRFID.c: 256:                 state_aux = 12;
+[e = F2854 -> -> 12 `i `uc ]
+"257
+[; ;TRFID.c: 257:             }
+}
+[e :U 363 ]
+"258
+[; ;TRFID.c: 258:             break;
+[e $U 343  ]
+"260
+[; ;TRFID.c: 260:         case 10:
+[e :U 364 ]
+"261
+[; ;TRFID.c: 261:             tmp = MFRC522_Rd(0x0D);
+[e = F2855 ( _MFRC522_Rd (1 -> -> 13 `i `uc ]
+"262
+[; ;TRFID.c: 262:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"263
+[; ;TRFID.c: 263:             break;
+[e $U 343  ]
+"265
+[; ;TRFID.c: 265:         case 11:
+[e :U 365 ]
+"266
+[; ;TRFID.c: 266:             MFRC522_Wr(0x0D, tmp | 0x80);
+[e ( _MFRC522_Wr (2 , -> -> 13 `i `uc -> | -> F2855 `i -> 128 `i `uc ]
+"267
+[; ;TRFID.c: 267:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"268
+[; ;TRFID.c: 268:             break;
+[e $U 343  ]
+"270
+[; ;TRFID.c: 270:         case 12:
+[e :U 366 ]
+"271
+[; ;TRFID.c: 271:             j = 0xFFFF;
+[e = F2853 -> 65535 `ui ]
+"272
+[; ;TRFID.c: 272:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"273
+[; ;TRFID.c: 273:             break;
+[e $U 343  ]
+"275
+[; ;TRFID.c: 275:         case 13:
+[e :U 367 ]
+"276
+[; ;TRFID.c: 276:             n = MFRC522_Rd(0x04);
+[e = F2851 -> ( _MFRC522_Rd (1 -> -> 4 `i `uc `uc ]
+"277
+[; ;TRFID.c: 277:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"278
+[; ;TRFID.c: 278:             break;
+[e $U 343  ]
+"280
+[; ;TRFID.c: 280:         case 14:
+[e :U 368 ]
+"281
+[; ;TRFID.c: 281:             j--;
+[e -- F2853 -> -> 1 `i `ui ]
+"282
+[; ;TRFID.c: 282:             if (j && !(n & 0x01) && !(n & waitIRq)) {
+[e $ ! && && != F2853 -> -> 0 `i `ui ! != & -> F2851 `i -> 1 `i -> 0 `i ! != & -> F2851 `i -> F2849 `i -> 0 `i 369  ]
+{
+"283
+[; ;TRFID.c: 283:                 state_aux--;
+[e -- F2854 -> -> 1 `i `uc ]
+"284
+[; ;TRFID.c: 284:             } else {
+}
+[e $U 370  ]
+[e :U 369 ]
+{
+"285
+[; ;TRFID.c: 285:                 state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"286
+[; ;TRFID.c: 286:                 tmp = 0x0;
+[e = F2855 -> -> 0 `i `uc ]
+"287
+[; ;TRFID.c: 287:             }
+}
+[e :U 370 ]
+"288
+[; ;TRFID.c: 288:             break;
+[e $U 343  ]
+"290
+[; ;TRFID.c: 290:         case 15:
+[e :U 371 ]
+"291
+[; ;TRFID.c: 291:             tmp = MFRC522_Rd(0x0D);
+[e = F2855 ( _MFRC522_Rd (1 -> -> 13 `i `uc ]
+"292
+[; ;TRFID.c: 292:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"293
+[; ;TRFID.c: 293:             break;
+[e $U 343  ]
+"295
+[; ;TRFID.c: 295:         case 16:
+[e :U 372 ]
+"296
+[; ;TRFID.c: 296:             MFRC522_Wr(0x0D, tmp & ~0x80);
+[e ( _MFRC522_Wr (2 , -> -> 13 `i `uc -> & -> F2855 `i ~ -> 128 `i `uc ]
+"297
+[; ;TRFID.c: 297:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"298
+[; ;TRFID.c: 298:             break;
+[e $U 343  ]
+"300
+[; ;TRFID.c: 300:         case 17:
+[e :U 373 ]
+"301
+[; ;TRFID.c: 301:             if (j != 0) state_aux++;
+[e $ ! != F2853 -> -> 0 `i `ui 374  ]
+[e ++ F2854 -> -> 1 `i `uc ]
+[e $U 375  ]
+"302
+[; ;TRFID.c: 302:             else state_aux = 28;
+[e :U 374 ]
+[e = F2854 -> -> 28 `i `uc ]
+[e :U 375 ]
+"303
+[; ;TRFID.c: 303:             break;
+[e $U 343  ]
+"305
+[; ;TRFID.c: 305:         case 18:
+[e :U 376 ]
+"306
+[; ;TRFID.c: 306:             rd = MFRC522_Rd(0x06) & 0x1B;
+[e = F2852 -> & -> ( _MFRC522_Rd (1 -> -> 6 `i `uc `i -> 27 `i `uc ]
+"307
+[; ;TRFID.c: 307:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"308
+[; ;TRFID.c: 308:             break;
+[e $U 343  ]
+"310
+[; ;TRFID.c: 310:         case 19:
+[e :U 377 ]
+"311
+[; ;TRFID.c: 311:             if (!rd) {
+[e $ ! ! != -> F2852 `i -> 0 `i 378  ]
+{
+"312
+[; ;TRFID.c: 312:                 _status = 0;
+[e = F2847 -> -> 0 `i `uc ]
+"313
+[; ;TRFID.c: 313:                 state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"314
+[; ;TRFID.c: 314:             } else {
+}
+[e $U 379  ]
+[e :U 378 ]
+{
+"315
+[; ;TRFID.c: 315:                 _status = 2;
+[e = F2847 -> -> 2 `i `uc ]
+"316
+[; ;TRFID.c: 316:                 state_aux = 28;
+[e = F2854 -> -> 28 `i `uc ]
+"317
+[; ;TRFID.c: 317:             }
+}
+[e :U 379 ]
+"318
+[; ;TRFID.c: 318:             break;
+[e $U 343  ]
+"320
+[; ;TRFID.c: 320:         case 20:
+[e :U 380 ]
+"321
+[; ;TRFID.c: 321:             if ((n & irqEn & 0x01)) {
+[e $ ! != & & -> F2851 `i -> F2848 `i -> 1 `i -> 0 `i 381  ]
+{
+"322
+[; ;TRFID.c: 322:                 _status = 1;
+[e = F2847 -> -> 1 `i `uc ]
+"323
+[; ;TRFID.c: 323:             }
+}
+[e :U 381 ]
+"324
+[; ;TRFID.c: 324:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"325
+[; ;TRFID.c: 325:             break;
+[e $U 343  ]
+"327
+[; ;TRFID.c: 327:         case 21:
+[e :U 382 ]
+"328
+[; ;TRFID.c: 328:             if (command == 0x0C) state_aux++;
+[e $ ! == -> _command `i -> 12 `i 383  ]
+[e ++ F2854 -> -> 1 `i `uc ]
+[e $U 384  ]
+"329
+[; ;TRFID.c: 329:             else state_aux = 28;
+[e :U 383 ]
+[e = F2854 -> -> 28 `i `uc ]
+[e :U 384 ]
+"330
+[; ;TRFID.c: 330:             break;
+[e $U 343  ]
+"332
+[; ;TRFID.c: 332:         case 22:
+[e :U 385 ]
+"333
+[; ;TRFID.c: 333:             n = MFRC522_Rd(0x0A);
+[e = F2851 -> ( _MFRC522_Rd (1 -> -> 10 `i `uc `uc ]
+"334
+[; ;TRFID.c: 334:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"335
+[; ;TRFID.c: 335:             break;
+[e $U 343  ]
+"337
+[; ;TRFID.c: 337:         case 23:
+[e :U 386 ]
+"338
+[; ;TRFID.c: 338:             lastBits = MFRC522_Rd(0x0C) & 0x07;
+[e = F2850 -> & -> ( _MFRC522_Rd (1 -> -> 12 `i `uc `i -> 7 `i `uc ]
+"339
+[; ;TRFID.c: 339:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"340
+[; ;TRFID.c: 340:             break;
+[e $U 343  ]
+"342
+[; ;TRFID.c: 342:         case 24:
+[e :U 387 ]
+"343
+[; ;TRFID.c: 343:             if (lastBits) *backLen = (n - 1) * 8 + lastBits;
+[e $ ! != -> F2850 `i -> 0 `i 388  ]
+[e = *U _backLen -> + * - -> F2851 `i -> 1 `i -> 8 `i -> F2850 `i `ui ]
+[e $U 389  ]
+"344
+[; ;TRFID.c: 344:             else *backLen = n * 8;
+[e :U 388 ]
+[e = *U _backLen -> * -> F2851 `i -> 8 `i `ui ]
+[e :U 389 ]
+"345
+[; ;TRFID.c: 345:             if (n == 0) n = 1;
+[e $ ! == -> F2851 `i -> 0 `i 390  ]
+[e = F2851 -> -> 1 `i `uc ]
+[e $U 391  ]
+"346
+[; ;TRFID.c: 346:             else if (n > 16) n = 16;
+[e :U 390 ]
+[e $ ! > -> F2851 `i -> 16 `i 392  ]
+[e = F2851 -> -> 16 `i `uc ]
+[e :U 392 ]
+[e :U 391 ]
+"347
+[; ;TRFID.c: 347:             j = 0;
+[e = F2853 -> -> 0 `i `ui ]
+"348
+[; ;TRFID.c: 348:             state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"349
+[; ;TRFID.c: 349:             break;
+[e $U 343  ]
+"351
+[; ;TRFID.c: 351:         case 25:
+[e :U 393 ]
+"352
+[; ;TRFID.c: 352:             if (j < n) {
+[e $ ! < F2853 -> F2851 `ui 394  ]
+{
+"353
+[; ;TRFID.c: 353:                 state_aux++;
+[e ++ F2854 -> -> 1 `i `uc ]
+"354
+[; ;TRFID.c: 354:             } else {
+}
+[e $U 395  ]
+[e :U 394 ]
+{
+"355
+[; ;TRFID.c: 355:                 backData[j] = 0;
+[e = *U + _backData * -> F2853 `ux -> -> # *U _backData `ui `ux -> -> 0 `i `uc ]
+"356
+[; ;TRFID.c: 356:                 state_aux = 28;
+[e = F2854 -> -> 28 `i `uc ]
+"357
+[; ;TRFID.c: 357:             }
+}
+[e :U 395 ]
+"358
+[; ;TRFID.c: 358:             break;
+[e $U 343  ]
+"360
+[; ;TRFID.c: 360:         case 26:
+[e :U 396 ]
+"361
+[; ;TRFID.c: 361:             backData[j++] = MFRC522_Rd(0x09);
+[e = *U + _backData * -> ++ F2853 -> -> 1 `i `ui `ux -> -> # *U _backData `ui `ux -> ( _MFRC522_Rd (1 -> -> 9 `i `uc `uc ]
+"362
+[; ;TRFID.c: 362:             state_aux = 25;
+[e = F2854 -> -> 25 `i `uc ]
+"363
+[; ;TRFID.c: 363:             break;
+[e $U 343  ]
+"365
+[; ;TRFID.c: 365:         case 28:
+[e :U 397 ]
+"366
+[; ;TRFID.c: 366:             irqEn = 0x00;
+[e = F2848 -> -> 0 `i `uc ]
+"367
+[; ;TRFID.c: 367:             waitIRq = 0x00;
+[e = F2849 -> -> 0 `i `uc ]
+"368
+[; ;TRFID.c: 368:             tmp = 0x0;
+[e = F2855 -> -> 0 `i `uc ]
+"369
+[; ;TRFID.c: 369:             state_aux = 0;
+[e = F2854 -> -> 0 `i `uc ]
+"370
+[; ;TRFID.c: 370:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"371
+[; ;TRFID.c: 371:             return _status;
+[e ) F2847 ]
+[e $UE 342  ]
+"372
+[; ;TRFID.c: 372:     }
+}
+[e $U 343  ]
+[e :U 344 ]
+[e [\ F2854 , $ -> 0 `i 345
+ , $ -> 1 `i 351
+ , $ -> 2 `i 352
+ , $ -> 3 `i 353
+ , $ -> 4 `i 354
+ , $ -> 5 `i 355
+ , $ -> 6 `i 356
+ , $ -> 7 `i 357
+ , $ -> 8 `i 360
+ , $ -> 9 `i 361
+ , $ -> 10 `i 364
+ , $ -> 11 `i 365
+ , $ -> 12 `i 366
+ , $ -> 13 `i 367
+ , $ -> 14 `i 368
+ , $ -> 15 `i 371
+ , $ -> 16 `i 372
+ , $ -> 17 `i 373
+ , $ -> 18 `i 376
+ , $ -> 19 `i 377
+ , $ -> 20 `i 380
+ , $ -> 21 `i 382
+ , $ -> 22 `i 385
+ , $ -> 23 `i 386
+ , $ -> 24 `i 387
+ , $ -> 25 `i 393
+ , $ -> 26 `i 396
+ , $ -> 28 `i 397
+ 343 ]
+[e :U 343 ]
+"373
+[; ;TRFID.c: 373:     return _status;
+[e ) F2847 ]
+[e $UE 342  ]
+"374
+[; ;TRFID.c: 374: }
+[e :UE 342 ]
+}
+"376
+[; ;TRFID.c: 376: char MFRC522_ToCard_NOU(char command, char *sendData, char sendLen, char *backData, unsigned *backLen) {
+[v _MFRC522_ToCard_NOU `(uc ~T0 @X0 1 ef5`uc`*uc`uc`*uc`*ui ]
+{
+[e :U _MFRC522_ToCard_NOU ]
+[v _command `uc ~T0 @X0 1 r1 ]
+[v _sendData `*uc ~T0 @X0 1 r2 ]
+[v _sendLen `uc ~T0 @X0 1 r3 ]
+[v _backData `*uc ~T0 @X0 1 r4 ]
+[v _backLen `*ui ~T0 @X0 1 r5 ]
+[f ]
+"377
+[; ;TRFID.c: 377:     static char _status = 2;
+[v F2862 `uc ~T0 @X0 1 s _status ]
+[i F2862
+-> -> 2 `i `uc
+]
+"378
+[; ;TRFID.c: 378:     static char irqEn = 0x00;
+[v F2863 `uc ~T0 @X0 1 s irqEn ]
+[i F2863
+-> -> 0 `i `uc
+]
+"379
+[; ;TRFID.c: 379:     static char waitIRq = 0x00;
+[v F2864 `uc ~T0 @X0 1 s waitIRq ]
+[i F2864
+-> -> 0 `i `uc
+]
+"380
+[; ;TRFID.c: 380:     static char lastBits;
+[v F2865 `uc ~T0 @X0 1 s lastBits ]
+"381
+[; ;TRFID.c: 381:     static char n;
+[v F2866 `uc ~T0 @X0 1 s n ]
+"382
+[; ;TRFID.c: 382:     static unsigned char rd;
+[v F2867 `uc ~T0 @X0 1 s rd ]
+"383
+[; ;TRFID.c: 383:     static unsigned int j;
+[v F2868 `ui ~T0 @X0 1 s j ]
+"384
+[; ;TRFID.c: 384:     static char state_aux = 0;
+[v F2869 `uc ~T0 @X0 1 s state_aux ]
+[i F2869
+-> -> 0 `i `uc
+]
+"385
+[; ;TRFID.c: 385:     static unsigned char tmp = 0x0;
+[v F2870 `uc ~T0 @X0 1 s tmp ]
+[i F2870
+-> -> 0 `i `uc
+]
+"386
+[; ;TRFID.c: 386:     static char wr_state = 0;
+[v F2871 `uc ~T0 @X0 1 s wr_state ]
+[i F2871
+-> -> 0 `i `uc
+]
+"388
+[; ;TRFID.c: 388:     switch (state_aux) {
+[e $U 400  ]
+{
+"389
+[; ;TRFID.c: 389:         case 0:
+[e :U 401 ]
+"390
+[; ;TRFID.c: 390:             switch (command) {
+[e $U 403  ]
+{
+"391
+[; ;TRFID.c: 391:                 case 0x0E:
+[e :U 404 ]
+"392
+[; ;TRFID.c: 392:                     irqEn = 0x12;
+[e = F2863 -> -> 18 `i `uc ]
+"393
+[; ;TRFID.c: 393:                     waitIRq = 0x10;
+[e = F2864 -> -> 16 `i `uc ]
+"394
+[; ;TRFID.c: 394:                     break;
+[e $U 402  ]
+"395
+[; ;TRFID.c: 395:                 case 0x0C:
+[e :U 405 ]
+"396
+[; ;TRFID.c: 396:                     irqEn = 0x77;
+[e = F2863 -> -> 119 `i `uc ]
+"397
+[; ;TRFID.c: 397:                     waitIRq = 0x30;
+[e = F2864 -> -> 48 `i `uc ]
+"398
+[; ;TRFID.c: 398:                     break;
+[e $U 402  ]
+"399
+[; ;TRFID.c: 399:             }
+}
+[e $U 402  ]
+[e :U 403 ]
+[e [\ _command , $ -> 14 `i 404
+ , $ -> 12 `i 405
+ 402 ]
+[e :U 402 ]
+"400
+[; ;TRFID.c: 400:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"401
+[; ;TRFID.c: 401:             break;
+[e $U 399  ]
+"403
+[; ;TRFID.c: 403:         case 1:
+[e :U 406 ]
+"404
+[; ;TRFID.c: 404:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 407  ]
+{
+"405
+[; ;TRFID.c: 405:                 MFRC522_Wr_1(0x02);
+[e ( _MFRC522_Wr_1 (1 -> -> 2 `i `uc ]
+"406
+[; ;TRFID.c: 406:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"407
+[; ;TRFID.c: 407:             } else {
+}
+[e $U 408  ]
+[e :U 407 ]
+{
+"408
+[; ;TRFID.c: 408:                 MFRC522_Wr_2(irqEn | 0x80);
+[e ( _MFRC522_Wr_2 (1 -> | -> F2863 `i -> 128 `i `uc ]
+"409
+[; ;TRFID.c: 409:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"410
+[; ;TRFID.c: 410:                 tmp = 0;
+[e = F2870 -> -> 0 `i `uc ]
+"411
+[; ;TRFID.c: 411:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"412
+[; ;TRFID.c: 412:             }
+}
+[e :U 408 ]
+"413
+[; ;TRFID.c: 413:             break;
+[e $U 399  ]
+"415
+[; ;TRFID.c: 415:         case 2:
+[e :U 409 ]
+"416
+[; ;TRFID.c: 416:             tmp = MFRC522_Rd(0x04);
+[e = F2870 ( _MFRC522_Rd (1 -> -> 4 `i `uc ]
+"417
+[; ;TRFID.c: 417:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"418
+[; ;TRFID.c: 418:             break;
+[e $U 399  ]
+"420
+[; ;TRFID.c: 420:         case 3:
+[e :U 410 ]
+"421
+[; ;TRFID.c: 421:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 411  ]
+{
+"422
+[; ;TRFID.c: 422:                 MFRC522_Wr_1(0x04);
+[e ( _MFRC522_Wr_1 (1 -> -> 4 `i `uc ]
+"423
+[; ;TRFID.c: 423:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"424
+[; ;TRFID.c: 424:             } else {
+}
+[e $U 412  ]
+[e :U 411 ]
+{
+"425
+[; ;TRFID.c: 425:                 MFRC522_Wr_2(tmp & ~0x80);
+[e ( _MFRC522_Wr_2 (1 -> & -> F2870 `i ~ -> 128 `i `uc ]
+"426
+[; ;TRFID.c: 426:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"427
+[; ;TRFID.c: 427:                 tmp = 0;
+[e = F2870 -> -> 0 `i `uc ]
+"428
+[; ;TRFID.c: 428:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"429
+[; ;TRFID.c: 429:             }
+}
+[e :U 412 ]
+"430
+[; ;TRFID.c: 430:             break;
+[e $U 399  ]
+"432
+[; ;TRFID.c: 432:         case 4:
+[e :U 413 ]
+"433
+[; ;TRFID.c: 433:             tmp = MFRC522_Rd(0x0A);
+[e = F2870 ( _MFRC522_Rd (1 -> -> 10 `i `uc ]
+"434
+[; ;TRFID.c: 434:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"435
+[; ;TRFID.c: 435:             break;
+[e $U 399  ]
+"437
+[; ;TRFID.c: 437:         case 5:
+[e :U 414 ]
+"438
+[; ;TRFID.c: 438:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 415  ]
+{
+"439
+[; ;TRFID.c: 439:                 MFRC522_Wr_1(0x0A);
+[e ( _MFRC522_Wr_1 (1 -> -> 10 `i `uc ]
+"440
+[; ;TRFID.c: 440:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"441
+[; ;TRFID.c: 441:             } else {
+}
+[e $U 416  ]
+[e :U 415 ]
+{
+"442
+[; ;TRFID.c: 442:                 MFRC522_Wr_2(tmp | 0x80);
+[e ( _MFRC522_Wr_2 (1 -> | -> F2870 `i -> 128 `i `uc ]
+"443
+[; ;TRFID.c: 443:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"444
+[; ;TRFID.c: 444:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"445
+[; ;TRFID.c: 445:             }
+}
+[e :U 416 ]
+"446
+[; ;TRFID.c: 446:             break;
+[e $U 399  ]
+"448
+[; ;TRFID.c: 448:         case 6:
+[e :U 417 ]
+"449
+[; ;TRFID.c: 449:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 418  ]
+{
+"450
+[; ;TRFID.c: 450:                 MFRC522_Wr_1(0x01);
+[e ( _MFRC522_Wr_1 (1 -> -> 1 `i `uc ]
+"451
+[; ;TRFID.c: 451:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"452
+[; ;TRFID.c: 452:             } else {
+}
+[e $U 419  ]
+[e :U 418 ]
+{
+"453
+[; ;TRFID.c: 453:                 MFRC522_Wr_2(0x00);
+[e ( _MFRC522_Wr_2 (1 -> -> 0 `i `uc ]
+"454
+[; ;TRFID.c: 454:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"455
+[; ;TRFID.c: 455:                 j = 0;
+[e = F2868 -> -> 0 `i `ui ]
+"456
+[; ;TRFID.c: 456:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"457
+[; ;TRFID.c: 457:             }
+}
+[e :U 419 ]
+"458
+[; ;TRFID.c: 458:             break;
+[e $U 399  ]
+"460
+[; ;TRFID.c: 460:         case 7:
+[e :U 420 ]
+"461
+[; ;TRFID.c: 461:             if (j < sendLen) {
+[e $ ! < F2868 -> _sendLen `ui 421  ]
+{
+"462
+[; ;TRFID.c: 462:                 if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 422  ]
+{
+"463
+[; ;TRFID.c: 463:                     MFRC522_Wr_1(0x09);
+[e ( _MFRC522_Wr_1 (1 -> -> 9 `i `uc ]
+"464
+[; ;TRFID.c: 464:                     wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"465
+[; ;TRFID.c: 465:                 } else {
+}
+[e $U 423  ]
+[e :U 422 ]
+{
+"466
+[; ;TRFID.c: 466:                     MFRC522_Wr_2(sendData[j++]);
+[e ( _MFRC522_Wr_2 (1 -> *U + _sendData * -> ++ F2868 -> -> 1 `i `ui `ux -> -> # *U _sendData `ui `ux `uc ]
+"467
+[; ;TRFID.c: 467:                     wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"468
+[; ;TRFID.c: 468:                 }
+}
+[e :U 423 ]
+"469
+[; ;TRFID.c: 469:             } else {
+}
+[e $U 424  ]
+[e :U 421 ]
+{
+"470
+[; ;TRFID.c: 470:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"471
+[; ;TRFID.c: 471:             }
+}
+[e :U 424 ]
+"472
+[; ;TRFID.c: 472:             break;
+[e $U 399  ]
+"474
+[; ;TRFID.c: 474:         case 8:
+[e :U 425 ]
+"475
+[; ;TRFID.c: 475:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 426  ]
+{
+"476
+[; ;TRFID.c: 476:                 MFRC522_Wr_1(0x01);
+[e ( _MFRC522_Wr_1 (1 -> -> 1 `i `uc ]
+"477
+[; ;TRFID.c: 477:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"478
+[; ;TRFID.c: 478:             } else {
+}
+[e $U 427  ]
+[e :U 426 ]
+{
+"479
+[; ;TRFID.c: 479:                 MFRC522_Wr_2(command);
+[e ( _MFRC522_Wr_2 (1 -> _command `uc ]
+"480
+[; ;TRFID.c: 480:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"481
+[; ;TRFID.c: 481:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"482
+[; ;TRFID.c: 482:             }
+}
+[e :U 427 ]
+"483
+[; ;TRFID.c: 483:             break;
+[e $U 399  ]
+"485
+[; ;TRFID.c: 485:         case 9:
+[e :U 428 ]
+"486
+[; ;TRFID.c: 486:             state_aux = (command == 0x0C) ? 10 : 12;
+[e = F2869 -> ? == -> _command `i -> 12 `i : -> 10 `i -> 12 `i `uc ]
+"487
+[; ;TRFID.c: 487:             break;
+[e $U 399  ]
+"489
+[; ;TRFID.c: 489:         case 10:
+[e :U 429 ]
+"490
+[; ;TRFID.c: 490:             tmp = MFRC522_Rd(0x0D);
+[e = F2870 ( _MFRC522_Rd (1 -> -> 13 `i `uc ]
+"491
+[; ;TRFID.c: 491:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"492
+[; ;TRFID.c: 492:             break;
+[e $U 399  ]
+"494
+[; ;TRFID.c: 494:         case 11:
+[e :U 430 ]
+"495
+[; ;TRFID.c: 495:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 431  ]
+{
+"496
+[; ;TRFID.c: 496:                 MFRC522_Wr_1(0x0D);
+[e ( _MFRC522_Wr_1 (1 -> -> 13 `i `uc ]
+"497
+[; ;TRFID.c: 497:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"498
+[; ;TRFID.c: 498:             } else {
+}
+[e $U 432  ]
+[e :U 431 ]
+{
+"499
+[; ;TRFID.c: 499:                 MFRC522_Wr_2(tmp | 0x80);
+[e ( _MFRC522_Wr_2 (1 -> | -> F2870 `i -> 128 `i `uc ]
+"500
+[; ;TRFID.c: 500:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"501
+[; ;TRFID.c: 501:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"502
+[; ;TRFID.c: 502:             }
+}
+[e :U 432 ]
+"503
+[; ;TRFID.c: 503:             break;
+[e $U 399  ]
+"505
+[; ;TRFID.c: 505:         case 12:
+[e :U 433 ]
+"506
+[; ;TRFID.c: 506:             j = 0xFFFF;
+[e = F2868 -> 65535 `ui ]
+"507
+[; ;TRFID.c: 507:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"508
+[; ;TRFID.c: 508:             break;
+[e $U 399  ]
+"510
+[; ;TRFID.c: 510:         case 13:
+[e :U 434 ]
+"511
+[; ;TRFID.c: 511:             n = MFRC522_Rd(0x04);
+[e = F2866 -> ( _MFRC522_Rd (1 -> -> 4 `i `uc `uc ]
+"512
+[; ;TRFID.c: 512:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"513
+[; ;TRFID.c: 513:             break;
+[e $U 399  ]
+"515
+[; ;TRFID.c: 515:         case 14:
+[e :U 435 ]
+"516
+[; ;TRFID.c: 516:             j--;
+[e -- F2868 -> -> 1 `i `ui ]
+"517
+[; ;TRFID.c: 517:             if (j && !(n & 0x01) && !(n & waitIRq)) {
+[e $ ! && && != F2868 -> -> 0 `i `ui ! != & -> F2866 `i -> 1 `i -> 0 `i ! != & -> F2866 `i -> F2864 `i -> 0 `i 436  ]
+{
+"518
+[; ;TRFID.c: 518:                 state_aux--;
+[e -- F2869 -> -> 1 `i `uc ]
+"519
+[; ;TRFID.c: 519:             } else {
+}
+[e $U 437  ]
+[e :U 436 ]
+{
+"520
+[; ;TRFID.c: 520:                 tmp = 0;
+[e = F2870 -> -> 0 `i `uc ]
+"521
+[; ;TRFID.c: 521:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"522
+[; ;TRFID.c: 522:             }
+}
+[e :U 437 ]
+"523
+[; ;TRFID.c: 523:             break;
+[e $U 399  ]
+"525
+[; ;TRFID.c: 525:         case 15:
+[e :U 438 ]
+"526
+[; ;TRFID.c: 526:             tmp = MFRC522_Rd(0x0D);
+[e = F2870 ( _MFRC522_Rd (1 -> -> 13 `i `uc ]
+"527
+[; ;TRFID.c: 527:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"528
+[; ;TRFID.c: 528:             break;
+[e $U 399  ]
+"530
+[; ;TRFID.c: 530:         case 16:
+[e :U 439 ]
+"531
+[; ;TRFID.c: 531:             if (wr_state == 0) {
+[e $ ! == -> F2871 `i -> 0 `i 440  ]
+{
+"532
+[; ;TRFID.c: 532:                 MFRC522_Wr_1(0x0D);
+[e ( _MFRC522_Wr_1 (1 -> -> 13 `i `uc ]
+"533
+[; ;TRFID.c: 533:                 wr_state = 1;
+[e = F2871 -> -> 1 `i `uc ]
+"534
+[; ;TRFID.c: 534:             } else {
+}
+[e $U 441  ]
+[e :U 440 ]
+{
+"535
+[; ;TRFID.c: 535:                 MFRC522_Wr_2(tmp & ~0x80);
+[e ( _MFRC522_Wr_2 (1 -> & -> F2870 `i ~ -> 128 `i `uc ]
+"536
+[; ;TRFID.c: 536:                 wr_state = 0;
+[e = F2871 -> -> 0 `i `uc ]
+"537
+[; ;TRFID.c: 537:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"538
+[; ;TRFID.c: 538:             }
+}
+[e :U 441 ]
+"539
+[; ;TRFID.c: 539:             break;
+[e $U 399  ]
+"541
+[; ;TRFID.c: 541:         case 17:
+[e :U 442 ]
+"542
+[; ;TRFID.c: 542:             state_aux = (j != 0) ? 18 : 28;
+[e = F2869 -> ? != F2868 -> -> 0 `i `ui : -> 18 `i -> 28 `i `uc ]
+"543
+[; ;TRFID.c: 543:             break;
+[e $U 399  ]
+"545
+[; ;TRFID.c: 545:         case 18:
+[e :U 443 ]
+"546
+[; ;TRFID.c: 546:             rd = MFRC522_Rd(0x06) & 0x1B;
+[e = F2867 -> & -> ( _MFRC522_Rd (1 -> -> 6 `i `uc `i -> 27 `i `uc ]
+"547
+[; ;TRFID.c: 547:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"548
+[; ;TRFID.c: 548:             break;
+[e $U 399  ]
+"550
+[; ;TRFID.c: 550:         case 19:
+[e :U 444 ]
+"551
+[; ;TRFID.c: 551:             if (!rd) {
+[e $ ! ! != -> F2867 `i -> 0 `i 445  ]
+{
+"552
+[; ;TRFID.c: 552:                 _status = 0;
+[e = F2862 -> -> 0 `i `uc ]
+"553
+[; ;TRFID.c: 553:                 state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"554
+[; ;TRFID.c: 554:             } else {
+}
+[e $U 446  ]
+[e :U 445 ]
+{
+"555
+[; ;TRFID.c: 555:                 _status = 2;
+[e = F2862 -> -> 2 `i `uc ]
+"556
+[; ;TRFID.c: 556:                 state_aux = 28;
+[e = F2869 -> -> 28 `i `uc ]
+"557
+[; ;TRFID.c: 557:             }
+}
+[e :U 446 ]
+"558
+[; ;TRFID.c: 558:             break;
+[e $U 399  ]
+"560
+[; ;TRFID.c: 560:         case 20:
+[e :U 447 ]
+"561
+[; ;TRFID.c: 561:             if ((n & irqEn & 0x01)) {
+[e $ ! != & & -> F2866 `i -> F2863 `i -> 1 `i -> 0 `i 448  ]
+{
+"562
+[; ;TRFID.c: 562:                 _status = 1;
+[e = F2862 -> -> 1 `i `uc ]
+"563
+[; ;TRFID.c: 563:             }
+}
+[e :U 448 ]
+"564
+[; ;TRFID.c: 564:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"565
+[; ;TRFID.c: 565:             break;
+[e $U 399  ]
+"567
+[; ;TRFID.c: 567:         case 21:
+[e :U 449 ]
+"568
+[; ;TRFID.c: 568:             state_aux = (command == 0x0C) ? 22 : 28;
+[e = F2869 -> ? == -> _command `i -> 12 `i : -> 22 `i -> 28 `i `uc ]
+"569
+[; ;TRFID.c: 569:             break;
+[e $U 399  ]
+"571
+[; ;TRFID.c: 571:         case 22:
+[e :U 450 ]
+"572
+[; ;TRFID.c: 572:             n = MFRC522_Rd(0x0A);
+[e = F2866 -> ( _MFRC522_Rd (1 -> -> 10 `i `uc `uc ]
+"573
+[; ;TRFID.c: 573:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"574
+[; ;TRFID.c: 574:             break;
+[e $U 399  ]
+"576
+[; ;TRFID.c: 576:         case 23:
+[e :U 451 ]
+"577
+[; ;TRFID.c: 577:             lastBits = MFRC522_Rd(0x0C) & 0x07;
+[e = F2865 -> & -> ( _MFRC522_Rd (1 -> -> 12 `i `uc `i -> 7 `i `uc ]
+"578
+[; ;TRFID.c: 578:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"579
+[; ;TRFID.c: 579:             break;
+[e $U 399  ]
+"581
+[; ;TRFID.c: 581:         case 24:
+[e :U 452 ]
+"582
+[; ;TRFID.c: 582:             *backLen = (lastBits) ? (n - 1) * 8 + lastBits : n * 8;
+[e = *U _backLen -> ? != -> F2865 `i -> 0 `i : + * - -> F2866 `i -> 1 `i -> 8 `i -> F2865 `i * -> F2866 `i -> 8 `i `ui ]
+"583
+[; ;TRFID.c: 583:             if (n == 0) n = 1;
+[e $ ! == -> F2866 `i -> 0 `i 453  ]
+[e = F2866 -> -> 1 `i `uc ]
+[e $U 454  ]
+"584
+[; ;TRFID.c: 584:             else if (n > 16) n = 16;
+[e :U 453 ]
+[e $ ! > -> F2866 `i -> 16 `i 455  ]
+[e = F2866 -> -> 16 `i `uc ]
+[e :U 455 ]
+[e :U 454 ]
+"585
+[; ;TRFID.c: 585:             j = 0;
+[e = F2868 -> -> 0 `i `ui ]
+"586
+[; ;TRFID.c: 586:             state_aux++;
+[e ++ F2869 -> -> 1 `i `uc ]
+"587
+[; ;TRFID.c: 587:             break;
+[e $U 399  ]
+"589
+[; ;TRFID.c: 589:         case 25:
+[e :U 456 ]
+"590
+[; ;TRFID.c: 590:             state_aux = (j < n) ? 26 : 28;
+[e = F2869 -> ? < F2868 -> F2866 `ui : -> 26 `i -> 28 `i `uc ]
+"591
+[; ;TRFID.c: 591:             if (j >= n) backData[j] = 0;
+[e $ ! >= F2868 -> F2866 `ui 457  ]
+[e = *U + _backData * -> F2868 `ux -> -> # *U _backData `ui `ux -> -> 0 `i `uc ]
+[e :U 457 ]
+"592
+[; ;TRFID.c: 592:             break;
+[e $U 399  ]
+"594
+[; ;TRFID.c: 594:         case 26:
+[e :U 458 ]
+"595
+[; ;TRFID.c: 595:             backData[j++] = MFRC522_Rd(0x09);
+[e = *U + _backData * -> ++ F2868 -> -> 1 `i `ui `ux -> -> # *U _backData `ui `ux -> ( _MFRC522_Rd (1 -> -> 9 `i `uc `uc ]
+"596
+[; ;TRFID.c: 596:             state_aux = 25;
+[e = F2869 -> -> 25 `i `uc ]
+"597
+[; ;TRFID.c: 597:             break;
+[e $U 399  ]
+"599
+[; ;TRFID.c: 599:         case 28:
+[e :U 459 ]
+"600
+[; ;TRFID.c: 600:             irqEn = waitIRq = tmp = 0;
+[e = F2863 = F2864 -> = F2870 -> -> 0 `i `uc `uc ]
+"601
+[; ;TRFID.c: 601:             state_aux = 0;
+[e = F2869 -> -> 0 `i `uc ]
+"602
+[; ;TRFID.c: 602:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"603
+[; ;TRFID.c: 603:             return _status;
+[e ) F2862 ]
+[e $UE 398  ]
+"604
+[; ;TRFID.c: 604:     }
+}
+[e $U 399  ]
+[e :U 400 ]
+[e [\ F2869 , $ -> 0 `i 401
+ , $ -> 1 `i 406
+ , $ -> 2 `i 409
+ , $ -> 3 `i 410
+ , $ -> 4 `i 413
+ , $ -> 5 `i 414
+ , $ -> 6 `i 417
+ , $ -> 7 `i 420
+ , $ -> 8 `i 425
+ , $ -> 9 `i 428
+ , $ -> 10 `i 429
+ , $ -> 11 `i 430
+ , $ -> 12 `i 433
+ , $ -> 13 `i 434
+ , $ -> 14 `i 435
+ , $ -> 15 `i 438
+ , $ -> 16 `i 439
+ , $ -> 17 `i 442
+ , $ -> 18 `i 443
+ , $ -> 19 `i 444
+ , $ -> 20 `i 447
+ , $ -> 21 `i 449
+ , $ -> 22 `i 450
+ , $ -> 23 `i 451
+ , $ -> 24 `i 452
+ , $ -> 25 `i 456
+ , $ -> 26 `i 458
+ , $ -> 28 `i 459
+ 399 ]
+[e :U 399 ]
+"606
+[; ;TRFID.c: 606:     return _status;
+[e ) F2862 ]
+[e $UE 398  ]
+"607
+[; ;TRFID.c: 607: }
+[e :UE 398 ]
+}
+"609
+[; ;TRFID.c: 609: unsigned char MFRC522_Rd(unsigned char Address) {
+[v _MFRC522_Rd `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _MFRC522_Rd ]
+[v _Address `uc ~T0 @X0 1 r1 ]
+[f ]
+"610
+[; ;TRFID.c: 610:     unsigned int i, ucAddr;
+[v _i `ui ~T0 @X0 1 a ]
+[v _ucAddr `ui ~T0 @X0 1 a ]
+"611
+[; ;TRFID.c: 611:     unsigned int ucResult = 0;
+[v _ucResult `ui ~T0 @X0 1 a ]
+[e = _ucResult -> -> 0 `i `ui ]
+"613
+[; ;TRFID.c: 613:     LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"614
+[; ;TRFID.c: 614:     LATBbits.LATB1 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"615
+[; ;TRFID.c: 615:     ucAddr = ((Address << 1) & 0x7E) | 0x80;
+[e = _ucAddr -> | & << -> _Address `i -> 1 `i -> 126 `i -> 128 `i `ui ]
+"617
+[; ;TRFID.c: 617:     for (i = 8; i > 0; i--) {
+{
+[e = _i -> -> 8 `i `ui ]
+[e $ > _i -> -> 0 `i `ui 461  ]
+[e $U 462  ]
+[e :U 461 ]
+{
+"618
+[; ;TRFID.c: 618:         LATDbits.LATD7 = ((ucAddr & 0x80) == 0x80);
+[e = . . _LATDbits 0 7 -> -> == & _ucAddr -> -> 128 `i `ui -> -> 128 `i `ui `i `uc ]
+"619
+[; ;TRFID.c: 619:         LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"620
+[; ;TRFID.c: 620:         ucAddr <<= 1;
+[e =<< _ucAddr -> -> 1 `i `ui ]
+"621
+[; ;TRFID.c: 621:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"622
+[; ;TRFID.c: 622:     }
+}
+[e -- _i -> -> 1 `i `ui ]
+[e $ > _i -> -> 0 `i `ui 461  ]
+[e :U 462 ]
+}
+"624
+[; ;TRFID.c: 624:     for (i = 8; i > 0; i--) {
+{
+[e = _i -> -> 8 `i `ui ]
+[e $ > _i -> -> 0 `i `ui 464  ]
+[e $U 465  ]
+[e :U 464 ]
+{
+"625
+[; ;TRFID.c: 625:         LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"626
+[; ;TRFID.c: 626:         ucResult <<= 1;
+[e =<< _ucResult -> -> 1 `i `ui ]
+"627
+[; ;TRFID.c: 627:         ucResult |= PORTDbits.RD6;
+[e =| _ucResult -> . . _PORTDbits 0 6 `ui ]
+"628
+[; ;TRFID.c: 628:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"629
+[; ;TRFID.c: 629:     }
+}
+[e -- _i -> -> 1 `i `ui ]
+[e $ > _i -> -> 0 `i `ui 464  ]
+[e :U 465 ]
+}
+"631
+[; ;TRFID.c: 631:     LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"632
+[; ;TRFID.c: 632:     LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"633
+[; ;TRFID.c: 633:     return ucResult;
+[e ) -> _ucResult `uc ]
+[e $UE 460  ]
+"634
+[; ;TRFID.c: 634: }
+[e :UE 460 ]
+}
+"636
+[; ;TRFID.c: 636: void MFRC522_Wr(unsigned char Address, unsigned char value) {
+[v _MFRC522_Wr `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _MFRC522_Wr ]
+[v _Address `uc ~T0 @X0 1 r1 ]
+[v _value `uc ~T0 @X0 1 r2 ]
+[f ]
+"637
+[; ;TRFID.c: 637:     unsigned char i, ucAddr;
+[v _i `uc ~T0 @X0 1 a ]
+[v _ucAddr `uc ~T0 @X0 1 a ]
+"639
+[; ;TRFID.c: 639:     LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"640
+[; ;TRFID.c: 640:     LATBbits.LATB1 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"641
+[; ;TRFID.c: 641:     ucAddr = ((Address << 1) & 0x7E);
+[e = _ucAddr -> & << -> _Address `i -> 1 `i -> 126 `i `uc ]
+"643
+[; ;TRFID.c: 643:     for (i = 8; i > 0; i--) {
+{
+[e = _i -> -> 8 `i `uc ]
+[e $ > -> _i `i -> 0 `i 468  ]
+[e $U 469  ]
+[e :U 468 ]
+{
+"644
+[; ;TRFID.c: 644:         LATDbits.LATD7 = ((ucAddr & 0x80) == 0x80);
+[e = . . _LATDbits 0 7 -> -> == & -> _ucAddr `i -> 128 `i -> 128 `i `i `uc ]
+"645
+[; ;TRFID.c: 645:         LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"646
+[; ;TRFID.c: 646:         ucAddr <<= 1;
+[e =<< _ucAddr -> -> 1 `i `uc ]
+"647
+[; ;TRFID.c: 647:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"648
+[; ;TRFID.c: 648:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"649
+[; ;TRFID.c: 649:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"650
+[; ;TRFID.c: 650:     }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 468  ]
+[e :U 469 ]
+}
+"652
+[; ;TRFID.c: 652:     for (i = 8; i > 0; i--) {
+{
+[e = _i -> -> 8 `i `uc ]
+[e $ > -> _i `i -> 0 `i 471  ]
+[e $U 472  ]
+[e :U 471 ]
+{
+"653
+[; ;TRFID.c: 653:         LATDbits.LATD7 = ((value & 0x80) == 0x80);
+[e = . . _LATDbits 0 7 -> -> == & -> _value `i -> 128 `i -> 128 `i `i `uc ]
+"654
+[; ;TRFID.c: 654:         LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"655
+[; ;TRFID.c: 655:         value <<= 1;
+[e =<< _value -> -> 1 `i `uc ]
+"656
+[; ;TRFID.c: 656:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"657
+[; ;TRFID.c: 657:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"658
+[; ;TRFID.c: 658:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"659
+[; ;TRFID.c: 659:     }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 471  ]
+[e :U 472 ]
+}
+"661
+[; ;TRFID.c: 661:     LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"662
+[; ;TRFID.c: 662:     LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"663
+[; ;TRFID.c: 663: }
+[e :UE 467 ]
+}
+"665
+[; ;TRFID.c: 665: void MFRC522_Wr_1(unsigned char Address) {
+[v _MFRC522_Wr_1 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _MFRC522_Wr_1 ]
+[v _Address `uc ~T0 @X0 1 r1 ]
+[f ]
+"666
+[; ;TRFID.c: 666:     static unsigned char i, ucAddr;
+[v F2884 `uc ~T0 @X0 1 s i ]
+[v F2885 `uc ~T0 @X0 1 s ucAddr ]
+"668
+[; ;TRFID.c: 668:     LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"669
+[; ;TRFID.c: 669:     LATBbits.LATB1 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"670
+[; ;TRFID.c: 670:     ucAddr = ((Address << 1) & 0x7E);
+[e = F2885 -> & << -> _Address `i -> 1 `i -> 126 `i `uc ]
+"672
+[; ;TRFID.c: 672:     for (i = 8; i > 0; i--) {
+{
+[e = F2884 -> -> 8 `i `uc ]
+[e $ > -> F2884 `i -> 0 `i 475  ]
+[e $U 476  ]
+[e :U 475 ]
+{
+"673
+[; ;TRFID.c: 673:         LATDbits.LATD7 = ((ucAddr & 0x80) == 0x80);
+[e = . . _LATDbits 0 7 -> -> == & -> F2885 `i -> 128 `i -> 128 `i `i `uc ]
+"674
+[; ;TRFID.c: 674:         LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"675
+[; ;TRFID.c: 675:         ucAddr <<= 1;
+[e =<< F2885 -> -> 1 `i `uc ]
+"676
+[; ;TRFID.c: 676:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"677
+[; ;TRFID.c: 677:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"678
+[; ;TRFID.c: 678:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"679
+[; ;TRFID.c: 679:     }
+}
+[e -- F2884 -> -> 1 `i `uc ]
+[e $ > -> F2884 `i -> 0 `i 475  ]
+[e :U 476 ]
+}
+"680
+[; ;TRFID.c: 680: }
+[e :UE 474 ]
+}
+"682
+[; ;TRFID.c: 682: void MFRC522_Wr_2(unsigned char value) {
+[v _MFRC522_Wr_2 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _MFRC522_Wr_2 ]
+[v _value `uc ~T0 @X0 1 r1 ]
+[f ]
+"683
+[; ;TRFID.c: 683:     static unsigned char i;
+[v F2888 `uc ~T0 @X0 1 s i ]
+"685
+[; ;TRFID.c: 685:     for (i = 8; i > 0; i--) {
+{
+[e = F2888 -> -> 8 `i `uc ]
+[e $ > -> F2888 `i -> 0 `i 479  ]
+[e $U 480  ]
+[e :U 479 ]
+{
+"686
+[; ;TRFID.c: 686:         LATDbits.LATD7 = ((value & 0x80) == 0x80);
+[e = . . _LATDbits 0 7 -> -> == & -> _value `i -> 128 `i -> 128 `i `i `uc ]
+"687
+[; ;TRFID.c: 687:         LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"688
+[; ;TRFID.c: 688:         value <<= 1;
+[e =<< _value -> -> 1 `i `uc ]
+"689
+[; ;TRFID.c: 689:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"690
+[; ;TRFID.c: 690:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"691
+[; ;TRFID.c: 691:         delay_us(3);
+[e ( _delay_us (1 -> -> 3 `i `uc ]
+"692
+[; ;TRFID.c: 692:     }
+}
+[e -- F2888 -> -> 1 `i `uc ]
+[e $ > -> F2888 `i -> 0 `i 479  ]
+[e :U 480 ]
+}
+"694
+[; ;TRFID.c: 694:     LATBbits.LATB1 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
+"695
+[; ;TRFID.c: 695:     LATBbits.LATB0 = 1;
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"696
+[; ;TRFID.c: 696: }
+[e :UE 478 ]
+}
+"699
+[; ;TRFID.c: 699: void motorRFIDcoop(void) {
+[v _motorRFIDcoop `(v ~T0 @X0 1 ef ]
+{
+[e :U _motorRFIDcoop ]
+[f ]
+"700
+[; ;TRFID.c: 700:     static unsigned backBits;
+[v F2890 `ui ~T0 @X0 1 s backBits ]
+"701
+[; ;TRFID.c: 701:     static char buff[4];
+[v F2891 `uc ~T0 @X0 -> 4 `i s buff ]
+"702
+[; ;TRFID.c: 702:     static unsigned char UID[5];
+[v F2892 `uc ~T0 @X0 -> 5 `i s UID ]
+"703
+[; ;TRFID.c: 703:     static unsigned unLen;
+[v F2893 `ui ~T0 @X0 1 s unLen ]
+"704
+[; ;TRFID.c: 704:     char i;
+[v _i `uc ~T0 @X0 1 a ]
+"705
+[; ;TRFID.c: 705:     char serNumCheck = 0;
+[v _serNumCheck `uc ~T0 @X0 1 a ]
+[e = _serNumCheck -> -> 0 `i `uc ]
+"707
+[; ;TRFID.c: 707:     switch (state) {
+[e $U 484  ]
+{
+"708
+[; ;TRFID.c: 708:         case 0:
+[e :U 485 ]
+"709
+[; ;TRFID.c: 709:             MFRC522_Wr(0x0D, 0x07);
+[e ( _MFRC522_Wr (2 , -> -> 13 `i `uc -> -> 7 `i `uc ]
+"710
+[; ;TRFID.c: 710:             TagType[0] = 0x26;
+[e = *U + _TagType * -> -> 0 `i `x -> -> # *U _TagType `i `x -> -> 38 `i `uc ]
+"711
+[; ;TRFID.c: 711:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"712
+[; ;TRFID.c: 712:             break;
+[e $U 483  ]
+"714
+[; ;TRFID.c: 714:         case 1:
+[e :U 486 ]
+"715
+[; ;TRFID.c: 715:             _status = MFRC522_ToCard(0x0C, TagType, 1, TagType, &backBits);
+[e = __status ( _MFRC522_ToCard (4 , , , , -> -> 12 `i `uc _TagType -> -> 1 `i `uc _TagType &U F2890 ]
+"716
+[; ;TRFID.c: 716:             break;
+[e $U 483  ]
+"718
+[; ;TRFID.c: 718:         case 2:
+[e :U 487 ]
+"719
+[; ;TRFID.c: 719:             if ((_status != 0) || (backBits != 0x10)) {
+[e $ ! || != -> __status `i -> 0 `i != F2890 -> -> 16 `i `ui 488  ]
+{
+"720
+[; ;TRFID.c: 720:                 state = 0;
+[e = _state -> -> 0 `i `uc ]
+"721
+[; ;TRFID.c: 721:             } else {
+}
+[e $U 489  ]
+[e :U 488 ]
+{
+"722
+[; ;TRFID.c: 722:                 state++;
+[e ++ _state -> -> 1 `i `uc ]
+"723
+[; ;TRFID.c: 723:             }
+}
+[e :U 489 ]
+"724
+[; ;TRFID.c: 724:             break;
+[e $U 483  ]
+"726
+[; ;TRFID.c: 726:         case 3:
+[e :U 490 ]
+"727
+[; ;TRFID.c: 727:             MFRC522_Wr(0x0D, 0x00);
+[e ( _MFRC522_Wr (2 , -> -> 13 `i `uc -> -> 0 `i `uc ]
+"728
+[; ;TRFID.c: 728:             UID[0] = 0x93;
+[e = *U + &U F2892 * -> -> -> 0 `i `ui `ux -> -> # *U &U F2892 `ui `ux -> -> 147 `i `uc ]
+"729
+[; ;TRFID.c: 729:             UID[1] = 0x20;
+[e = *U + &U F2892 * -> -> -> 1 `i `ui `ux -> -> # *U &U F2892 `ui `ux -> -> 32 `i `uc ]
+"730
+[; ;TRFID.c: 730:             MFRC522_Clear_Bit(0x08, 0x08);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 8 `i `uc -> -> 8 `i `uc ]
+"731
+[; ;TRFID.c: 731:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"732
+[; ;TRFID.c: 732:             break;
+[e $U 483  ]
+"734
+[; ;TRFID.c: 734:         case 4:
+[e :U 491 ]
+"735
+[; ;TRFID.c: 735:             _status = MFRC522_ToCard(0x0C, UID, 2, UID, &unLen);
+[e = __status ( _MFRC522_ToCard (4 , , , , -> -> 12 `i `uc -> &U F2892 `*uc -> -> 2 `i `uc -> &U F2892 `*uc &U F2893 ]
+"736
+[; ;TRFID.c: 736:             break;
+[e $U 483  ]
+"738
+[; ;TRFID.c: 738:         case 5:
+[e :U 492 ]
+"739
+[; ;TRFID.c: 739:             if (_status == 0) {
+[e $ ! == -> __status `i -> 0 `i 493  ]
+{
+"740
+[; ;TRFID.c: 740:                 for (i = 0; i < 4; i++) serNumCheck ^= UID[i];
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 494  ]
+[e $U 495  ]
+[e :U 494 ]
+[e =^ _serNumCheck -> *U + &U F2892 * -> _i `ux -> -> # *U &U F2892 `ui `ux `uc ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 494  ]
+[e :U 495 ]
+}
+"741
+[; ;TRFID.c: 741:                 if (serNumCheck != UID[4]) _status = 2;
+[e $ ! != -> _serNumCheck `i -> *U + &U F2892 * -> -> -> 4 `i `ui `ux -> -> # *U &U F2892 `ui `ux `i 497  ]
+[e = __status -> -> 2 `i `uc ]
+[e :U 497 ]
+"742
+[; ;TRFID.c: 742:             }
+}
+[e :U 493 ]
+"743
+[; ;TRFID.c: 743:             UID[5] = 0;
+[e = *U + &U F2892 * -> -> -> 5 `i `ui `ux -> -> # *U &U F2892 `ui `ux -> -> 0 `i `uc ]
+"745
+[; ;TRFID.c: 745:             if (_status == 0) state++;
+[e $ ! == -> __status `i -> 0 `i 498  ]
+[e ++ _state -> -> 1 `i `uc ]
+[e $U 499  ]
+"746
+[; ;TRFID.c: 746:             else state = 7;
+[e :U 498 ]
+[e = _state -> -> 7 `i `uc ]
+[e :U 499 ]
+"747
+[; ;TRFID.c: 747:             break;
+[e $U 483  ]
+"749
+[; ;TRFID.c: 749:         case 6:
+[e :U 500 ]
+"750
+[; ;TRFID.c: 750:             MENU_SaveUID(UID);
+[e ( _MENU_SaveUID (1 &U F2892 ]
+"751
+[; ;TRFID.c: 751:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"752
+[; ;TRFID.c: 752:             break;
+[e $U 483  ]
+"754
+[; ;TRFID.c: 754:         case 7:
+[e :U 501 ]
+"755
+[; ;TRFID.c: 755:             buff[0] = 0x50;
+[e = *U + &U F2891 * -> -> -> 0 `i `ui `ux -> -> # *U &U F2891 `ui `ux -> -> 80 `i `uc ]
+"756
+[; ;TRFID.c: 756:             buff[1] = 0;
+[e = *U + &U F2891 * -> -> -> 1 `i `ui `ux -> -> # *U &U F2891 `ui `ux -> -> 0 `i `uc ]
+"757
+[; ;TRFID.c: 757:             MFRC522_CRC(buff, 2, &buff[2]);
+[e ( _MFRC522_CRC (3 , , &U F2891 -> -> 2 `i `uc &U *U + &U F2891 * -> -> -> 2 `i `ui `ux -> -> # *U &U F2891 `ui `ux ]
+"758
+[; ;TRFID.c: 758:             MFRC522_Clear_Bit(0x08, 0x80);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 8 `i `uc -> -> 128 `i `uc ]
+"759
+[; ;TRFID.c: 759:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"760
+[; ;TRFID.c: 760:             break;
+[e $U 483  ]
+"762
+[; ;TRFID.c: 762:         case 8:
+[e :U 502 ]
+"763
+[; ;TRFID.c: 763:             _status = MFRC522_ToCard(0x0C, buff, 4, buff, &unLen);
+[e = __status ( _MFRC522_ToCard (4 , , , , -> -> 12 `i `uc &U F2891 -> -> 4 `i `uc &U F2891 &U F2893 ]
+"764
+[; ;TRFID.c: 764:             break;
+[e $U 483  ]
+"766
+[; ;TRFID.c: 766:         case 9:
+[e :U 503 ]
+"767
+[; ;TRFID.c: 767:             MFRC522_Clear_Bit(0x08, 0x08);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 8 `i `uc -> -> 8 `i `uc ]
+"768
+[; ;TRFID.c: 768:             state = 0;
+[e = _state -> -> 0 `i `uc ]
+"769
+[; ;TRFID.c: 769:             break;
+[e $U 483  ]
+"770
+[; ;TRFID.c: 770:     }
+}
+[e $U 483  ]
+[e :U 484 ]
+[e [\ _state , $ -> 0 `i 485
+ , $ -> 1 `i 486
+ , $ -> 2 `i 487
+ , $ -> 3 `i 490
+ , $ -> 4 `i 491
+ , $ -> 5 `i 492
+ , $ -> 6 `i 500
+ , $ -> 7 `i 501
+ , $ -> 8 `i 502
+ , $ -> 9 `i 503
+ 483 ]
+[e :U 483 ]
+"771
+[; ;TRFID.c: 771: }
+[e :UE 482 ]
+}
+"773
+[; ;TRFID.c: 773: void motorRFIDcoop_NOU(void) {
+[v _motorRFIDcoop_NOU `(v ~T0 @X0 1 ef ]
+{
+[e :U _motorRFIDcoop_NOU ]
+[f ]
+"774
+[; ;TRFID.c: 774:     static unsigned backBits;
+[v F2897 `ui ~T0 @X0 1 s backBits ]
+"775
+[; ;TRFID.c: 775:     static char buff[4];
+[v F2898 `uc ~T0 @X0 -> 4 `i s buff ]
+"776
+[; ;TRFID.c: 776:     static unsigned char UID[5];
+[v F2899 `uc ~T0 @X0 -> 5 `i s UID ]
+"777
+[; ;TRFID.c: 777:     static unsigned unLen;
+[v F2900 `ui ~T0 @X0 1 s unLen ]
+"778
+[; ;TRFID.c: 778:     char i;
+[v _i `uc ~T0 @X0 1 a ]
+"779
+[; ;TRFID.c: 779:     char serNumCheck = 0;
+[v _serNumCheck `uc ~T0 @X0 1 a ]
+[e = _serNumCheck -> -> 0 `i `uc ]
+"780
+[; ;TRFID.c: 780:     static char wr_state = 0;
+[v F2903 `uc ~T0 @X0 1 s wr_state ]
+[i F2903
+-> -> 0 `i `uc
+]
+"782
+[; ;TRFID.c: 782:     switch (state) {
+[e $U 506  ]
+{
+"783
+[; ;TRFID.c: 783:         case 0:
+[e :U 507 ]
+"784
+[; ;TRFID.c: 784:             if (wr_state == 0) {
+[e $ ! == -> F2903 `i -> 0 `i 508  ]
+{
+"785
+[; ;TRFID.c: 785:                 MFRC522_Wr_1(0x0D);
+[e ( _MFRC522_Wr_1 (1 -> -> 13 `i `uc ]
+"786
+[; ;TRFID.c: 786:                 wr_state = 1;
+[e = F2903 -> -> 1 `i `uc ]
+"787
+[; ;TRFID.c: 787:             } else {
+}
+[e $U 509  ]
+[e :U 508 ]
+{
+"788
+[; ;TRFID.c: 788:                 MFRC522_Wr_2(0x07);
+[e ( _MFRC522_Wr_2 (1 -> -> 7 `i `uc ]
+"789
+[; ;TRFID.c: 789:                 wr_state = 0;
+[e = F2903 -> -> 0 `i `uc ]
+"790
+[; ;TRFID.c: 790:                 TagType[0] = 0x26;
+[e = *U + _TagType * -> -> 0 `i `x -> -> # *U _TagType `i `x -> -> 38 `i `uc ]
+"791
+[; ;TRFID.c: 791:                 state++;
+[e ++ _state -> -> 1 `i `uc ]
+"792
+[; ;TRFID.c: 792:             }
+}
+[e :U 509 ]
+"793
+[; ;TRFID.c: 793:             break;
+[e $U 505  ]
+"795
+[; ;TRFID.c: 795:         case 1:
+[e :U 510 ]
+"796
+[; ;TRFID.c: 796:             _status = MFRC522_ToCard_NOU(0x0C, TagType, 1, TagType, &backBits);
+[e = __status ( _MFRC522_ToCard_NOU (4 , , , , -> -> 12 `i `uc _TagType -> -> 1 `i `uc _TagType &U F2897 ]
+"797
+[; ;TRFID.c: 797:             break;
+[e $U 505  ]
+"799
+[; ;TRFID.c: 799:         case 2:
+[e :U 511 ]
+"800
+[; ;TRFID.c: 800:             if ((_status != 0) || (backBits != 0x10)) {
+[e $ ! || != -> __status `i -> 0 `i != F2897 -> -> 16 `i `ui 512  ]
+{
+"801
+[; ;TRFID.c: 801:                 state = 0;
+[e = _state -> -> 0 `i `uc ]
+"802
+[; ;TRFID.c: 802:             } else {
+}
+[e $U 513  ]
+[e :U 512 ]
+{
+"803
+[; ;TRFID.c: 803:                 state++;
+[e ++ _state -> -> 1 `i `uc ]
+"804
+[; ;TRFID.c: 804:             }
+}
+[e :U 513 ]
+"805
+[; ;TRFID.c: 805:             break;
+[e $U 505  ]
+"807
+[; ;TRFID.c: 807:         case 3:
+[e :U 514 ]
+"808
+[; ;TRFID.c: 808:             if (wr_state == 0) {
+[e $ ! == -> F2903 `i -> 0 `i 515  ]
+{
+"809
+[; ;TRFID.c: 809:                 MFRC522_Wr_1(0x0D);
+[e ( _MFRC522_Wr_1 (1 -> -> 13 `i `uc ]
+"810
+[; ;TRFID.c: 810:                 wr_state = 1;
+[e = F2903 -> -> 1 `i `uc ]
+"811
+[; ;TRFID.c: 811:             } else {
+}
+[e $U 516  ]
+[e :U 515 ]
+{
+"812
+[; ;TRFID.c: 812:                 MFRC522_Wr_2(0x00);
+[e ( _MFRC522_Wr_2 (1 -> -> 0 `i `uc ]
+"813
+[; ;TRFID.c: 813:                 wr_state = 0;
+[e = F2903 -> -> 0 `i `uc ]
+"814
+[; ;TRFID.c: 814:                 UID[0] = 0x93;
+[e = *U + &U F2899 * -> -> -> 0 `i `ui `ux -> -> # *U &U F2899 `ui `ux -> -> 147 `i `uc ]
+"815
+[; ;TRFID.c: 815:                 UID[1] = 0x20;
+[e = *U + &U F2899 * -> -> -> 1 `i `ui `ux -> -> # *U &U F2899 `ui `ux -> -> 32 `i `uc ]
+"816
+[; ;TRFID.c: 816:                 MFRC522_Clear_Bit(0x08, 0x08);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 8 `i `uc -> -> 8 `i `uc ]
+"817
+[; ;TRFID.c: 817:                 state++;
+[e ++ _state -> -> 1 `i `uc ]
+"818
+[; ;TRFID.c: 818:             }
+}
+[e :U 516 ]
+"819
+[; ;TRFID.c: 819:             break;
+[e $U 505  ]
+"821
+[; ;TRFID.c: 821:         case 4:
+[e :U 517 ]
+"822
+[; ;TRFID.c: 822:             _status = MFRC522_ToCard_NOU(0x0C, UID, 2, UID, &unLen);
+[e = __status ( _MFRC522_ToCard_NOU (4 , , , , -> -> 12 `i `uc -> &U F2899 `*uc -> -> 2 `i `uc -> &U F2899 `*uc &U F2900 ]
+"823
+[; ;TRFID.c: 823:             break;
+[e $U 505  ]
+"825
+[; ;TRFID.c: 825:         case 5:
+[e :U 518 ]
+"826
+[; ;TRFID.c: 826:             if (_status == 0) {
+[e $ ! == -> __status `i -> 0 `i 519  ]
+{
+"827
+[; ;TRFID.c: 827:                 for (i = 0; i < 4; i++) serNumCheck ^= UID[i];
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 520  ]
+[e $U 521  ]
+[e :U 520 ]
+[e =^ _serNumCheck -> *U + &U F2899 * -> _i `ux -> -> # *U &U F2899 `ui `ux `uc ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 520  ]
+[e :U 521 ]
+}
+"828
+[; ;TRFID.c: 828:                 if (serNumCheck != UID[4]) _status = 2;
+[e $ ! != -> _serNumCheck `i -> *U + &U F2899 * -> -> -> 4 `i `ui `ux -> -> # *U &U F2899 `ui `ux `i 523  ]
+[e = __status -> -> 2 `i `uc ]
+[e :U 523 ]
+"829
+[; ;TRFID.c: 829:             }
+}
+[e :U 519 ]
+"830
+[; ;TRFID.c: 830:             UID[5] = 0;
+[e = *U + &U F2899 * -> -> -> 5 `i `ui `ux -> -> # *U &U F2899 `ui `ux -> -> 0 `i `uc ]
+"832
+[; ;TRFID.c: 832:             if (_status == 0) state++;
+[e $ ! == -> __status `i -> 0 `i 524  ]
+[e ++ _state -> -> 1 `i `uc ]
+[e $U 525  ]
+"833
+[; ;TRFID.c: 833:             else state = 7;
+[e :U 524 ]
+[e = _state -> -> 7 `i `uc ]
+[e :U 525 ]
+"834
+[; ;TRFID.c: 834:             break;
+[e $U 505  ]
+"836
+[; ;TRFID.c: 836:         case 6:
+[e :U 526 ]
+"837
+[; ;TRFID.c: 837:             MENU_SaveUID(UID);
+[e ( _MENU_SaveUID (1 &U F2899 ]
+"838
+[; ;TRFID.c: 838:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"839
+[; ;TRFID.c: 839:             break;
+[e $U 505  ]
+"841
+[; ;TRFID.c: 841:         case 7:
+[e :U 527 ]
+"842
+[; ;TRFID.c: 842:             buff[0] = 0x50;
+[e = *U + &U F2898 * -> -> -> 0 `i `ui `ux -> -> # *U &U F2898 `ui `ux -> -> 80 `i `uc ]
+"843
+[; ;TRFID.c: 843:             buff[1] = 0;
+[e = *U + &U F2898 * -> -> -> 1 `i `ui `ux -> -> # *U &U F2898 `ui `ux -> -> 0 `i `uc ]
+"844
+[; ;TRFID.c: 844:             MFRC522_CRC_NOU(buff, 2, &buff[2]);
+[e ( _MFRC522_CRC_NOU (3 , , &U F2898 -> -> 2 `i `uc &U *U + &U F2898 * -> -> -> 2 `i `ui `ux -> -> # *U &U F2898 `ui `ux ]
+"845
+[; ;TRFID.c: 845:             MFRC522_Clear_Bit(0x08, 0x80);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 8 `i `uc -> -> 128 `i `uc ]
+"846
+[; ;TRFID.c: 846:             state++;
+[e ++ _state -> -> 1 `i `uc ]
+"847
+[; ;TRFID.c: 847:             break;
+[e $U 505  ]
+"849
+[; ;TRFID.c: 849:         case 8:
+[e :U 528 ]
+"850
+[; ;TRFID.c: 850:             _status = MFRC522_ToCard_NOU(0x0C, buff, 4, buff, &unLen);
+[e = __status ( _MFRC522_ToCard_NOU (4 , , , , -> -> 12 `i `uc &U F2898 -> -> 4 `i `uc &U F2898 &U F2900 ]
+"851
+[; ;TRFID.c: 851:             break;
+[e $U 505  ]
+"853
+[; ;TRFID.c: 853:         case 9:
+[e :U 529 ]
+"854
+[; ;TRFID.c: 854:             MFRC522_Clear_Bit(0x08, 0x08);
+[e ( _MFRC522_Clear_Bit (2 , -> -> 8 `i `uc -> -> 8 `i `uc ]
+"855
+[; ;TRFID.c: 855:             state = 0;
+[e = _state -> -> 0 `i `uc ]
+"856
+[; ;TRFID.c: 856:             break;
+[e $U 505  ]
+"857
+[; ;TRFID.c: 857:     }
+}
+[e $U 505  ]
+[e :U 506 ]
+[e [\ _state , $ -> 0 `i 507
+ , $ -> 1 `i 510
+ , $ -> 2 `i 511
+ , $ -> 3 `i 514
+ , $ -> 4 `i 517
+ , $ -> 5 `i 518
+ , $ -> 6 `i 526
+ , $ -> 7 `i 527
+ , $ -> 8 `i 528
+ , $ -> 9 `i 529
+ 505 ]
+[e :U 505 ]
+"858
+[; ;TRFID.c: 858: }
+[e :UE 504 ]
+}

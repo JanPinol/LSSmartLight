@@ -1,0 +1,2536 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"26 ./TAD_TIMER.h
+[; ;./TAD_TIMER.h: 26: unsigned char TI_NewTimer(unsigned char *TimerHandle) ;
+[v _TI_NewTimer `(uc ~T0 @X0 0 ef1`*uc ]
+"19 ./TAD_SIO.h
+[; ;./TAD_SIO.h: 19: unsigned char SIO_Receive(unsigned char* characters);
+[v _SIO_Receive `(uc ~T0 @X0 0 ef1`*uc ]
+"22 TAD_MENU.c
+[; ;TAD_MENU.c: 22: void handleEscKey(unsigned char received_char);
+[v _handleEscKey `(v ~T0 @X0 0 ef1`uc ]
+"24
+[; ;TAD_MENU.c: 24: void handleIntensity(void);
+[v _handleIntensity `(v ~T0 @X0 0 ef ]
+"23
+[; ;TAD_MENU.c: 23: void handleMainMenu(void);
+[v _handleMainMenu `(v ~T0 @X0 0 ef ]
+"15 ./TAD_SIO.h
+[; ;./TAD_SIO.h: 15: unsigned char SIO_Send(unsigned char character);
+[v _SIO_Send `(uc ~T0 @X0 0 ef1`uc ]
+"28 TAD_MENU.c
+[; ;TAD_MENU.c: 28: void showUID(unsigned char index);
+[v _showUID `(v ~T0 @X0 0 ef1`uc ]
+"23 ./TAD_SIO.h
+[; ;./TAD_SIO.h: 23: void SIO_SendString(const char *str);
+[v _SIO_SendString `(v ~T0 @X0 0 ef1`*Cuc ]
+"29 TAD_MENU.c
+[; ;TAD_MENU.c: 29: void showConfigLeds(unsigned char index);
+[v _showConfigLeds `(v ~T0 @X0 0 ef1`uc ]
+"25
+[; ;TAD_MENU.c: 25: void option3(unsigned char received_char);
+[v _option3 `(v ~T0 @X0 0 ef1`uc ]
+"41 ./TAD_TECLATMATRIU.h
+[; ;./TAD_TECLATMATRIU.h: 41: unsigned char TM_IsKeyPressed(void);
+[v _TM_IsKeyPressed `(uc ~T0 @X0 0 ef ]
+"30 ./TAD_TIMER.h
+[; ;./TAD_TIMER.h: 30: void TI_ResetTics (unsigned char TimerHandle);
+[v _TI_ResetTics `(v ~T0 @X0 0 ef1`uc ]
+"34
+[; ;./TAD_TIMER.h: 34: unsigned long TI_GetTics (unsigned char TimerHandle);
+[v _TI_GetTics `(ul ~T0 @X0 0 ef1`uc ]
+"37 ./TAD_TECLATMATRIU.h
+[; ;./TAD_TECLATMATRIU.h: 37: void TM_GetTecla(unsigned char *c);
+[v _TM_GetTecla `(v ~T0 @X0 0 ef1`*uc ]
+"32 ./TAD_LEDS.h
+[; ;./TAD_LEDS.h: 32: void LEDS_setIntensitat(unsigned char quinLed, unsigned char valor);
+[v _LEDS_setIntensitat `(v ~T0 @X0 0 ef2`uc`uc ]
+"21 TAD_MENU.c
+[; ;TAD_MENU.c: 21: void printLCD(void);
+[v _printLCD `(v ~T0 @X0 0 ef ]
+"19
+[; ;TAD_MENU.c: 19: void addHour(void);
+[v _addHour `(v ~T0 @X0 0 ef ]
+"27
+[; ;TAD_MENU.c: 27: unsigned char checkUID(unsigned char *UID_detectat);
+[v _checkUID `(uc ~T0 @X0 0 ef1`*uc ]
+"30
+[; ;TAD_MENU.c: 30: unsigned char mateixaTargeta(unsigned char UID[5]);
+[v _mateixaTargeta `(uc ~T0 @X0 0 ef1`*uc ]
+"75 ./LcTLCD.h
+[; ;./LcTLCD.h: 75: void LcClear(void);
+[v _LcClear `(v ~T0 @X0 0 ef ]
+"26 TAD_MENU.c
+[; ;TAD_MENU.c: 26: void printHex(unsigned char value);
+[v _printHex `(v ~T0 @X0 0 ef1`uc ]
+"87 ./LcTLCD.h
+[; ;./LcTLCD.h: 87: void LcGotoXY(char Column, char Row);
+[v _LcGotoXY `(v ~T0 @X0 0 ef2`uc`uc ]
+"92
+[; ;./LcTLCD.h: 92: void LcPutChar(char c);
+[v _LcPutChar `(v ~T0 @X0 0 ef1`uc ]
+"52 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 52: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"284
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 284: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"463
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 463: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"643
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 643: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"785
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 785: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"988
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 988: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1100
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1100: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1212
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1212: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1324
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1324: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1436
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1436: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1488
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1488: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1493
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1493: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1710
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1710: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1715
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1715: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1932
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1932: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1937
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 1937: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2154
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2154: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2159
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2159: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2376
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2376: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2381
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2381: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2540
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2540: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2605
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2605: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2682
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2682: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2759
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2759: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2836
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2836: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2902
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2902: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2968
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 2968: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3034
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3034: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3100
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3100: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3107
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3107: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3114
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3114: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3121
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3121: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3126
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3126: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3331
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3331: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3336
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3336: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3587
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3587: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3592
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3592: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3599
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3599: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3604
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3604: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3611
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3611: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3616
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3616: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3623
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3623: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3630
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3630: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3742
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3742: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3749
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3749: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3756
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3756: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3763
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3763: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3853
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3853: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3932
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 3932: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"4014
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4014: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4019
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4019: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4152
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4152: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4157
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4157: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4332
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4332: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4411
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4411: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4418
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4418: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4425
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4425: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4432
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4432: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4437
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4437: __asm("ECCP1CON equ 0FBDh");
+[; <" ECCP1CON equ 0FBDh ;# ">
+"4624
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4624: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4631
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4631: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4638
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4638: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4645
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4645: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4716
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4716: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4801
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4801: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4920
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4920: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4927
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4927: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4934
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4934: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4941
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 4941: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5036
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5036: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5106
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5106: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5327
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5327: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5334
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5334: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5341
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5341: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5439
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5439: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5444
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5444: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5549
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5549: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5556
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5556: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5659
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5659: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5666
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5666: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5673
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5673: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5680
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5680: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5814
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5814: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5842
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5842: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5847
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 5847: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6100
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6100: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6183
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6183: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6260
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6260: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6267
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6267: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6274
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6274: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6281
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6281: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6352
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6352: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6359
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6359: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6366
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6366: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6373
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6373: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6380
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6380: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6387
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6387: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6394
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6394: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6401
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6401: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6408
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6408: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6415
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6415: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6422
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6422: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6429
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6429: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6436
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6436: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6443
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6443: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6450
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6450: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6457
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6457: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6464
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6464: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6471
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6471: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6483
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6483: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6490
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6490: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6497
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6497: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6504
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6504: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6511
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6511: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6518
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6518: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6525
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6525: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6532
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6532: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6539
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6539: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6631
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6631: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6701
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6701: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6818
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6818: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6825
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6825: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6832
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6832: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6839
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6839: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6848
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6848: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6855
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6855: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6862
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6862: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6869
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6869: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6878
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6878: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6885
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6885: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6892
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6892: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6899
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6899: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6906
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6906: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6913
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6913: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6987
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6987: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6994
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 6994: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"7001
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 7001: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7008
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h: 7008: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"27 ./TAD_TECLATMATRIU.h
+[; ;./TAD_TECLATMATRIU.h: 27: const unsigned char T_REBOTS = 10;
+[v _T_REBOTS `Cuc ~T0 @X0 1 e ]
+[i _T_REBOTS
+-> -> 10 `i `uc
+]
+[v F2731 `Cuc ~T0 @X0 -> 5 `i t ]
+"21 ./TAD_MENU.h
+[; ;./TAD_MENU.h: 21: const unsigned char uid_saved[6][5] = {
+[v _uid_saved `F2731 ~T0 @X0 -> 6 `i e ]
+[i _uid_saved
+:U ..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 227 `i `uc
+-> -> 194 `i `uc
+-> -> 38 `i `uc
+-> -> 219 `i `uc
+-> -> 220 `i `uc
+..
+:U ..
+-> -> 3 `i `uc
+-> -> 109 `i `uc
+-> -> 210 `i `uc
+-> -> 217 `i `uc
+-> -> 101 `i `uc
+..
+:U ..
+-> -> 61 `i `uc
+-> -> 230 `i `uc
+-> -> 151 `i `uc
+-> -> 63 `i `uc
+-> -> 115 `i `uc
+..
+:U ..
+-> -> 204 `i `uc
+-> -> 211 `i `uc
+-> -> 150 `i `uc
+-> -> 63 `i `uc
+-> -> 182 `i `uc
+..
+:U ..
+-> -> 136 `i `uc
+-> -> 5 `i `uc
+-> -> 106 `i `uc
+-> -> 202 `i `uc
+-> -> 45 `i `uc
+..
+..
+]
+[v F2733 `uc ~T0 @X0 -> 6 `i t ]
+"32
+[; ;./TAD_MENU.h: 32: static unsigned char leds_saved[6][6] = {
+[v _leds_saved `F2733 ~T0 @X0 -> 6 `i s ]
+[i _leds_saved
+:U ..
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+:U ..
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+..
+:U ..
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+..
+:U ..
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+-> -> 8 `i `uc
+-> -> 10 `i `uc
+..
+:U ..
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 4 `i `uc
+-> -> 6 `i `uc
+-> -> 8 `i `uc
+-> -> 10 `i `uc
+..
+..
+]
+"44
+[; ;./TAD_MENU.h: 44: const char menu_principal[] =
+[v _menu_principal `Cuc ~T0 @X0 -> 172 `i e ]
+[i _menu_principal
+:U ..
+-> 27 `c
+-> 91 `c
+-> 50 `c
+-> 74 `c
+-> 27 `c
+-> 91 `c
+-> 72 `c
+-> 13 `c
+-> 10 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 13 `c
+-> 10 `c
+-> 77 `c
+-> 101 `c
+-> 110 `c
+-> -6 `c
+-> 32 `c
+-> 112 `c
+-> 114 `c
+-> 105 `c
+-> 110 `c
+-> 99 `c
+-> 105 `c
+-> 112 `c
+-> 97 `c
+-> 108 `c
+-> 13 `c
+-> 10 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 45 `c
+-> 13 `c
+-> 10 `c
+-> 84 `c
+-> 114 `c
+-> 105 `c
+-> 97 `c
+-> 32 `c
+-> 117 `c
+-> 110 `c
+-> 97 `c
+-> 32 `c
+-> 111 `c
+-> 112 `c
+-> 99 `c
+-> 105 `c
+-> -13 `c
+-> 58 `c
+-> 13 `c
+-> 10 `c
+-> 9 `c
+-> 49 `c
+-> 46 `c
+-> 32 `c
+-> 81 `c
+-> 117 `c
+-> 105 `c
+-> 32 `c
+-> 104 `c
+-> 105 `c
+-> 32 `c
+-> 104 `c
+-> 97 `c
+-> 32 `c
+-> 97 `c
+-> 32 `c
+-> 108 `c
+-> 97 `c
+-> 32 `c
+-> 115 `c
+-> 97 `c
+-> 108 `c
+-> 97 `c
+-> 63 `c
+-> 13 `c
+-> 10 `c
+-> 9 `c
+-> 50 `c
+-> 46 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 97 `c
+-> 114 `c
+-> 32 `c
+-> 99 `c
+-> 111 `c
+-> 110 `c
+-> 102 `c
+-> 105 `c
+-> 103 `c
+-> 117 `c
+-> 114 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 115 `c
+-> 13 `c
+-> 10 `c
+-> 9 `c
+-> 51 `c
+-> 46 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 100 `c
+-> 105 `c
+-> 102 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 114 `c
+-> 32 `c
+-> 104 `c
+-> 111 `c
+-> 114 `c
+-> 97 `c
+-> 32 `c
+-> 100 `c
+-> 101 `c
+-> 108 `c
+-> 32 `c
+-> 115 `c
+-> 105 `c
+-> 115 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 97 `c
+-> 13 `c
+-> 10 `c
+-> 79 `c
+-> 112 `c
+-> 99 `c
+-> 105 `c
+-> -13 `c
+-> 58 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"55
+[; ;./TAD_MENU.h: 55: const char res_a_mostrar[] = "\r\nRes a mostrar";
+[v _res_a_mostrar `Cuc ~T0 @X0 -> 16 `i e ]
+[i _res_a_mostrar
+:U ..
+-> 13 `c
+-> 10 `c
+-> 82 `c
+-> 101 `c
+-> 115 `c
+-> 32 `c
+-> 97 `c
+-> 32 `c
+-> 109 `c
+-> 111 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 97 `c
+-> 114 `c
+-> 0 `c
+..
+]
+"56
+[; ;./TAD_MENU.h: 56: const char hora_sistema[] = "\r\nHora del sistema: ";
+[v _hora_sistema `Cuc ~T0 @X0 -> 21 `i e ]
+[i _hora_sistema
+:U ..
+-> 13 `c
+-> 10 `c
+-> 72 `c
+-> 111 `c
+-> 114 `c
+-> 97 `c
+-> 32 `c
+-> 100 `c
+-> 101 `c
+-> 108 `c
+-> 32 `c
+-> 115 `c
+-> 105 `c
+-> 115 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 97 `c
+-> 58 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"57
+[; ;./TAD_MENU.h: 57: const char separador_hora[] = ":";
+[v _separador_hora `Cuc ~T0 @X0 -> 2 `i e ]
+[i _separador_hora
+:U ..
+-> 58 `c
+-> 0 `c
+..
+]
+"58
+[; ;./TAD_MENU.h: 58: const char enter_aplicar[] = "\r\nEnter per aplicar... ";
+[v _enter_aplicar `Cuc ~T0 @X0 -> 24 `i e ]
+[i _enter_aplicar
+:U ..
+-> 13 `c
+-> 10 `c
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 112 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 97 `c
+-> 112 `c
+-> 108 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 114 `c
+-> 46 `c
+-> 46 `c
+-> 46 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"59
+[; ;./TAD_MENU.h: 59: const char canvis_aplicats[] = "\r\nCanvis aplicats.";
+[v _canvis_aplicats `Cuc ~T0 @X0 -> 19 `i e ]
+[i _canvis_aplicats
+:U ..
+-> 13 `c
+-> 10 `c
+-> 67 `c
+-> 97 `c
+-> 110 `c
+-> 118 `c
+-> 105 `c
+-> 115 `c
+-> 32 `c
+-> 97 `c
+-> 112 `c
+-> 108 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 116 `c
+-> 115 `c
+-> 46 `c
+-> 0 `c
+..
+]
+"3 TAD_MENU.c
+[; ;TAD_MENU.c: 3: static unsigned char state_main_motor, state_option3;
+[v _state_main_motor `uc ~T0 @X0 1 s ]
+[v _state_option3 `uc ~T0 @X0 1 s ]
+"4
+[; ;TAD_MENU.c: 4: static unsigned char start_system, esc_key, hash_less_3s;
+[v _start_system `uc ~T0 @X0 1 s ]
+[v _esc_key `uc ~T0 @X0 1 s ]
+[v _hash_less_3s `uc ~T0 @X0 1 s ]
+"5
+[; ;TAD_MENU.c: 5: static unsigned char option, hora_h, hora_l, minuts_h, minuts_l, enter;
+[v _option `uc ~T0 @X0 1 s ]
+[v _hora_h `uc ~T0 @X0 1 s ]
+[v _hora_l `uc ~T0 @X0 1 s ]
+[v _minuts_h `uc ~T0 @X0 1 s ]
+[v _minuts_l `uc ~T0 @X0 1 s ]
+[v _enter `uc ~T0 @X0 1 s ]
+"6
+[; ;TAD_MENU.c: 6: static unsigned char someone;
+[v _someone `uc ~T0 @X0 1 s ]
+"8
+[; ;TAD_MENU.c: 8: static unsigned char actualitzar_lcd, quinLed, quinaIntensitat;
+[v _actualitzar_lcd `uc ~T0 @X0 1 s ]
+[v _quinLed `uc ~T0 @X0 1 s ]
+[v _quinaIntensitat `uc ~T0 @X0 1 s ]
+"9
+[; ;TAD_MENU.c: 9: static unsigned char key;
+[v _key `uc ~T0 @X0 1 s ]
+"10
+[; ;TAD_MENU.c: 10: static unsigned char state_setIntensity;
+[v _state_setIntensity `uc ~T0 @X0 1 s ]
+"13
+[; ;TAD_MENU.c: 13: static unsigned char UID_CURRENT[5];
+[v _UID_CURRENT `uc ~T0 @X0 -> 5 `i s ]
+"14
+[; ;TAD_MENU.c: 14: static unsigned char LEDS_CURRENT[6];
+[v _LEDS_CURRENT `uc ~T0 @X0 -> 6 `i s ]
+"15
+[; ;TAD_MENU.c: 15: static unsigned char INDEX_CURRENT;
+[v _INDEX_CURRENT `uc ~T0 @X0 1 s ]
+"17
+[; ;TAD_MENU.c: 17: static unsigned char TimerHash;
+[v _TimerHash `uc ~T0 @X0 1 s ]
+"32
+[; ;TAD_MENU.c: 32: void MENU_Init(void) {
+[v _MENU_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _MENU_Init ]
+[f ]
+"33
+[; ;TAD_MENU.c: 33:     state_main_motor = state_option3 =
+[e = _state_main_motor = _state_option3 = _actualitzar_lcd = _someone = _esc_key = _hash_less_3s = _hora_h = _hora_l = _minuts_h = _minuts_l = _key -> -> 0 `i `uc ]
+"37
+[; ;TAD_MENU.c: 37:     state_setIntensity = 0;
+[e = _state_setIntensity -> -> 0 `i `uc ]
+"38
+[; ;TAD_MENU.c: 38:     start_system = 1;
+[e = _start_system -> -> 1 `i `uc ]
+"40
+[; ;TAD_MENU.c: 40:     TI_NewTimer(&TimerHash);
+[e ( _TI_NewTimer (1 &U _TimerHash ]
+"41
+[; ;TAD_MENU.c: 41: }
+[e :UE 302 ]
+}
+"43
+[; ;TAD_MENU.c: 43: void MENU_Motor(void) {
+[v _MENU_Motor `(v ~T0 @X0 1 ef ]
+{
+[e :U _MENU_Motor ]
+[f ]
+"44
+[; ;TAD_MENU.c: 44:     unsigned char received_char = 0;
+[v _received_char `uc ~T0 @X0 1 a ]
+[e = _received_char -> -> 0 `i `uc ]
+"46
+[; ;TAD_MENU.c: 46:     SIO_Receive(&received_char);
+[e ( _SIO_Receive (1 &U _received_char ]
+"48
+[; ;TAD_MENU.c: 48:     handleEscKey(received_char);
+[e ( _handleEscKey (1 _received_char ]
+"49
+[; ;TAD_MENU.c: 49:     handleIntensity();
+[e ( _handleIntensity ..  ]
+"50
+[; ;TAD_MENU.c: 50:     handleMainMenu();
+[e ( _handleMainMenu ..  ]
+"52
+[; ;TAD_MENU.c: 52:     switch(state_main_motor) {
+[e $U 305  ]
+{
+"53
+[; ;TAD_MENU.c: 53:         case 0:
+[e :U 306 ]
+"54
+[; ;TAD_MENU.c: 54:             if(received_char == '1' || received_char == '2' || received_char == '3') {
+[e $ ! || || == -> _received_char `ui -> 49 `ui == -> _received_char `ui -> 50 `ui == -> _received_char `ui -> 51 `ui 307  ]
+{
+"55
+[; ;TAD_MENU.c: 55:                 SIO_Send(received_char);
+[e ( _SIO_Send (1 _received_char ]
+"56
+[; ;TAD_MENU.c: 56:                 option = received_char;
+[e = _option _received_char ]
+"57
+[; ;TAD_MENU.c: 57:                 received_char = 0;
+[e = _received_char -> -> 0 `i `uc ]
+"58
+[; ;TAD_MENU.c: 58:                 state_main_motor++;
+[e ++ _state_main_motor -> -> 1 `i `uc ]
+"59
+[; ;TAD_MENU.c: 59:                 state_option3 = 0;
+[e = _state_option3 -> -> 0 `i `uc ]
+"60
+[; ;TAD_MENU.c: 60:             }
+}
+[e :U 307 ]
+"62
+[; ;TAD_MENU.c: 62:             break;
+[e $U 304  ]
+"64
+[; ;TAD_MENU.c: 64:         case 1:
+[e :U 308 ]
+"65
+[; ;TAD_MENU.c: 65:             switch(option) {
+[e $U 310  ]
+{
+"66
+[; ;TAD_MENU.c: 66:                 case '1':
+[e :U 311 ]
+"67
+[; ;TAD_MENU.c: 67:                     if(someone) {
+[e $ ! != -> _someone `i -> 0 `i 312  ]
+{
+"68
+[; ;TAD_MENU.c: 68:                         showUID(INDEX_CURRENT);
+[e ( _showUID (1 _INDEX_CURRENT ]
+"69
+[; ;TAD_MENU.c: 69:                     } else {
+}
+[e $U 313  ]
+[e :U 312 ]
+{
+"70
+[; ;TAD_MENU.c: 70:                         SIO_SendString(res_a_mostrar);
+[e ( _SIO_SendString (1 &U _res_a_mostrar ]
+"71
+[; ;TAD_MENU.c: 71:                     }
+}
+[e :U 313 ]
+"72
+[; ;TAD_MENU.c: 72:                     state_main_motor++;
+[e ++ _state_main_motor -> -> 1 `i `uc ]
+"73
+[; ;TAD_MENU.c: 73:                     break;
+[e $U 309  ]
+"74
+[; ;TAD_MENU.c: 74:                 case '2':
+[e :U 314 ]
+"75
+[; ;TAD_MENU.c: 75:                     for(int i = 1; i < 6; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 1 `i ]
+[e $ < _i -> 6 `i 315  ]
+[e $U 316  ]
+[e :U 315 ]
+{
+"76
+[; ;TAD_MENU.c: 76:                         showUID((char)i);
+[e ( _showUID (1 -> -> _i `uc `uc ]
+"77
+[; ;TAD_MENU.c: 77:                         showConfigLeds((char)i);
+[e ( _showConfigLeds (1 -> -> _i `uc `uc ]
+"78
+[; ;TAD_MENU.c: 78:                         SIO_SendString("\r\n");
+[e ( _SIO_SendString (1 :s 1C ]
+"79
+[; ;TAD_MENU.c: 79:                     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 6 `i 315  ]
+[e :U 316 ]
+}
+"80
+[; ;TAD_MENU.c: 80:                     state_main_motor++;
+[e ++ _state_main_motor -> -> 1 `i `uc ]
+"81
+[; ;TAD_MENU.c: 81:                     break;
+[e $U 309  ]
+"82
+[; ;TAD_MENU.c: 82:                 case '3':
+[e :U 318 ]
+"83
+[; ;TAD_MENU.c: 83:                     option3(received_char);
+[e ( _option3 (1 _received_char ]
+"84
+[; ;TAD_MENU.c: 84:                     break;
+[e $U 309  ]
+"85
+[; ;TAD_MENU.c: 85:             }
+}
+[e $U 309  ]
+[e :U 310 ]
+[e [\ _option , $ -> -> 49 `ui `i 311
+ , $ -> -> 50 `ui `i 314
+ , $ -> -> 51 `ui `i 318
+ 309 ]
+[e :U 309 ]
+"86
+[; ;TAD_MENU.c: 86:             break;
+[e $U 304  ]
+"87
+[; ;TAD_MENU.c: 87:         case 2:
+[e :U 319 ]
+"88
+[; ;TAD_MENU.c: 88:             SIO_SendString("\r\n\r\nOpció: ");
+[e ( _SIO_SendString (1 :s 2C ]
+"89
+[; ;TAD_MENU.c: 89:             received_char = 0;
+[e = _received_char -> -> 0 `i `uc ]
+"90
+[; ;TAD_MENU.c: 90:             state_main_motor = 0;
+[e = _state_main_motor -> -> 0 `i `uc ]
+"91
+[; ;TAD_MENU.c: 91:             break;
+[e $U 304  ]
+"92
+[; ;TAD_MENU.c: 92:     }
+}
+[e $U 304  ]
+[e :U 305 ]
+[e [\ _state_main_motor , $ -> 0 `i 306
+ , $ -> 1 `i 308
+ , $ -> 2 `i 319
+ 304 ]
+[e :U 304 ]
+"93
+[; ;TAD_MENU.c: 93: }
+[e :UE 303 ]
+}
+"95
+[; ;TAD_MENU.c: 95: void MENU_MotorHandleHash(void) {
+[v _MENU_MotorHandleHash `(v ~T0 @X0 1 ef ]
+{
+[e :U _MENU_MotorHandleHash ]
+[f ]
+"96
+[; ;TAD_MENU.c: 96:     static unsigned char state_hash = 0;
+[v F2794 `uc ~T0 @X0 1 s state_hash ]
+[i F2794
+-> -> 0 `i `uc
+]
+"97
+[; ;TAD_MENU.c: 97:     static unsigned char bug_timer = 0;
+[v F2795 `uc ~T0 @X0 1 s bug_timer ]
+[i F2795
+-> -> 0 `i `uc
+]
+"99
+[; ;TAD_MENU.c: 99:     switch(state_hash) {
+[e $U 322  ]
+{
+"100
+[; ;TAD_MENU.c: 100:         case 0:
+[e :U 323 ]
+"101
+[; ;TAD_MENU.c: 101:             if(TM_IsKeyPressed()) {
+[e $ ! != -> ( _TM_IsKeyPressed ..  `i -> 0 `i 324  ]
+{
+"102
+[; ;TAD_MENU.c: 102:                 TI_ResetTics(TimerHash);
+[e ( _TI_ResetTics (1 _TimerHash ]
+"103
+[; ;TAD_MENU.c: 103:                 state_hash++;
+[e ++ F2794 -> -> 1 `i `uc ]
+"104
+[; ;TAD_MENU.c: 104:             }
+}
+[e :U 324 ]
+"105
+[; ;TAD_MENU.c: 105:             break;
+[e $U 321  ]
+"106
+[; ;TAD_MENU.c: 106:         case 1:
+[e :U 325 ]
+"108
+[; ;TAD_MENU.c: 108:             if(TI_GetTics(TimerHash) >= 500 ) {
+[e $ ! >= ( _TI_GetTics (1 _TimerHash -> -> -> 500 `i `l `ul 326  ]
+{
+"109
+[; ;TAD_MENU.c: 109:                 TI_ResetTics(TimerHash);
+[e ( _TI_ResetTics (1 _TimerHash ]
+"110
+[; ;TAD_MENU.c: 110:                 bug_timer++;
+[e ++ F2795 -> -> 1 `i `uc ]
+"111
+[; ;TAD_MENU.c: 111:             }
+}
+[e :U 326 ]
+"112
+[; ;TAD_MENU.c: 112:             if(!TM_IsKeyPressed()) {
+[e $ ! ! != -> ( _TM_IsKeyPressed ..  `i -> 0 `i 327  ]
+{
+"113
+[; ;TAD_MENU.c: 113:                 TM_GetTecla(&key);
+[e ( _TM_GetTecla (1 &U _key ]
+"114
+[; ;TAD_MENU.c: 114:                 if (key == '#') {
+[e $ ! == -> _key `ui -> 35 `ui 328  ]
+{
+"115
+[; ;TAD_MENU.c: 115:                     state_hash++;
+[e ++ F2794 -> -> 1 `i `uc ]
+"116
+[; ;TAD_MENU.c: 116:                 } else {
+}
+[e $U 329  ]
+[e :U 328 ]
+{
+"117
+[; ;TAD_MENU.c: 117:                     state_hash--;
+[e -- F2794 -> -> 1 `i `uc ]
+"118
+[; ;TAD_MENU.c: 118:                 }
+}
+[e :U 329 ]
+"119
+[; ;TAD_MENU.c: 119:             }
+}
+[e :U 327 ]
+"120
+[; ;TAD_MENU.c: 120:             break;
+[e $U 321  ]
+"121
+[; ;TAD_MENU.c: 121:         case 2:
+[e :U 330 ]
+"122
+[; ;TAD_MENU.c: 122:             if(bug_timer < 3) {
+[e $ ! < -> F2795 `i -> 3 `i 331  ]
+{
+"123
+[; ;TAD_MENU.c: 123:                 hash_less_3s = 1;
+[e = _hash_less_3s -> -> 1 `i `uc ]
+"124
+[; ;TAD_MENU.c: 124:                 state_main_motor = 0;
+[e = _state_main_motor -> -> 0 `i `uc ]
+"125
+[; ;TAD_MENU.c: 125:             } else {
+}
+[e $U 332  ]
+[e :U 331 ]
+{
+"126
+[; ;TAD_MENU.c: 126:                 for(int i = 0; i < 6; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 6 `i 333  ]
+[e $U 334  ]
+[e :U 333 ]
+{
+"127
+[; ;TAD_MENU.c: 127:                     for (int j = 0; j < 6; j++) {
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+[e $ < _j -> 6 `i 336  ]
+[e $U 337  ]
+[e :U 336 ]
+{
+"128
+[; ;TAD_MENU.c: 128:                         leds_saved[i][j] = 0;
+[e = *U + &U *U + &U _leds_saved * -> -> _i `ui `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux * -> -> _j `ui `ux -> -> # *U &U *U + &U _leds_saved * -> -> _i `ui `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux `ui `ux -> -> 0 `i `uc ]
+"129
+[; ;TAD_MENU.c: 129:                         LEDS_CURRENT[j] = 0;
+[e = *U + &U _LEDS_CURRENT * -> -> _j `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux -> -> 0 `i `uc ]
+"130
+[; ;TAD_MENU.c: 130:                     }
+}
+[e ++ _j -> 1 `i ]
+[e $ < _j -> 6 `i 336  ]
+[e :U 337 ]
+}
+"131
+[; ;TAD_MENU.c: 131:                 }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 6 `i 333  ]
+[e :U 334 ]
+}
+"132
+[; ;TAD_MENU.c: 132:                 if (someone) actualitzar_lcd = 1;
+[e $ ! != -> _someone `i -> 0 `i 339  ]
+[e = _actualitzar_lcd -> -> 1 `i `uc ]
+[e :U 339 ]
+"133
+[; ;TAD_MENU.c: 133:             }
+}
+[e :U 332 ]
+"134
+[; ;TAD_MENU.c: 134:             state_hash = bug_timer = 0;
+[e = F2794 = F2795 -> -> 0 `i `uc ]
+"135
+[; ;TAD_MENU.c: 135:             break;
+[e $U 321  ]
+"136
+[; ;TAD_MENU.c: 136:     }
+}
+[e $U 321  ]
+[e :U 322 ]
+[e [\ F2794 , $ -> 0 `i 323
+ , $ -> 1 `i 325
+ , $ -> 2 `i 330
+ 321 ]
+[e :U 321 ]
+"137
+[; ;TAD_MENU.c: 137: }
+[e :UE 320 ]
+}
+"139
+[; ;TAD_MENU.c: 139: void MENU_MotorHandleSetIntensity(void) {
+[v _MENU_MotorHandleSetIntensity `(v ~T0 @X0 1 ef ]
+{
+[e :U _MENU_MotorHandleSetIntensity ]
+[f ]
+"140
+[; ;TAD_MENU.c: 140:     switch (state_setIntensity) {
+[e $U 342  ]
+{
+"141
+[; ;TAD_MENU.c: 141:         case 0:
+[e :U 343 ]
+"142
+[; ;TAD_MENU.c: 142:             if (TM_IsKeyPressed()) {
+[e $ ! != -> ( _TM_IsKeyPressed ..  `i -> 0 `i 344  ]
+{
+"143
+[; ;TAD_MENU.c: 143:                 state_setIntensity++;
+[e ++ _state_setIntensity -> -> 1 `i `uc ]
+"144
+[; ;TAD_MENU.c: 144:             }
+}
+[e :U 344 ]
+"145
+[; ;TAD_MENU.c: 145:             break;
+[e $U 341  ]
+"146
+[; ;TAD_MENU.c: 146:         case 1:
+[e :U 345 ]
+"147
+[; ;TAD_MENU.c: 147:             if (!TM_IsKeyPressed()) {
+[e $ ! ! != -> ( _TM_IsKeyPressed ..  `i -> 0 `i 346  ]
+{
+"148
+[; ;TAD_MENU.c: 148:                 state_setIntensity++;
+[e ++ _state_setIntensity -> -> 1 `i `uc ]
+"149
+[; ;TAD_MENU.c: 149:             }
+}
+[e :U 346 ]
+"150
+[; ;TAD_MENU.c: 150:             break;
+[e $U 341  ]
+"151
+[; ;TAD_MENU.c: 151:         case 2:
+[e :U 347 ]
+"152
+[; ;TAD_MENU.c: 152:             TM_GetTecla(&key);
+[e ( _TM_GetTecla (1 &U _key ]
+"153
+[; ;TAD_MENU.c: 153:             if (someone && key >= '1' && key <= '6') {
+[e $ ! && && != -> _someone `i -> 0 `i >= -> _key `ui -> 49 `ui <= -> _key `ui -> 54 `ui 348  ]
+{
+"154
+[; ;TAD_MENU.c: 154:                 quinLed = key - '0' - 1;
+[e = _quinLed -> - - -> _key `ui -> 48 `ui -> -> 1 `i `ui `uc ]
+"155
+[; ;TAD_MENU.c: 155:                 state_setIntensity++;
+[e ++ _state_setIntensity -> -> 1 `i `uc ]
+"156
+[; ;TAD_MENU.c: 156:             } else {
+}
+[e $U 349  ]
+[e :U 348 ]
+{
+"157
+[; ;TAD_MENU.c: 157:                 state_setIntensity = 0;
+[e = _state_setIntensity -> -> 0 `i `uc ]
+"158
+[; ;TAD_MENU.c: 158:             }
+}
+[e :U 349 ]
+"159
+[; ;TAD_MENU.c: 159:             break;
+[e $U 341  ]
+"160
+[; ;TAD_MENU.c: 160:         case 3:
+[e :U 350 ]
+"161
+[; ;TAD_MENU.c: 161:             if (TM_IsKeyPressed()) {
+[e $ ! != -> ( _TM_IsKeyPressed ..  `i -> 0 `i 351  ]
+{
+"162
+[; ;TAD_MENU.c: 162:                 state_setIntensity++;
+[e ++ _state_setIntensity -> -> 1 `i `uc ]
+"163
+[; ;TAD_MENU.c: 163:             }
+}
+[e :U 351 ]
+"164
+[; ;TAD_MENU.c: 164:             break;
+[e $U 341  ]
+"165
+[; ;TAD_MENU.c: 165:         case 4:
+[e :U 352 ]
+"166
+[; ;TAD_MENU.c: 166:             if (!TM_IsKeyPressed()) {
+[e $ ! ! != -> ( _TM_IsKeyPressed ..  `i -> 0 `i 353  ]
+{
+"167
+[; ;TAD_MENU.c: 167:                 state_setIntensity++;
+[e ++ _state_setIntensity -> -> 1 `i `uc ]
+"168
+[; ;TAD_MENU.c: 168:             }
+}
+[e :U 353 ]
+"169
+[; ;TAD_MENU.c: 169:             break;
+[e $U 341  ]
+"170
+[; ;TAD_MENU.c: 170:         case 5:
+[e :U 354 ]
+"171
+[; ;TAD_MENU.c: 171:             TM_GetTecla(&key);
+[e ( _TM_GetTecla (1 &U _key ]
+"172
+[; ;TAD_MENU.c: 172:             if (someone && ((key >= '0' && key <= '9') || key == '*')) {
+[e $ ! && != -> _someone `i -> 0 `i || && >= -> _key `ui -> 48 `ui <= -> _key `ui -> 57 `ui == -> _key `ui -> 42 `ui 355  ]
+{
+"173
+[; ;TAD_MENU.c: 173:                 quinaIntensitat = (key == '*') ? 10 : key - '0';
+[e = _quinaIntensitat -> ? == -> _key `ui -> 42 `ui : -> -> 10 `i `ui - -> _key `ui -> 48 `ui `uc ]
+"174
+[; ;TAD_MENU.c: 174:                 leds_saved[INDEX_CURRENT][quinLed] = quinaIntensitat;
+[e = *U + &U *U + &U _leds_saved * -> _INDEX_CURRENT `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux * -> _quinLed `ux -> -> # *U &U *U + &U _leds_saved * -> _INDEX_CURRENT `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux `ui `ux _quinaIntensitat ]
+"175
+[; ;TAD_MENU.c: 175:                 LEDS_CURRENT[quinLed] = quinaIntensitat;
+[e = *U + &U _LEDS_CURRENT * -> _quinLed `ux -> -> # *U &U _LEDS_CURRENT `ui `ux _quinaIntensitat ]
+"176
+[; ;TAD_MENU.c: 176:                 LEDS_setIntensitat(quinLed, quinaIntensitat);
+[e ( _LEDS_setIntensitat (2 , _quinLed _quinaIntensitat ]
+"177
+[; ;TAD_MENU.c: 177:                 state_setIntensity = 0;
+[e = _state_setIntensity -> -> 0 `i `uc ]
+"178
+[; ;TAD_MENU.c: 178:                 actualitzar_lcd = 1;
+[e = _actualitzar_lcd -> -> 1 `i `uc ]
+"179
+[; ;TAD_MENU.c: 179:             }
+}
+[e :U 355 ]
+"180
+[; ;TAD_MENU.c: 180:             break;
+[e $U 341  ]
+"181
+[; ;TAD_MENU.c: 181:     }
+}
+[e $U 341  ]
+[e :U 342 ]
+[e [\ _state_setIntensity , $ -> 0 `i 343
+ , $ -> 1 `i 345
+ , $ -> 2 `i 347
+ , $ -> 3 `i 350
+ , $ -> 4 `i 352
+ , $ -> 5 `i 354
+ 341 ]
+[e :U 341 ]
+"182
+[; ;TAD_MENU.c: 182: }
+[e :UE 340 ]
+}
+"185
+[; ;TAD_MENU.c: 185: void MENU_MotorActualitzarLCD(void) {
+[v _MENU_MotorActualitzarLCD `(v ~T0 @X0 1 ef ]
+{
+[e :U _MENU_MotorActualitzarLCD ]
+[f ]
+"186
+[; ;TAD_MENU.c: 186:     if(actualitzar_lcd) {
+[e $ ! != -> _actualitzar_lcd `i -> 0 `i 357  ]
+{
+"187
+[; ;TAD_MENU.c: 187:         actualitzar_lcd = 0;
+[e = _actualitzar_lcd -> -> 0 `i `uc ]
+"188
+[; ;TAD_MENU.c: 188:         printLCD();
+[e ( _printLCD ..  ]
+"189
+[; ;TAD_MENU.c: 189:     }
+}
+[e :U 357 ]
+"190
+[; ;TAD_MENU.c: 190: }
+[e :UE 356 ]
+}
+"192
+[; ;TAD_MENU.c: 192: void MENU_addMinute(void) {
+[v _MENU_addMinute `(v ~T0 @X0 1 ef ]
+{
+[e :U _MENU_addMinute ]
+[f ]
+"193
+[; ;TAD_MENU.c: 193:     actualitzar_lcd = 1;
+[e = _actualitzar_lcd -> -> 1 `i `uc ]
+"194
+[; ;TAD_MENU.c: 194:     if (minuts_l == 9) {
+[e $ ! == -> _minuts_l `i -> 9 `i 359  ]
+{
+"195
+[; ;TAD_MENU.c: 195:         minuts_l = 0;
+[e = _minuts_l -> -> 0 `i `uc ]
+"196
+[; ;TAD_MENU.c: 196:         if (minuts_h == 5) {
+[e $ ! == -> _minuts_h `i -> 5 `i 360  ]
+{
+"197
+[; ;TAD_MENU.c: 197:             minuts_h = 0;
+[e = _minuts_h -> -> 0 `i `uc ]
+"198
+[; ;TAD_MENU.c: 198:             addHour();
+[e ( _addHour ..  ]
+"199
+[; ;TAD_MENU.c: 199:         } else {
+}
+[e $U 361  ]
+[e :U 360 ]
+{
+"200
+[; ;TAD_MENU.c: 200:             minuts_h++;
+[e ++ _minuts_h -> -> 1 `i `uc ]
+"201
+[; ;TAD_MENU.c: 201:         }
+}
+[e :U 361 ]
+"202
+[; ;TAD_MENU.c: 202:     } else {
+}
+[e $U 362  ]
+[e :U 359 ]
+{
+"203
+[; ;TAD_MENU.c: 203:         minuts_l++;
+[e ++ _minuts_l -> -> 1 `i `uc ]
+"204
+[; ;TAD_MENU.c: 204:     }
+}
+[e :U 362 ]
+"205
+[; ;TAD_MENU.c: 205: }
+[e :UE 358 ]
+}
+"207
+[; ;TAD_MENU.c: 207: void addHour(void) {
+[v _addHour `(v ~T0 @X0 1 ef ]
+{
+[e :U _addHour ]
+[f ]
+"208
+[; ;TAD_MENU.c: 208:     if (hora_l == 9) {
+[e $ ! == -> _hora_l `i -> 9 `i 364  ]
+{
+"209
+[; ;TAD_MENU.c: 209:         hora_l = 0;
+[e = _hora_l -> -> 0 `i `uc ]
+"210
+[; ;TAD_MENU.c: 210:         if (hora_h == 2) {
+[e $ ! == -> _hora_h `i -> 2 `i 365  ]
+{
+"211
+[; ;TAD_MENU.c: 211:             hora_h = 0;
+[e = _hora_h -> -> 0 `i `uc ]
+"212
+[; ;TAD_MENU.c: 212:         } else {
+}
+[e $U 366  ]
+[e :U 365 ]
+{
+"213
+[; ;TAD_MENU.c: 213:             hora_h++;
+[e ++ _hora_h -> -> 1 `i `uc ]
+"214
+[; ;TAD_MENU.c: 214:         }
+}
+[e :U 366 ]
+"215
+[; ;TAD_MENU.c: 215:     } else if (hora_h == 2 && hora_l == 3) {
+}
+[e $U 367  ]
+[e :U 364 ]
+[e $ ! && == -> _hora_h `i -> 2 `i == -> _hora_l `i -> 3 `i 368  ]
+{
+"216
+[; ;TAD_MENU.c: 216:         hora_h = 0;
+[e = _hora_h -> -> 0 `i `uc ]
+"217
+[; ;TAD_MENU.c: 217:         hora_l = 0;
+[e = _hora_l -> -> 0 `i `uc ]
+"218
+[; ;TAD_MENU.c: 218:     } else {
+}
+[e $U 369  ]
+[e :U 368 ]
+{
+"219
+[; ;TAD_MENU.c: 219:         hora_l++;
+[e ++ _hora_l -> -> 1 `i `uc ]
+"220
+[; ;TAD_MENU.c: 220:     }
+}
+[e :U 369 ]
+[e :U 367 ]
+"221
+[; ;TAD_MENU.c: 221: }
+[e :UE 363 ]
+}
+"224
+[; ;TAD_MENU.c: 224: void handleEscKey(unsigned char received_char) {
+[v _handleEscKey `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _handleEscKey ]
+[v _received_char `uc ~T0 @X0 1 r1 ]
+[f ]
+"225
+[; ;TAD_MENU.c: 225:     if (received_char == 0x1B) {
+[e $ ! == -> _received_char `i -> 27 `i 371  ]
+{
+"226
+[; ;TAD_MENU.c: 226:         esc_key = 1;
+[e = _esc_key -> -> 1 `i `uc ]
+"227
+[; ;TAD_MENU.c: 227:         state_main_motor = 0;
+[e = _state_main_motor -> -> 0 `i `uc ]
+"228
+[; ;TAD_MENU.c: 228:         received_char = 0;
+[e = _received_char -> -> 0 `i `uc ]
+"229
+[; ;TAD_MENU.c: 229:     }
+}
+[e :U 371 ]
+"230
+[; ;TAD_MENU.c: 230: }
+[e :UE 370 ]
+}
+"232
+[; ;TAD_MENU.c: 232: void handleMainMenu(void) {
+[v _handleMainMenu `(v ~T0 @X0 1 ef ]
+{
+[e :U _handleMainMenu ]
+[f ]
+"233
+[; ;TAD_MENU.c: 233:     if(start_system || esc_key || hash_less_3s) {
+[e $ ! || || != -> _start_system `i -> 0 `i != -> _esc_key `i -> 0 `i != -> _hash_less_3s `i -> 0 `i 373  ]
+{
+"234
+[; ;TAD_MENU.c: 234:         start_system = esc_key = hash_less_3s = 0;
+[e = _start_system = _esc_key = _hash_less_3s -> -> 0 `i `uc ]
+"236
+[; ;TAD_MENU.c: 236:         SIO_SendString(menu_principal);
+[e ( _SIO_SendString (1 &U _menu_principal ]
+"237
+[; ;TAD_MENU.c: 237:     }
+}
+[e :U 373 ]
+"238
+[; ;TAD_MENU.c: 238: }
+[e :UE 372 ]
+}
+"240
+[; ;TAD_MENU.c: 240: void handleIntensity(void) {
+[v _handleIntensity `(v ~T0 @X0 1 ef ]
+{
+[e :U _handleIntensity ]
+[f ]
+"241
+[; ;TAD_MENU.c: 241:     if(!someone) {
+[e $ ! ! != -> _someone `i -> 0 `i 375  ]
+{
+"242
+[; ;TAD_MENU.c: 242:         LEDS_setIntensitat(0, 0);
+[e ( _LEDS_setIntensitat (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"243
+[; ;TAD_MENU.c: 243:         LEDS_setIntensitat(1, 0);
+[e ( _LEDS_setIntensitat (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"244
+[; ;TAD_MENU.c: 244:         LEDS_setIntensitat(2, 0);
+[e ( _LEDS_setIntensitat (2 , -> -> 2 `i `uc -> -> 0 `i `uc ]
+"245
+[; ;TAD_MENU.c: 245:         LEDS_setIntensitat(3, 0);
+[e ( _LEDS_setIntensitat (2 , -> -> 3 `i `uc -> -> 0 `i `uc ]
+"246
+[; ;TAD_MENU.c: 246:         LEDS_setIntensitat(4, 0);
+[e ( _LEDS_setIntensitat (2 , -> -> 4 `i `uc -> -> 0 `i `uc ]
+"247
+[; ;TAD_MENU.c: 247:         LEDS_setIntensitat(5, 0);
+[e ( _LEDS_setIntensitat (2 , -> -> 5 `i `uc -> -> 0 `i `uc ]
+"248
+[; ;TAD_MENU.c: 248:     } else {
+}
+[e $U 376  ]
+[e :U 375 ]
+{
+"249
+[; ;TAD_MENU.c: 249:         LEDS_setIntensitat(0, LEDS_CURRENT[0]);
+[e ( _LEDS_setIntensitat (2 , -> -> 0 `i `uc *U + &U _LEDS_CURRENT * -> -> -> 0 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"250
+[; ;TAD_MENU.c: 250:         LEDS_setIntensitat(1, LEDS_CURRENT[1]);
+[e ( _LEDS_setIntensitat (2 , -> -> 1 `i `uc *U + &U _LEDS_CURRENT * -> -> -> 1 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"251
+[; ;TAD_MENU.c: 251:         LEDS_setIntensitat(2, LEDS_CURRENT[2]);
+[e ( _LEDS_setIntensitat (2 , -> -> 2 `i `uc *U + &U _LEDS_CURRENT * -> -> -> 2 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"252
+[; ;TAD_MENU.c: 252:         LEDS_setIntensitat(3, LEDS_CURRENT[3]);
+[e ( _LEDS_setIntensitat (2 , -> -> 3 `i `uc *U + &U _LEDS_CURRENT * -> -> -> 3 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"253
+[; ;TAD_MENU.c: 253:         LEDS_setIntensitat(4, LEDS_CURRENT[4]);
+[e ( _LEDS_setIntensitat (2 , -> -> 4 `i `uc *U + &U _LEDS_CURRENT * -> -> -> 4 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"254
+[; ;TAD_MENU.c: 254:         LEDS_setIntensitat(5, LEDS_CURRENT[5]);
+[e ( _LEDS_setIntensitat (2 , -> -> 5 `i `uc *U + &U _LEDS_CURRENT * -> -> -> 5 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"255
+[; ;TAD_MENU.c: 255:     }
+}
+[e :U 376 ]
+"256
+[; ;TAD_MENU.c: 256: }
+[e :UE 374 ]
+}
+"258
+[; ;TAD_MENU.c: 258: void option3(unsigned char received_char) {
+[v _option3 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _option3 ]
+[v _received_char `uc ~T0 @X0 1 r1 ]
+[f ]
+"259
+[; ;TAD_MENU.c: 259:     switch(state_option3) {
+[e $U 379  ]
+{
+"260
+[; ;TAD_MENU.c: 260:         case 0:
+[e :U 380 ]
+"261
+[; ;TAD_MENU.c: 261:             SIO_SendString(hora_sistema);
+[e ( _SIO_SendString (1 &U _hora_sistema ]
+"262
+[; ;TAD_MENU.c: 262:             state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"263
+[; ;TAD_MENU.c: 263:             break;
+[e $U 378  ]
+"264
+[; ;TAD_MENU.c: 264:         case 1:
+[e :U 381 ]
+"265
+[; ;TAD_MENU.c: 265:             if (received_char >= '0' && received_char <= '9') {
+[e $ ! && >= -> _received_char `ui -> 48 `ui <= -> _received_char `ui -> 57 `ui 382  ]
+{
+"266
+[; ;TAD_MENU.c: 266:                 hora_h = received_char - '0';
+[e = _hora_h -> - -> _received_char `ui -> 48 `ui `uc ]
+"267
+[; ;TAD_MENU.c: 267:                 SIO_Send(received_char);
+[e ( _SIO_Send (1 _received_char ]
+"268
+[; ;TAD_MENU.c: 268:                 state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"269
+[; ;TAD_MENU.c: 269:             }
+}
+[e :U 382 ]
+"270
+[; ;TAD_MENU.c: 270:             break;
+[e $U 378  ]
+"271
+[; ;TAD_MENU.c: 271:         case 2:
+[e :U 383 ]
+"272
+[; ;TAD_MENU.c: 272:             if (received_char >= '0' && received_char <= '9') {
+[e $ ! && >= -> _received_char `ui -> 48 `ui <= -> _received_char `ui -> 57 `ui 384  ]
+{
+"273
+[; ;TAD_MENU.c: 273:                 hora_l = received_char - '0';
+[e = _hora_l -> - -> _received_char `ui -> 48 `ui `uc ]
+"274
+[; ;TAD_MENU.c: 274:                 SIO_Send(received_char);
+[e ( _SIO_Send (1 _received_char ]
+"275
+[; ;TAD_MENU.c: 275:                 state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"276
+[; ;TAD_MENU.c: 276:             }
+}
+[e :U 384 ]
+"277
+[; ;TAD_MENU.c: 277:             break;
+[e $U 378  ]
+"278
+[; ;TAD_MENU.c: 278:         case 3:
+[e :U 385 ]
+"279
+[; ;TAD_MENU.c: 279:             SIO_SendString(separador_hora);
+[e ( _SIO_SendString (1 &U _separador_hora ]
+"280
+[; ;TAD_MENU.c: 280:             state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"281
+[; ;TAD_MENU.c: 281:             break;
+[e $U 378  ]
+"282
+[; ;TAD_MENU.c: 282:         case 4:
+[e :U 386 ]
+"283
+[; ;TAD_MENU.c: 283:             if (received_char >= '0' && received_char <= '9') {
+[e $ ! && >= -> _received_char `ui -> 48 `ui <= -> _received_char `ui -> 57 `ui 387  ]
+{
+"284
+[; ;TAD_MENU.c: 284:                 minuts_h = received_char - '0';
+[e = _minuts_h -> - -> _received_char `ui -> 48 `ui `uc ]
+"285
+[; ;TAD_MENU.c: 285:                 SIO_Send(received_char);
+[e ( _SIO_Send (1 _received_char ]
+"286
+[; ;TAD_MENU.c: 286:                 state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"287
+[; ;TAD_MENU.c: 287:             }
+}
+[e :U 387 ]
+"288
+[; ;TAD_MENU.c: 288:             break;
+[e $U 378  ]
+"289
+[; ;TAD_MENU.c: 289:         case 5:
+[e :U 388 ]
+"290
+[; ;TAD_MENU.c: 290:             if (received_char >= '0' && received_char <= '9') {
+[e $ ! && >= -> _received_char `ui -> 48 `ui <= -> _received_char `ui -> 57 `ui 389  ]
+{
+"291
+[; ;TAD_MENU.c: 291:                 minuts_l = received_char - '0';
+[e = _minuts_l -> - -> _received_char `ui -> 48 `ui `uc ]
+"292
+[; ;TAD_MENU.c: 292:                 SIO_Send(received_char);
+[e ( _SIO_Send (1 _received_char ]
+"293
+[; ;TAD_MENU.c: 293:                 state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"294
+[; ;TAD_MENU.c: 294:             }
+}
+[e :U 389 ]
+"295
+[; ;TAD_MENU.c: 295:             break;
+[e $U 378  ]
+"296
+[; ;TAD_MENU.c: 296:         case 6:
+[e :U 390 ]
+"297
+[; ;TAD_MENU.c: 297:             SIO_SendString(enter_aplicar);
+[e ( _SIO_SendString (1 &U _enter_aplicar ]
+"298
+[; ;TAD_MENU.c: 298:             state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"299
+[; ;TAD_MENU.c: 299:             break;
+[e $U 378  ]
+"300
+[; ;TAD_MENU.c: 300:         case 7:
+[e :U 391 ]
+"301
+[; ;TAD_MENU.c: 301:             if (received_char == 0x0D) {
+[e $ ! == -> _received_char `i -> 13 `i 392  ]
+{
+"302
+[; ;TAD_MENU.c: 302:                 SIO_SendString(canvis_aplicats);
+[e ( _SIO_SendString (1 &U _canvis_aplicats ]
+"303
+[; ;TAD_MENU.c: 303:                 state_option3++;
+[e ++ _state_option3 -> -> 1 `i `uc ]
+"304
+[; ;TAD_MENU.c: 304:             }
+}
+[e :U 392 ]
+"305
+[; ;TAD_MENU.c: 305:             break;
+[e $U 378  ]
+"306
+[; ;TAD_MENU.c: 306:         case 8:
+[e :U 393 ]
+"307
+[; ;TAD_MENU.c: 307:             if(someone) actualitzar_lcd = 1;
+[e $ ! != -> _someone `i -> 0 `i 394  ]
+[e = _actualitzar_lcd -> -> 1 `i `uc ]
+[e :U 394 ]
+"308
+[; ;TAD_MENU.c: 308:             state_main_motor = 2;
+[e = _state_main_motor -> -> 2 `i `uc ]
+"309
+[; ;TAD_MENU.c: 309:             state_option3 = 0;
+[e = _state_option3 -> -> 0 `i `uc ]
+"310
+[; ;TAD_MENU.c: 310:             break;
+[e $U 378  ]
+"311
+[; ;TAD_MENU.c: 311:     }
+}
+[e $U 378  ]
+[e :U 379 ]
+[e [\ _state_option3 , $ -> 0 `i 380
+ , $ -> 1 `i 381
+ , $ -> 2 `i 383
+ , $ -> 3 `i 385
+ , $ -> 4 `i 386
+ , $ -> 5 `i 388
+ , $ -> 6 `i 390
+ , $ -> 7 `i 391
+ , $ -> 8 `i 393
+ 378 ]
+[e :U 378 ]
+"312
+[; ;TAD_MENU.c: 312: }
+[e :UE 377 ]
+}
+"314
+[; ;TAD_MENU.c: 314: void MENU_SaveUID(unsigned char UID[5]) {
+[v _MENU_SaveUID `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _MENU_SaveUID ]
+[v _UID `*uc ~T0 @X0 1 r1 ]
+[f ]
+"315
+[; ;TAD_MENU.c: 315:     unsigned char index = checkUID(UID);
+[v _index `uc ~T0 @X0 1 a ]
+[e = _index ( _checkUID (1 _UID ]
+"316
+[; ;TAD_MENU.c: 316:     if (index != 255) {
+[e $ ! != -> _index `i -> 255 `i 396  ]
+{
+"317
+[; ;TAD_MENU.c: 317:         SIO_SendString("\r\n\r\nTargeta detectada!");
+[e ( _SIO_SendString (1 :s 3C ]
+"319
+[; ;TAD_MENU.c: 319:         if (someone && mateixaTargeta(UID)) {
+[e $ ! && != -> _someone `i -> 0 `i != -> ( _mateixaTargeta (1 _UID `i -> 0 `i 397  ]
+{
+"320
+[; ;TAD_MENU.c: 320:             someone = 0;
+[e = _someone -> -> 0 `i `uc ]
+"321
+[; ;TAD_MENU.c: 321:             SIO_SendString("\r\nUsuari surt.");
+[e ( _SIO_SendString (1 :s 4C ]
+"322
+[; ;TAD_MENU.c: 322:             LcClear();
+[e ( _LcClear ..  ]
+"323
+[; ;TAD_MENU.c: 323:         } else {
+}
+[e $U 398  ]
+[e :U 397 ]
+{
+"324
+[; ;TAD_MENU.c: 324:             SIO_SendString("\r\nNou usuari.");
+[e ( _SIO_SendString (1 :s 5C ]
+"325
+[; ;TAD_MENU.c: 325:             for (int i = 0; i < 5; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 5 `i 399  ]
+[e $U 400  ]
+[e :U 399 ]
+{
+"326
+[; ;TAD_MENU.c: 326:                 UID_CURRENT[i] = uid_saved[index][i];
+[e = *U + &U _UID_CURRENT * -> -> _i `ui `ux -> -> # *U &U _UID_CURRENT `ui `ux *U + &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> _i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux ]
+"327
+[; ;TAD_MENU.c: 327:             }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 5 `i 399  ]
+[e :U 400 ]
+}
+"328
+[; ;TAD_MENU.c: 328:             for (int i = 0; i < 6; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 6 `i 402  ]
+[e $U 403  ]
+[e :U 402 ]
+{
+"329
+[; ;TAD_MENU.c: 329:                 LEDS_CURRENT[i] = leds_saved[index][i];
+[e = *U + &U _LEDS_CURRENT * -> -> _i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux *U + &U *U + &U _leds_saved * -> _index `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux * -> -> _i `ui `ux -> -> # *U &U *U + &U _leds_saved * -> _index `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux `ui `ux ]
+"330
+[; ;TAD_MENU.c: 330:             }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 6 `i 402  ]
+[e :U 403 ]
+}
+"331
+[; ;TAD_MENU.c: 331:             someone = 1;
+[e = _someone -> -> 1 `i `uc ]
+"332
+[; ;TAD_MENU.c: 332:             INDEX_CURRENT = index;
+[e = _INDEX_CURRENT _index ]
+"334
+[; ;TAD_MENU.c: 334:             for (int i = 0; i < 6; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 6 `i 405  ]
+[e $U 406  ]
+[e :U 405 ]
+{
+"335
+[; ;TAD_MENU.c: 335:                 LEDS_setIntensitat((char) i, LEDS_CURRENT[i]);
+[e ( _LEDS_setIntensitat (2 , -> -> _i `uc `uc *U + &U _LEDS_CURRENT * -> -> _i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux ]
+"336
+[; ;TAD_MENU.c: 336:             }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 6 `i 405  ]
+[e :U 406 ]
+}
+"338
+[; ;TAD_MENU.c: 338:             actualitzar_lcd = 1;
+[e = _actualitzar_lcd -> -> 1 `i `uc ]
+"339
+[; ;TAD_MENU.c: 339:         }
+}
+[e :U 398 ]
+"341
+[; ;TAD_MENU.c: 341:         showUID(INDEX_CURRENT);
+[e ( _showUID (1 _INDEX_CURRENT ]
+"342
+[; ;TAD_MENU.c: 342:         showConfigLeds(INDEX_CURRENT);
+[e ( _showConfigLeds (1 _INDEX_CURRENT ]
+"343
+[; ;TAD_MENU.c: 343:     } else {
+}
+[e $U 408  ]
+[e :U 396 ]
+{
+"344
+[; ;TAD_MENU.c: 344:         SIO_SendString("\r\n\r\nTargeta NO reconeguda!\r\n\tUID: ");
+[e ( _SIO_SendString (1 :s 6C ]
+"346
+[; ;TAD_MENU.c: 346:         for (int i = 0; i < 5; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 5 `i 409  ]
+[e $U 410  ]
+[e :U 409 ]
+{
+"347
+[; ;TAD_MENU.c: 347:             printHex(UID[i]);
+[e ( _printHex (1 *U + _UID * -> _i `x -> -> # *U _UID `i `x ]
+"348
+[; ;TAD_MENU.c: 348:             if (i < 5 - 1) SIO_SendString("-");
+[e $ ! < _i - -> 5 `i -> 1 `i 412  ]
+[e ( _SIO_SendString (1 :s 7C ]
+[e :U 412 ]
+"349
+[; ;TAD_MENU.c: 349:         }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 5 `i 409  ]
+[e :U 410 ]
+}
+"350
+[; ;TAD_MENU.c: 350:     }
+}
+[e :U 408 ]
+"351
+[; ;TAD_MENU.c: 351:     SIO_SendString("\r\n\r\nOpció: ");
+[e ( _SIO_SendString (1 :s 8C ]
+"352
+[; ;TAD_MENU.c: 352: }
+[e :UE 395 ]
+}
+"354
+[; ;TAD_MENU.c: 354: void printHex(unsigned char value) {
+[v _printHex `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _printHex ]
+[v _value `uc ~T0 @X0 1 r1 ]
+[f ]
+[v F2821 `Cuc ~T0 @X0 -> 17 `i s ]
+[i F2821
+:U ..
+"355
+[; ;TAD_MENU.c: 355:     const char hex_chars[] = "0123456789ABCDEF";
+-> 48 `c
+-> 49 `c
+-> 50 `c
+-> 51 `c
+-> 52 `c
+-> 53 `c
+-> 54 `c
+-> 55 `c
+-> 56 `c
+-> 57 `c
+-> 65 `c
+-> 66 `c
+-> 67 `c
+-> 68 `c
+-> 69 `c
+-> 70 `c
+-> 0 `c
+..
+]
+[v _hex_chars `Cuc ~T0 @X0 -> 17 `i a ]
+[e = _hex_chars F2821 ]
+"356
+[; ;TAD_MENU.c: 356:     char hex_out[3];
+[v _hex_out `uc ~T0 @X0 -> 3 `i a ]
+"358
+[; ;TAD_MENU.c: 358:     hex_out[0] = hex_chars[(value >> 4) & 0x0F];
+[e = *U + &U _hex_out * -> -> -> 0 `i `ui `ux -> -> # *U &U _hex_out `ui `ux *U + &U _hex_chars * -> -> & >> -> _value `i -> 4 `i -> 15 `i `ui `ux -> -> # *U &U _hex_chars `ui `ux ]
+"359
+[; ;TAD_MENU.c: 359:     hex_out[1] = hex_chars[value & 0x0F];
+[e = *U + &U _hex_out * -> -> -> 1 `i `ui `ux -> -> # *U &U _hex_out `ui `ux *U + &U _hex_chars * -> -> & -> _value `i -> 15 `i `ui `ux -> -> # *U &U _hex_chars `ui `ux ]
+"360
+[; ;TAD_MENU.c: 360:     hex_out[2] = '\0';
+[e = *U + &U _hex_out * -> -> -> 2 `i `ui `ux -> -> # *U &U _hex_out `ui `ux -> -> 0 `ui `uc ]
+"362
+[; ;TAD_MENU.c: 362:     SIO_SendString(hex_out);
+[e ( _SIO_SendString (1 -> &U _hex_out `*Cuc ]
+"363
+[; ;TAD_MENU.c: 363: }
+[e :UE 413 ]
+}
+"365
+[; ;TAD_MENU.c: 365: unsigned char checkUID(unsigned char *UID_detectat) {
+[v _checkUID `(uc ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _checkUID ]
+[v _UID_detectat `*uc ~T0 @X0 1 r1 ]
+[f ]
+"366
+[; ;TAD_MENU.c: 366:     for (int i = 0; i < 6; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 6 `i 415  ]
+[e $U 416  ]
+[e :U 415 ]
+{
+"367
+[; ;TAD_MENU.c: 367:         int match = 1;
+[v _match `i ~T0 @X0 1 a ]
+[e = _match -> 1 `i ]
+"368
+[; ;TAD_MENU.c: 368:         for (int j = 0; j < 5; j++) {
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+[e $ < _j -> 5 `i 418  ]
+[e $U 419  ]
+[e :U 418 ]
+{
+"369
+[; ;TAD_MENU.c: 369:             if (UID_detectat[j] != uid_saved[i][j]) {
+[e $ ! != -> *U + _UID_detectat * -> _j `x -> -> # *U _UID_detectat `i `x `i -> *U + &U *U + &U _uid_saved * -> -> _i `ui `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> _j `ui `ux -> -> # *U &U *U + &U _uid_saved * -> -> _i `ui `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux `i 421  ]
+{
+"370
+[; ;TAD_MENU.c: 370:                 match = 0;
+[e = _match -> 0 `i ]
+"371
+[; ;TAD_MENU.c: 371:                 break;
+[e $U 419  ]
+"372
+[; ;TAD_MENU.c: 372:             }
+}
+[e :U 421 ]
+"373
+[; ;TAD_MENU.c: 373:         }
+}
+[e ++ _j -> 1 `i ]
+[e $ < _j -> 5 `i 418  ]
+[e :U 419 ]
+}
+"375
+[; ;TAD_MENU.c: 375:         if (match) {
+[e $ ! != _match -> 0 `i 422  ]
+{
+"376
+[; ;TAD_MENU.c: 376:             return (char) i;
+[e ) -> -> _i `uc `uc ]
+[e $UE 414  ]
+"377
+[; ;TAD_MENU.c: 377:         }
+}
+[e :U 422 ]
+"378
+[; ;TAD_MENU.c: 378:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 6 `i 415  ]
+[e :U 416 ]
+}
+"379
+[; ;TAD_MENU.c: 379:     return 255;
+[e ) -> -> 255 `i `uc ]
+[e $UE 414  ]
+"380
+[; ;TAD_MENU.c: 380: }
+[e :UE 414 ]
+}
+"382
+[; ;TAD_MENU.c: 382: void showUID(unsigned char index) {
+[v _showUID `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _showUID ]
+[v _index `uc ~T0 @X0 1 r1 ]
+[f ]
+"383
+[; ;TAD_MENU.c: 383:     SIO_SendString("\r\n\tUID: ");
+[e ( _SIO_SendString (1 :s 9C ]
+"384
+[; ;TAD_MENU.c: 384:     printHex(uid_saved[index][0]);
+[e ( _printHex (1 *U + &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> -> 0 `i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux ]
+"385
+[; ;TAD_MENU.c: 385:     SIO_SendString("-");
+[e ( _SIO_SendString (1 :s 10C ]
+"386
+[; ;TAD_MENU.c: 386:     printHex(uid_saved[index][1]);
+[e ( _printHex (1 *U + &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> -> 1 `i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux ]
+"387
+[; ;TAD_MENU.c: 387:     SIO_SendString("-");
+[e ( _SIO_SendString (1 :s 11C ]
+"388
+[; ;TAD_MENU.c: 388:     printHex(uid_saved[index][2]);
+[e ( _printHex (1 *U + &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> -> 2 `i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux ]
+"389
+[; ;TAD_MENU.c: 389:     SIO_SendString("-");
+[e ( _SIO_SendString (1 :s 12C ]
+"390
+[; ;TAD_MENU.c: 390:     printHex(uid_saved[index][3]);
+[e ( _printHex (1 *U + &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> -> 3 `i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux ]
+"391
+[; ;TAD_MENU.c: 391:     SIO_SendString("-");
+[e ( _SIO_SendString (1 :s 13C ]
+"392
+[; ;TAD_MENU.c: 392:     printHex(uid_saved[index][4]);
+[e ( _printHex (1 *U + &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> -> 4 `i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _index `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux ]
+"393
+[; ;TAD_MENU.c: 393: }
+[e :UE 423 ]
+}
+"395
+[; ;TAD_MENU.c: 395: void showConfigLeds(unsigned char index) {
+[v _showConfigLeds `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _showConfigLeds ]
+[v _index `uc ~T0 @X0 1 r1 ]
+[f ]
+"396
+[; ;TAD_MENU.c: 396:     char buffer[4];
+[v _buffer `uc ~T0 @X0 -> 4 `i a ]
+"398
+[; ;TAD_MENU.c: 398:     SIO_SendString("\r\n\t");
+[e ( _SIO_SendString (1 :s 14C ]
+"400
+[; ;TAD_MENU.c: 400:     for (unsigned int i = 0; i < 6; i++) {
+{
+[v _i `ui ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 6 `i `ui 425  ]
+[e $U 426  ]
+[e :U 425 ]
+{
+"401
+[; ;TAD_MENU.c: 401:         if (i > 0) {
+[e $ ! > _i -> -> 0 `i `ui 428  ]
+{
+"402
+[; ;TAD_MENU.c: 402:             SIO_SendString(" - ");
+[e ( _SIO_SendString (1 :s 15C ]
+"403
+[; ;TAD_MENU.c: 403:         }
+}
+[e :U 428 ]
+"405
+[; ;TAD_MENU.c: 405:         buffer[0] = 'L';
+[e = *U + &U _buffer * -> -> -> 0 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 76 `ui `uc ]
+"406
+[; ;TAD_MENU.c: 406:         buffer[1] = (char) i + '0';
+[e = *U + &U _buffer * -> -> -> 1 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> + -> -> _i `uc `ui -> 48 `ui `uc ]
+"407
+[; ;TAD_MENU.c: 407:         buffer[2] = ':';
+[e = *U + &U _buffer * -> -> -> 2 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 58 `ui `uc ]
+"408
+[; ;TAD_MENU.c: 408:         buffer[3] = '\0';
+[e = *U + &U _buffer * -> -> -> 3 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 0 `ui `uc ]
+"410
+[; ;TAD_MENU.c: 410:         SIO_SendString(buffer);
+[e ( _SIO_SendString (1 -> &U _buffer `*Cuc ]
+"412
+[; ;TAD_MENU.c: 412:         buffer[0] = (leds_saved[index][i] == 10) ? 'A' : (leds_saved[index][i] + '0');
+[e = *U + &U _buffer * -> -> -> 0 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> ? == -> *U + &U *U + &U _leds_saved * -> _index `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux * -> _i `ux -> -> # *U &U *U + &U _leds_saved * -> _index `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U *U + &U _leds_saved * -> _index `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux * -> _i `ux -> -> # *U &U *U + &U _leds_saved * -> _index `ux -> * -> # *U &U *U &U _leds_saved `ui -> -> 6 `i `ui `ux `ui `ux `ui -> 48 `ui `uc ]
+"413
+[; ;TAD_MENU.c: 413:         buffer[1] = '\0';
+[e = *U + &U _buffer * -> -> -> 1 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 0 `ui `uc ]
+"415
+[; ;TAD_MENU.c: 415:         SIO_SendString(buffer);
+[e ( _SIO_SendString (1 -> &U _buffer `*Cuc ]
+"416
+[; ;TAD_MENU.c: 416:     }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 6 `i `ui 425  ]
+[e :U 426 ]
+}
+"417
+[; ;TAD_MENU.c: 417: }
+[e :UE 424 ]
+}
+"419
+[; ;TAD_MENU.c: 419: unsigned char mateixaTargeta(unsigned char UID[5]) {
+[v _mateixaTargeta `(uc ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _mateixaTargeta ]
+[v _UID `*uc ~T0 @X0 1 r1 ]
+[f ]
+"420
+[; ;TAD_MENU.c: 420:     for (int i = 0; i < 5; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 5 `i 430  ]
+[e $U 431  ]
+[e :U 430 ]
+{
+"421
+[; ;TAD_MENU.c: 421:         if (UID[i] != uid_saved[INDEX_CURRENT][i]) {
+[e $ ! != -> *U + _UID * -> _i `x -> -> # *U _UID `i `x `i -> *U + &U *U + &U _uid_saved * -> _INDEX_CURRENT `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux * -> -> _i `ui `ux -> -> # *U &U *U + &U _uid_saved * -> _INDEX_CURRENT `ux -> * -> # *U &U *U &U _uid_saved `ui -> -> 5 `i `ui `ux `ui `ux `i 433  ]
+{
+"422
+[; ;TAD_MENU.c: 422:             return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 429  ]
+"423
+[; ;TAD_MENU.c: 423:         }
+}
+[e :U 433 ]
+"424
+[; ;TAD_MENU.c: 424:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 5 `i 430  ]
+[e :U 431 ]
+}
+"425
+[; ;TAD_MENU.c: 425:     return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 429  ]
+"426
+[; ;TAD_MENU.c: 426: }
+[e :UE 429 ]
+}
+"428
+[; ;TAD_MENU.c: 428: unsigned char findLastLetterUID(unsigned char UID[5]) {
+[v _findLastLetterUID `(uc ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _findLastLetterUID ]
+[v _UID `*uc ~T0 @X0 1 r1 ]
+[f ]
+"429
+[; ;TAD_MENU.c: 429:     for (int i = 4; i >= 0; i--) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 4 `i ]
+[e $ >= _i -> 0 `i 435  ]
+[e $U 436  ]
+[e :U 435 ]
+{
+"430
+[; ;TAD_MENU.c: 430:         unsigned char highNibble = (UID[i] >> 4) & 0x0F;
+[v _highNibble `uc ~T0 @X0 1 a ]
+[e = _highNibble -> & >> -> *U + _UID * -> _i `x -> -> # *U _UID `i `x `i -> 4 `i -> 15 `i `uc ]
+"431
+[; ;TAD_MENU.c: 431:         unsigned char lowNibble = UID[i] & 0x0F;
+[v _lowNibble `uc ~T0 @X0 1 a ]
+[e = _lowNibble -> & -> *U + _UID * -> _i `x -> -> # *U _UID `i `x `i -> 15 `i `uc ]
+"433
+[; ;TAD_MENU.c: 433:         if (lowNibble >= 10) {
+[e $ ! >= -> _lowNibble `i -> 10 `i 438  ]
+{
+"434
+[; ;TAD_MENU.c: 434:             return 'A' + (lowNibble - 10);
+[e ) -> + -> 65 `ui -> - -> _lowNibble `i -> 10 `i `ui `uc ]
+[e $UE 434  ]
+"435
+[; ;TAD_MENU.c: 435:         }
+}
+[e :U 438 ]
+"437
+[; ;TAD_MENU.c: 437:         if (highNibble >= 10) {
+[e $ ! >= -> _highNibble `i -> 10 `i 439  ]
+{
+"438
+[; ;TAD_MENU.c: 438:             return 'A' + (highNibble - 10);
+[e ) -> + -> 65 `ui -> - -> _highNibble `i -> 10 `i `ui `uc ]
+[e $UE 434  ]
+"439
+[; ;TAD_MENU.c: 439:         }
+}
+[e :U 439 ]
+"440
+[; ;TAD_MENU.c: 440:     }
+}
+[e -- _i -> 1 `i ]
+[e $ >= _i -> 0 `i 435  ]
+[e :U 436 ]
+}
+"441
+[; ;TAD_MENU.c: 441:     return '0';
+[e ) -> -> 48 `ui `uc ]
+[e $UE 434  ]
+"442
+[; ;TAD_MENU.c: 442: }
+[e :UE 434 ]
+}
+"444
+[; ;TAD_MENU.c: 444: void printLCD(void) {
+[v _printLCD `(v ~T0 @X0 1 ef ]
+{
+[e :U _printLCD ]
+[f ]
+"447
+[; ;TAD_MENU.c: 447:     LcClear();
+[e ( _LcClear ..  ]
+"449
+[; ;TAD_MENU.c: 449:     LcGotoXY(0, 0);
+[e ( _LcGotoXY (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"450
+[; ;TAD_MENU.c: 450:     LcPutChar(findLastLetterUID(UID_CURRENT)); LcPutChar(' ');
+[e ( _LcPutChar (1 -> ( _findLastLetterUID (1 &U _UID_CURRENT `uc ]
+[e ( _LcPutChar (1 -> -> 32 `ui `uc ]
+"451
+[; ;TAD_MENU.c: 451:     LcPutChar(hora_h + '0'); LcPutChar(hora_l + '0');
+[e ( _LcPutChar (1 -> + -> _hora_h `ui -> 48 `ui `uc ]
+[e ( _LcPutChar (1 -> + -> _hora_l `ui -> 48 `ui `uc ]
+"452
+[; ;TAD_MENU.c: 452:     LcPutChar(':');
+[e ( _LcPutChar (1 -> -> 58 `ui `uc ]
+"453
+[; ;TAD_MENU.c: 453:     LcPutChar(minuts_h + '0'); LcPutChar(minuts_l + '0');
+[e ( _LcPutChar (1 -> + -> _minuts_h `ui -> 48 `ui `uc ]
+[e ( _LcPutChar (1 -> + -> _minuts_l `ui -> 48 `ui `uc ]
+"454
+[; ;TAD_MENU.c: 454:     LcPutChar(' ');
+[e ( _LcPutChar (1 -> -> 32 `ui `uc ]
+"455
+[; ;TAD_MENU.c: 455:     LcPutChar('1'); LcPutChar('-');
+[e ( _LcPutChar (1 -> -> 49 `ui `uc ]
+[e ( _LcPutChar (1 -> -> 45 `ui `uc ]
+"456
+[; ;TAD_MENU.c: 456:     LcPutChar((LEDS_CURRENT[0] == 10) ? 'A' : (LEDS_CURRENT[0] + '0'));
+[e ( _LcPutChar (1 -> ? == -> *U + &U _LEDS_CURRENT * -> -> -> 0 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U _LEDS_CURRENT * -> -> -> 0 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `ui -> 48 `ui `uc ]
+"457
+[; ;TAD_MENU.c: 457:     LcPutChar(' ');
+[e ( _LcPutChar (1 -> -> 32 `ui `uc ]
+"458
+[; ;TAD_MENU.c: 458:     LcPutChar('2'); LcPutChar('-');
+[e ( _LcPutChar (1 -> -> 50 `ui `uc ]
+[e ( _LcPutChar (1 -> -> 45 `ui `uc ]
+"459
+[; ;TAD_MENU.c: 459:     LcPutChar((LEDS_CURRENT[1] == 10) ? 'A' : (LEDS_CURRENT[1] + '0'));
+[e ( _LcPutChar (1 -> ? == -> *U + &U _LEDS_CURRENT * -> -> -> 1 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U _LEDS_CURRENT * -> -> -> 1 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `ui -> 48 `ui `uc ]
+"461
+[; ;TAD_MENU.c: 461:     LcGotoXY(0, 1);
+[e ( _LcGotoXY (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
+"462
+[; ;TAD_MENU.c: 462:     LcPutChar('3'); LcPutChar('-');
+[e ( _LcPutChar (1 -> -> 51 `ui `uc ]
+[e ( _LcPutChar (1 -> -> 45 `ui `uc ]
+"463
+[; ;TAD_MENU.c: 463:     LcPutChar((LEDS_CURRENT[2] == 10) ? 'A' : (LEDS_CURRENT[2] + '0'));
+[e ( _LcPutChar (1 -> ? == -> *U + &U _LEDS_CURRENT * -> -> -> 2 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U _LEDS_CURRENT * -> -> -> 2 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `ui -> 48 `ui `uc ]
+"464
+[; ;TAD_MENU.c: 464:     LcPutChar(' ');
+[e ( _LcPutChar (1 -> -> 32 `ui `uc ]
+"465
+[; ;TAD_MENU.c: 465:     LcPutChar('4'); LcPutChar('-');
+[e ( _LcPutChar (1 -> -> 52 `ui `uc ]
+[e ( _LcPutChar (1 -> -> 45 `ui `uc ]
+"466
+[; ;TAD_MENU.c: 466:     LcPutChar((LEDS_CURRENT[3] == 10) ? 'A' : (LEDS_CURRENT[3] + '0'));
+[e ( _LcPutChar (1 -> ? == -> *U + &U _LEDS_CURRENT * -> -> -> 3 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U _LEDS_CURRENT * -> -> -> 3 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `ui -> 48 `ui `uc ]
+"467
+[; ;TAD_MENU.c: 467:     LcPutChar(' ');
+[e ( _LcPutChar (1 -> -> 32 `ui `uc ]
+"468
+[; ;TAD_MENU.c: 468:     LcPutChar('5'); LcPutChar('-');
+[e ( _LcPutChar (1 -> -> 53 `ui `uc ]
+[e ( _LcPutChar (1 -> -> 45 `ui `uc ]
+"469
+[; ;TAD_MENU.c: 469:     LcPutChar((LEDS_CURRENT[4] == 10) ? 'A' : (LEDS_CURRENT[4] + '0'));
+[e ( _LcPutChar (1 -> ? == -> *U + &U _LEDS_CURRENT * -> -> -> 4 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U _LEDS_CURRENT * -> -> -> 4 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `ui -> 48 `ui `uc ]
+"470
+[; ;TAD_MENU.c: 470:     LcPutChar(' ');
+[e ( _LcPutChar (1 -> -> 32 `ui `uc ]
+"471
+[; ;TAD_MENU.c: 471:     LcPutChar('6'); LcPutChar('-');
+[e ( _LcPutChar (1 -> -> 54 `ui `uc ]
+[e ( _LcPutChar (1 -> -> 45 `ui `uc ]
+"472
+[; ;TAD_MENU.c: 472:     LcPutChar((LEDS_CURRENT[5] == 10) ? 'A' : (LEDS_CURRENT[5] + '0'));
+[e ( _LcPutChar (1 -> ? == -> *U + &U _LEDS_CURRENT * -> -> -> 5 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `i -> 10 `i : -> 65 `ui + -> *U + &U _LEDS_CURRENT * -> -> -> 5 `i `ui `ux -> -> # *U &U _LEDS_CURRENT `ui `ux `ui -> 48 `ui `uc ]
+"473
+[; ;TAD_MENU.c: 473: }
+[e :UE 440 ]
+}
+[a 4C 13 10 85 115 117 97 114 105 32 115 117 114 116 46 0 ]
+[a 5C 13 10 78 111 117 32 117 115 117 97 114 105 46 0 ]
+[a 7C 45 0 ]
+[a 10C 45 0 ]
+[a 11C 45 0 ]
+[a 12C 45 0 ]
+[a 13C 45 0 ]
+[a 3C 13 10 13 10 84 97 114 103 101 116 97 32 100 101 116 101 99 116 97 100 97 33 0 ]
+[a 6C 13 10 13 10 84 97 114 103 101 116 97 32 78 79 32 114 101 99 111 110 101 103 117 100 97 33 13 10 9 85 73 68 58 32 0 ]
+[a 9C 13 10 9 85 73 68 58 32 0 ]
+[a 2C 13 10 13 10 79 112 99 105 18446744073709551603 58 32 0 ]
+[a 8C 13 10 13 10 79 112 99 105 18446744073709551603 58 32 0 ]
+[a 15C 32 45 32 0 ]
+[a 1C 13 10 0 ]
+[a 14C 13 10 9 0 ]

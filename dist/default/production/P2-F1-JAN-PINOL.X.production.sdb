@@ -1,0 +1,1282 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4321 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"69 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\LcTLCD.c
+[v _LcInit LcInit `(v  1 e 1 0 ]
+"115
+[v _LcClear LcClear `(v  1 e 1 0 ]
+"122
+[v _LcCursorOn LcCursorOn `(v  1 e 1 0 ]
+"138
+[v _LcGotoXY LcGotoXY `(v  1 e 1 0 ]
+"165
+[v _LcPutChar LcPutChar `(v  1 e 1 0 ]
+"215
+[v _Espera Espera `(v  1 e 1 0 ]
+"220
+[v _CantaPartAlta CantaPartAlta `(v  1 e 1 0 ]
+"227
+[v _CantaPartBaixa CantaPartBaixa `(v  1 e 1 0 ]
+"234
+[v _CantaIR CantaIR `(v  1 e 1 0 ]
+"250
+[v _CantaData CantaData `(v  1 e 1 0 ]
+"266
+[v _WaitForBusy WaitForBusy `(v  1 e 1 0 ]
+"284
+[v _EscriuPrimeraOrdre EscriuPrimeraOrdre `(v  1 e 1 0 ]
+"70 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\main.c
+[v _RSI_High RSI_High `IIH(v  1 e 1 0 ]
+"81
+[v _Init_Interrupcions Init_Interrupcions `(v  1 e 1 0 ]
+"87
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_LEDS.c
+[v _LEDS_Init LEDS_Init `(v  1 e 1 0 ]
+"17
+[v _LEDS_setState LEDS_setState `(v  1 e 1 0 ]
+"28
+[v _LEDS_Motor LEDS_Motor `(v  1 e 1 0 ]
+"61
+[v _LEDS_setIntensitat LEDS_setIntensitat `(v  1 e 1 0 ]
+"32 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_Init MENU_Init `(v  1 e 1 0 ]
+"43
+[v _MENU_Motor MENU_Motor `(v  1 e 1 0 ]
+"95
+[v _MENU_MotorHandleHash MENU_MotorHandleHash `(v  1 e 1 0 ]
+"139
+[v _MENU_MotorHandleSetIntensity MENU_MotorHandleSetIntensity `(v  1 e 1 0 ]
+"185
+[v _MENU_MotorActualitzarLCD MENU_MotorActualitzarLCD `(v  1 e 1 0 ]
+"192
+[v _MENU_addMinute MENU_addMinute `(v  1 e 1 0 ]
+"207
+[v _addHour addHour `(v  1 e 1 0 ]
+"224
+[v _handleEscKey handleEscKey `(v  1 e 1 0 ]
+"232
+[v _handleMainMenu handleMainMenu `(v  1 e 1 0 ]
+"240
+[v _handleIntensity handleIntensity `(v  1 e 1 0 ]
+"258
+[v _option3 option3 `(v  1 e 1 0 ]
+"314
+[v _MENU_SaveUID MENU_SaveUID `(v  1 e 1 0 ]
+"354
+[v _printHex printHex `(v  1 e 1 0 ]
+"365
+[v _checkUID checkUID `(uc  1 e 1 0 ]
+"382
+[v _showUID showUID `(v  1 e 1 0 ]
+"395
+[v _showConfigLeds showConfigLeds `(v  1 e 1 0 ]
+"419
+[v _mateixaTargeta mateixaTargeta `(uc  1 e 1 0 ]
+"428
+[v _findLastLetterUID findLastLetterUID `(uc  1 e 1 0 ]
+"444
+[v _printLCD printLCD `(v  1 e 1 0 ]
+"3 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_SIO.c
+[v _SIO_Init SIO_Init `(v  1 e 1 0 ]
+"26
+[v _SIO_Send SIO_Send `(uc  1 e 1 0 ]
+"34
+[v _SIO_Receive SIO_Receive `(uc  1 e 1 0 ]
+"43
+[v _SIO_SendString SIO_SendString `(v  1 e 1 0 ]
+"15 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TECLATMATRIU.c
+[v _TM_Init TM_Init `(v  1 e 1 0 ]
+"24
+[v _TM_Motor TM_Motor `(v  1 e 1 0 ]
+"106
+[v _TM_GetTecla TM_GetTecla `(v  1 e 1 0 ]
+"111
+[v _TM_IsKeyPressed TM_IsKeyPressed `(uc  1 e 1 0 ]
+"28 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TIMER.c
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+"35
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+"46
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+"56
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+"61
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+"15 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TRFID.c
+[v _InitPortDirections InitPortDirections `(v  1 e 1 0 ]
+"23
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"29
+[v _RFID_Init RFID_Init `(v  1 e 1 0 ]
+"34
+[v _MFRC522_Init MFRC522_Init `(v  1 e 1 0 ]
+"50
+[v _MFRC522_Clear_Bit MFRC522_Clear_Bit `(v  1 e 1 0 ]
+"55
+[v _MFRC522_Set_Bit MFRC522_Set_Bit `(v  1 e 1 0 ]
+"60
+[v _MFRC522_Reset MFRC522_Reset `(v  1 e 1 0 ]
+"71
+[v _MFRC522_AntennaOn MFRC522_AntennaOn `(v  1 e 1 0 ]
+"76
+[v _MFRC522_AntennaOff MFRC522_AntennaOff `(v  1 e 1 0 ]
+"80
+[v _MFRC522_CRC MFRC522_CRC `(v  1 e 1 0 ]
+"119
+[v _MFRC522_CRC_NOU MFRC522_CRC_NOU `(v  1 e 1 0 ]
+"177
+[v _MFRC522_ToCard MFRC522_ToCard `(uc  1 e 1 0 ]
+"376
+[v _MFRC522_ToCard_NOU MFRC522_ToCard_NOU `(uc  1 e 1 0 ]
+"609
+[v _MFRC522_Rd MFRC522_Rd `(uc  1 e 1 0 ]
+"636
+[v _MFRC522_Wr MFRC522_Wr `(v  1 e 1 0 ]
+"665
+[v _MFRC522_Wr_1 MFRC522_Wr_1 `(v  1 e 1 0 ]
+"682
+[v _MFRC522_Wr_2 MFRC522_Wr_2 `(v  1 e 1 0 ]
+"773
+[v _motorRFIDcoop_NOU motorRFIDcoop_NOU `(v  1 e 1 0 ]
+"21 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X/TAD_MENU.h
+[v _uid_saved uid_saved `C[6][5]uc  1 e 30 0 ]
+"32
+[v _leds_saved@TAD_MENU$F1708 leds_saved `[6][6]uc  1 s 36 leds_saved ]
+"44
+[v _menu_principal menu_principal `C[172]uc  1 e 172 0 ]
+"55
+[v _res_a_mostrar res_a_mostrar `C[16]uc  1 e 16 0 ]
+"56
+[v _hora_sistema hora_sistema `C[21]uc  1 e 21 0 ]
+"57
+[v _separador_hora separador_hora `C[2]uc  1 e 2 0 ]
+"58
+[v _enter_aplicar enter_aplicar `C[24]uc  1 e 24 0 ]
+"59
+[v _canvis_aplicats canvis_aplicats `C[19]uc  1 e 19 0 ]
+[s S255 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"506 C:\Program Files\Microchip\xc8\v3.00\pic\include\proc/pic18f4321.h
+[s S1295 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S1304 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S1313 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S1315 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S1319 . 1 `S255 1 . 1 0 `S1295 1 . 1 0 `S1304 1 . 1 0 `S1313 1 . 1 0 `S1315 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1319  1 e 1 @3970 ]
+[s S737 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"678
+[s S943 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S952 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S957 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S960 . 1 `S737 1 . 1 0 `S943 1 . 1 0 `S952 1 . 1 0 `S957 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES960  1 e 1 @3971 ]
+[s S541 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"841
+[s S569 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S574 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S576 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S582 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S585 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S590 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S595 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S600 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[u S605 . 1 `S541 1 . 1 0 `S569 1 . 1 0 `S574 1 . 1 0 `S576 1 . 1 0 `S579 1 . 1 0 `S582 1 . 1 0 `S585 1 . 1 0 `S590 1 . 1 0 `S595 1 . 1 0 `S600 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES605  1 e 1 @3972 ]
+[s S492 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1013
+[s S501 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S510 . 1 `S492 1 . 1 0 `S501 1 . 1 0 ]
+[v _LATAbits LATAbits `VES510  1 e 1 @3977 ]
+[s S816 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1125
+[s S825 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S834 . 1 `S816 1 . 1 0 `S825 1 . 1 0 ]
+[v _LATBbits LATBbits `VES834  1 e 1 @3978 ]
+[s S286 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1237
+[s S295 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S304 . 1 `S286 1 . 1 0 `S295 1 . 1 0 ]
+[v _LATCbits LATCbits `VES304  1 e 1 @3979 ]
+[s S856 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1349
+[s S865 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S874 . 1 `S856 1 . 1 0 `S865 1 . 1 0 ]
+[v _LATDbits LATDbits `VES874  1 e 1 @3980 ]
+[s S472 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"1451
+[s S476 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S480 . 1 `S472 1 . 1 0 `S476 1 . 1 0 ]
+[v _LATEbits LATEbits `VES480  1 e 1 @3981 ]
+[s S405 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1518
+[s S414 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S423 . 1 `S405 1 . 1 0 `S414 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES423  1 e 1 @3986 ]
+[s S768 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1740
+[s S777 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S786 . 1 `S768 1 . 1 0 `S777 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES786  1 e 1 @3987 ]
+[s S246 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1962
+[u S264 . 1 `S246 1 . 1 0 `S255 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES264  1 e 1 @3988 ]
+[s S728 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2184
+[u S746 . 1 `S728 1 . 1 0 `S737 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES746  1 e 1 @3989 ]
+[s S532 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PSPMODE 1 0 :1:4 
+`uc 1 IBOV 1 0 :1:5 
+`uc 1 OBF 1 0 :1:6 
+`uc 1 IBF 1 0 :1:7 
+]
+"2402
+[u S546 . 1 `S532 1 . 1 0 `S541 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES546  1 e 1 @3990 ]
+[s S1565 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2702
+[s S1574 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S1578 . 1 `S1565 1 . 1 0 `S1574 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1578  1 e 1 @3998 ]
+[s S1510 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3160
+[s S1519 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1522 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1525 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1528 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1531 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1533 . 1 `S1510 1 . 1 0 `S1519 1 . 1 0 `S1522 1 . 1 0 `S1525 1 . 1 0 `S1528 1 . 1 0 `S1531 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1533  1 e 1 @4011 ]
+[s S1458 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3368
+[s S1467 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1476 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1479 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S1481 . 1 `S1458 1 . 1 0 `S1467 1 . 1 0 `S1476 1 . 1 0 `S1479 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES1481  1 e 1 @4012 ]
+"3585
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3597
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3609
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S1412 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4186
+[s S1421 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1426 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S1429 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1432 . 1 `S1412 1 . 1 0 `S1421 1 . 1 0 `S1426 1 . 1 0 `S1429 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES1432  1 e 1 @4024 ]
+[s S115 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5722
+[s S117 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S120 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S123 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S126 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S129 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S137 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+]
+[u S145 . 1 `S115 1 . 1 0 `S117 1 . 1 0 `S120 1 . 1 0 `S123 1 . 1 0 `S126 1 . 1 0 `S129 1 . 1 0 `S137 1 . 1 0 ]
+[v _RCONbits RCONbits `VES145  1 e 1 @4048 ]
+"6181
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6258
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+[s S30 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6731
+[s S39 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S48 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S52 . 1 `S30 1 . 1 0 `S39 1 . 1 0 `S48 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES52  1 e 1 @4082 ]
+"8680
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"44 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\LcTLCD.c
+[v _Rows Rows `uc  1 s 1 Rows ]
+[v _Columns Columns `uc  1 s 1 Columns ]
+"45
+[v _RowAct RowAct `uc  1 s 1 RowAct ]
+[v _ColumnAct ColumnAct `uc  1 s 1 ColumnAct ]
+"47
+[v _Timer Timer `uc  1 s 1 Timer ]
+"68 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\main.c
+[v _ticsCounter ticsCounter `ui  1 s 2 ticsCounter ]
+"3 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_LEDS.c
+[v _state@TAD_LEDS$F1862 state `[6]uc  1 s 6 state ]
+"4
+[v _intensitat intensitat `[6]uc  1 s 6 intensitat ]
+"5
+[v _TimerLed TimerLed `[6]uc  1 s 6 TimerLed ]
+"3 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _state_main_motor state_main_motor `uc  1 s 1 state_main_motor ]
+[v _state_option3 state_option3 `uc  1 s 1 state_option3 ]
+"4
+[v _start_system start_system `uc  1 s 1 start_system ]
+[v _esc_key esc_key `uc  1 s 1 esc_key ]
+[v _hash_less_3s hash_less_3s `uc  1 s 1 hash_less_3s ]
+"5
+[v _option option `uc  1 s 1 option ]
+[v _hora_h hora_h `uc  1 s 1 hora_h ]
+[v _hora_l hora_l `uc  1 s 1 hora_l ]
+[v _minuts_h minuts_h `uc  1 s 1 minuts_h ]
+[v _minuts_l minuts_l `uc  1 s 1 minuts_l ]
+"6
+[v _someone someone `uc  1 s 1 someone ]
+"8
+[v _actualitzar_lcd actualitzar_lcd `uc  1 s 1 actualitzar_lcd ]
+[v _quinLed quinLed `uc  1 s 1 quinLed ]
+[v _quinaIntensitat quinaIntensitat `uc  1 s 1 quinaIntensitat ]
+"9
+[v _key@TAD_MENU$F1730 key `uc  1 s 1 key ]
+"10
+[v _state_setIntensity state_setIntensity `uc  1 s 1 state_setIntensity ]
+"13
+[v _UID_CURRENT UID_CURRENT `[5]uc  1 s 5 UID_CURRENT ]
+"14
+[v _LEDS_CURRENT LEDS_CURRENT `[6]uc  1 s 6 LEDS_CURRENT ]
+"15
+[v _INDEX_CURRENT INDEX_CURRENT `uc  1 s 1 INDEX_CURRENT ]
+"17
+[v _TimerHash TimerHash `uc  1 s 1 TimerHash ]
+"3 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TECLATMATRIU.c
+[v _TECLAT_MATRIU TECLAT_MATRIU `C[4][3]uc  1 e 12 0 ]
+"10
+[v _state@TAD_TECLATMATRIU$F1368 state `uc  1 s 1 state ]
+"11
+[v _key key `uc  1 e 1 0 ]
+[v _hash hash `uc  1 e 1 0 ]
+[v _row_selected row_selected `uc  1 e 1 0 ]
+[v _col_selected col_selected `uc  1 e 1 0 ]
+[v _index_row index_row `uc  1 e 1 0 ]
+"13
+[v _TimerRebots TimerRebots `uc  1 s 1 TimerRebots ]
+[s S24 Timer 5 `ul 1 TicsInicials 4 0 `uc 1 Busy 1 4 ]
+"24 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TIMER.c
+[v _Timers Timers `[9]S24  1 s 45 Timers ]
+"26
+[v _Tics Tics `VEul  1 s 4 Tics ]
+"10 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TRFID.c
+[v _state state `uc  1 s 1 state ]
+"11
+[v __status _status `uc  1 s 1 _status ]
+"87 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"124
+} 0
+"773 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TRFID.c
+[v _motorRFIDcoop_NOU motorRFIDcoop_NOU `(v  1 e 1 0 ]
+{
+"778
+[v motorRFIDcoop_NOU@i i `uc  1 a 1 39 ]
+"779
+[v motorRFIDcoop_NOU@serNumCheck serNumCheck `uc  1 a 1 38 ]
+"774
+[v motorRFIDcoop_NOU@backBits backBits `ui  1 s 2 backBits ]
+"775
+[v motorRFIDcoop_NOU@buff buff `[4]uc  1 s 4 buff ]
+"776
+[v motorRFIDcoop_NOU@UID UID `[5]uc  1 s 5 UID ]
+"777
+[v motorRFIDcoop_NOU@unLen unLen `ui  1 s 2 unLen ]
+"780
+[v motorRFIDcoop_NOU@wr_state wr_state `uc  1 s 1 wr_state ]
+"858
+} 0
+"376
+[v _MFRC522_ToCard_NOU MFRC522_ToCard_NOU `(uc  1 e 1 0 ]
+{
+[v MFRC522_ToCard_NOU@command command `uc  1 p 1 wreg ]
+[v MFRC522_ToCard_NOU@command command `uc  1 p 1 wreg ]
+[v MFRC522_ToCard_NOU@sendData sendData `*.30uc  1 p 1 9 ]
+[v MFRC522_ToCard_NOU@sendLen sendLen `uc  1 p 1 10 ]
+[v MFRC522_ToCard_NOU@backData backData `*.30uc  1 p 1 11 ]
+[v MFRC522_ToCard_NOU@backLen backLen `*.30ui  1 p 1 12 ]
+"377
+[v MFRC522_ToCard_NOU@_status _status `uc  1 s 1 status ]
+"378
+[v MFRC522_ToCard_NOU@irqEn irqEn `uc  1 s 1 irqEn ]
+"379
+[v MFRC522_ToCard_NOU@waitIRq waitIRq `uc  1 s 1 waitIRq ]
+"380
+[v MFRC522_ToCard_NOU@lastBits lastBits `uc  1 s 1 lastBits ]
+"381
+[v MFRC522_ToCard_NOU@n n `uc  1 s 1 n ]
+"382
+[v MFRC522_ToCard_NOU@rd rd `uc  1 s 1 rd ]
+"383
+[v MFRC522_ToCard_NOU@j j `ui  1 s 2 j ]
+"384
+[v MFRC522_ToCard_NOU@state_aux state_aux `uc  1 s 1 state_aux ]
+"385
+[v MFRC522_ToCard_NOU@tmp tmp `uc  1 s 1 tmp ]
+"386
+[v MFRC522_ToCard_NOU@wr_state wr_state `uc  1 s 1 wr_state ]
+"376
+[v MFRC522_ToCard_NOU@command command `uc  1 p 1 25 ]
+"607
+} 0
+"119
+[v _MFRC522_CRC_NOU MFRC522_CRC_NOU `(v  1 e 1 0 ]
+{
+[v MFRC522_CRC_NOU@dataIn dataIn `*.30uc  1 p 1 13 ]
+[v MFRC522_CRC_NOU@length length `uc  1 p 1 14 ]
+[v MFRC522_CRC_NOU@dataOut dataOut `*.30uc  1 p 1 15 ]
+"120
+[v MFRC522_CRC_NOU@step step `uc  1 s 1 step ]
+"121
+[v MFRC522_CRC_NOU@i i `uc  1 s 1 i ]
+"122
+[v MFRC522_CRC_NOU@n n `uc  1 s 1 n ]
+"123
+[v MFRC522_CRC_NOU@wr_state wr_state `uc  1 s 1 wr_state ]
+"169
+} 0
+"682
+[v _MFRC522_Wr_2 MFRC522_Wr_2 `(v  1 e 1 0 ]
+{
+[v MFRC522_Wr_2@value value `uc  1 p 1 wreg ]
+[v MFRC522_Wr_2@value value `uc  1 p 1 wreg ]
+"683
+[v MFRC522_Wr_2@i i `uc  1 s 1 i ]
+"685
+[v MFRC522_Wr_2@value value `uc  1 p 1 6 ]
+"696
+} 0
+"665
+[v _MFRC522_Wr_1 MFRC522_Wr_1 `(v  1 e 1 0 ]
+{
+[v MFRC522_Wr_1@Address Address `uc  1 p 1 wreg ]
+[v MFRC522_Wr_1@Address Address `uc  1 p 1 wreg ]
+"666
+[v MFRC522_Wr_1@i i `uc  1 s 1 i ]
+[v MFRC522_Wr_1@ucAddr ucAddr `uc  1 s 1 ucAddr ]
+"668
+[v MFRC522_Wr_1@Address Address `uc  1 p 1 6 ]
+"680
+} 0
+"314 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_SaveUID MENU_SaveUID `(v  1 e 1 0 ]
+{
+"334
+[v MENU_SaveUID@i_1769 i `i  1 a 2 33 ]
+"328
+[v MENU_SaveUID@i_1768 i `i  1 a 2 31 ]
+"325
+[v MENU_SaveUID@i i `i  1 a 2 29 ]
+"346
+[v MENU_SaveUID@i_1771 i `i  1 a 2 35 ]
+"315
+[v MENU_SaveUID@index index `uc  1 a 1 37 ]
+"314
+[v MENU_SaveUID@UID UID `*.30uc  1 p 1 26 ]
+"352
+} 0
+"419
+[v _mateixaTargeta mateixaTargeta `(uc  1 e 1 0 ]
+{
+"420
+[v mateixaTargeta@i i `i  1 a 2 4 ]
+"419
+[v mateixaTargeta@UID UID `*.30uc  1 p 1 0 ]
+"426
+} 0
+"365
+[v _checkUID checkUID `(uc  1 e 1 0 ]
+{
+"368
+[v checkUID@j j `i  1 a 2 10 ]
+"367
+[v checkUID@match match `i  1 a 2 6 ]
+"366
+[v checkUID@i i `i  1 a 2 8 ]
+"365
+[v checkUID@UID_detectat UID_detectat `*.30uc  1 p 1 0 ]
+"380
+} 0
+"24 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TECLATMATRIU.c
+[v _TM_Motor TM_Motor `(v  1 e 1 0 ]
+{
+"104
+} 0
+"15
+[v _TM_Init TM_Init `(v  1 e 1 0 ]
+{
+"22
+} 0
+"35 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TIMER.c
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+{
+"36
+[v TI_Init@counter counter `uc  1 a 1 0 ]
+"44
+} 0
+"3 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_SIO.c
+[v _SIO_Init SIO_Init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"29 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TRFID.c
+[v _RFID_Init RFID_Init `(v  1 e 1 0 ]
+{
+"32
+} 0
+"34
+[v _MFRC522_Init MFRC522_Init `(v  1 e 1 0 ]
+{
+"48
+} 0
+"60
+[v _MFRC522_Reset MFRC522_Reset `(v  1 e 1 0 ]
+{
+"69
+} 0
+"71
+[v _MFRC522_AntennaOn MFRC522_AntennaOn `(v  1 e 1 0 ]
+{
+"74
+} 0
+"55
+[v _MFRC522_Set_Bit MFRC522_Set_Bit `(v  1 e 1 0 ]
+{
+[v MFRC522_Set_Bit@addr addr `uc  1 p 1 wreg ]
+"56
+[v MFRC522_Set_Bit@tmp tmp `uc  1 a 1 11 ]
+"55
+[v MFRC522_Set_Bit@addr addr `uc  1 p 1 wreg ]
+[v MFRC522_Set_Bit@mask mask `uc  1 p 1 10 ]
+[v MFRC522_Set_Bit@addr addr `uc  1 p 1 12 ]
+"58
+} 0
+"76
+[v _MFRC522_AntennaOff MFRC522_AntennaOff `(v  1 e 1 0 ]
+{
+"78
+} 0
+"50
+[v _MFRC522_Clear_Bit MFRC522_Clear_Bit `(v  1 e 1 0 ]
+{
+[v MFRC522_Clear_Bit@addr addr `uc  1 p 1 wreg ]
+"51
+[v MFRC522_Clear_Bit@tmp tmp `uc  1 a 1 11 ]
+"50
+[v MFRC522_Clear_Bit@addr addr `uc  1 p 1 wreg ]
+[v MFRC522_Clear_Bit@mask mask `uc  1 p 1 10 ]
+[v MFRC522_Clear_Bit@addr addr `uc  1 p 1 12 ]
+"53
+} 0
+"636
+[v _MFRC522_Wr MFRC522_Wr `(v  1 e 1 0 ]
+{
+[v MFRC522_Wr@Address Address `uc  1 p 1 wreg ]
+"637
+[v MFRC522_Wr@i i `uc  1 a 1 9 ]
+[v MFRC522_Wr@ucAddr ucAddr `uc  1 a 1 8 ]
+"636
+[v MFRC522_Wr@Address Address `uc  1 p 1 wreg ]
+[v MFRC522_Wr@value value `uc  1 p 1 5 ]
+"639
+[v MFRC522_Wr@Address Address `uc  1 p 1 7 ]
+"663
+} 0
+"23
+[v _delay_us delay_us `(v  1 e 1 0 ]
+{
+[v delay_us@howMany howMany `uc  1 p 1 wreg ]
+"25
+[v delay_us@x x `uc  1 a 1 4 ]
+"23
+[v delay_us@howMany howMany `uc  1 p 1 wreg ]
+"26
+[v delay_us@howMany howMany `uc  1 p 1 3 ]
+"27
+} 0
+"609
+[v _MFRC522_Rd MFRC522_Rd `(uc  1 e 1 0 ]
+{
+[v MFRC522_Rd@Address Address `uc  1 p 1 wreg ]
+"610
+[v MFRC522_Rd@i i `ui  1 a 2 7 ]
+"611
+[v MFRC522_Rd@ucResult ucResult `ui  1 a 2 5 ]
+"610
+[v MFRC522_Rd@ucAddr ucAddr `ui  1 a 2 3 ]
+"609
+[v MFRC522_Rd@Address Address `uc  1 p 1 wreg ]
+"611
+[v MFRC522_Rd@Address Address `uc  1 p 1 2 ]
+"634
+} 0
+"15
+[v _InitPortDirections InitPortDirections `(v  1 e 1 0 ]
+{
+"21
+} 0
+"139 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_MotorHandleSetIntensity MENU_MotorHandleSetIntensity `(v  1 e 1 0 ]
+{
+"182
+} 0
+"95
+[v _MENU_MotorHandleHash MENU_MotorHandleHash `(v  1 e 1 0 ]
+{
+"127
+[v MENU_MotorHandleHash@j j `i  1 a 2 15 ]
+"126
+[v MENU_MotorHandleHash@i i `i  1 a 2 13 ]
+"96
+[v MENU_MotorHandleHash@state_hash state_hash `uc  1 s 1 state_hash ]
+"97
+[v MENU_MotorHandleHash@bug_timer bug_timer `uc  1 s 1 bug_timer ]
+"137
+} 0
+"111 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TECLATMATRIU.c
+[v _TM_IsKeyPressed TM_IsKeyPressed `(uc  1 e 1 0 ]
+{
+"113
+} 0
+"106
+[v _TM_GetTecla TM_GetTecla `(v  1 e 1 0 ]
+{
+[v TM_GetTecla@c c `*.30uc  1 p 1 0 ]
+"109
+} 0
+"185 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_MotorActualitzarLCD MENU_MotorActualitzarLCD `(v  1 e 1 0 ]
+{
+"190
+} 0
+"444
+[v _printLCD printLCD `(v  1 e 1 0 ]
+{
+"473
+} 0
+"428
+[v _findLastLetterUID findLastLetterUID `(uc  1 e 1 0 ]
+{
+"431
+[v findLastLetterUID@lowNibble lowNibble `uc  1 a 1 3 ]
+"430
+[v findLastLetterUID@highNibble highNibble `uc  1 a 1 2 ]
+"429
+[v findLastLetterUID@i i `i  1 a 2 4 ]
+"428
+[v findLastLetterUID@UID UID `*.30uc  1 p 1 0 ]
+"442
+} 0
+"165 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\LcTLCD.c
+[v _LcPutChar LcPutChar `(v  1 e 1 0 ]
+{
+[v LcPutChar@c c `uc  1 p 1 wreg ]
+[v LcPutChar@c c `uc  1 p 1 wreg ]
+"175
+[v LcPutChar@c c `uc  1 p 1 22 ]
+"196
+} 0
+"138
+[v _LcGotoXY LcGotoXY `(v  1 e 1 0 ]
+{
+[v LcGotoXY@Column Column `uc  1 p 1 wreg ]
+"142
+[v LcGotoXY@Fisics Fisics `i  1 a 2 19 ]
+"138
+[v LcGotoXY@Column Column `uc  1 p 1 wreg ]
+[v LcGotoXY@Row Row `uc  1 p 1 14 ]
+[v LcGotoXY@Column Column `uc  1 p 1 21 ]
+"163
+} 0
+"250
+[v _CantaData CantaData `(v  1 e 1 0 ]
+{
+[v CantaData@Data Data `uc  1 p 1 wreg ]
+[v CantaData@Data Data `uc  1 p 1 wreg ]
+[v CantaData@Data Data `uc  1 p 1 2 ]
+"264
+} 0
+"115
+[v _LcClear LcClear `(v  1 e 1 0 ]
+{
+"120
+} 0
+"43 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_Motor MENU_Motor `(v  1 e 1 0 ]
+{
+"75
+[v MENU_Motor@i i `i  1 a 2 26 ]
+"44
+[v MENU_Motor@received_char received_char `uc  1 a 1 28 ]
+"93
+} 0
+"382
+[v _showUID showUID `(v  1 e 1 0 ]
+{
+[v showUID@index index `uc  1 p 1 wreg ]
+[v showUID@index index `uc  1 p 1 wreg ]
+[v showUID@index index `uc  1 p 1 25 ]
+"393
+} 0
+"354
+[v _printHex printHex `(v  1 e 1 0 ]
+{
+[v printHex@value value `uc  1 p 1 wreg ]
+"355
+[v printHex@hex_chars hex_chars `C[17]uc  1 a 17 4 ]
+"356
+[v printHex@hex_out hex_out `[3]uc  1 a 3 21 ]
+"354
+[v printHex@value value `uc  1 p 1 wreg ]
+[v printHex@F2821 F2821 `C[17]uc  1 s 17 F2821 ]
+[v printHex@value value `uc  1 p 1 24 ]
+"363
+} 0
+"395
+[v _showConfigLeds showConfigLeds `(v  1 e 1 0 ]
+{
+[v showConfigLeds@index index `uc  1 p 1 wreg ]
+"400
+[v showConfigLeds@i i `ui  1 a 2 11 ]
+"396
+[v showConfigLeds@buffer buffer `[4]uc  1 a 4 6 ]
+"395
+[v showConfigLeds@index index `uc  1 p 1 wreg ]
+"398
+[v showConfigLeds@index index `uc  1 p 1 10 ]
+"417
+} 0
+"258
+[v _option3 option3 `(v  1 e 1 0 ]
+{
+[v option3@received_char received_char `uc  1 p 1 wreg ]
+[v option3@received_char received_char `uc  1 p 1 wreg ]
+[v option3@received_char received_char `uc  1 p 1 3 ]
+"312
+} 0
+"232
+[v _handleMainMenu handleMainMenu `(v  1 e 1 0 ]
+{
+"238
+} 0
+"43 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_SIO.c
+[v _SIO_SendString SIO_SendString `(v  1 e 1 0 ]
+{
+[v SIO_SendString@str str `*.35Cuc  1 p 2 1 ]
+"49
+} 0
+"26
+[v _SIO_Send SIO_Send `(uc  1 e 1 0 ]
+{
+[v SIO_Send@character character `uc  1 p 1 wreg ]
+[v SIO_Send@character character `uc  1 p 1 wreg ]
+[v SIO_Send@character character `uc  1 p 1 0 ]
+"32
+} 0
+"240 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _handleIntensity handleIntensity `(v  1 e 1 0 ]
+{
+"256
+} 0
+"61 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_LEDS.c
+[v _LEDS_setIntensitat LEDS_setIntensitat `(v  1 e 1 0 ]
+{
+[v LEDS_setIntensitat@quinLed quinLed `uc  1 p 1 wreg ]
+[v LEDS_setIntensitat@quinLed quinLed `uc  1 p 1 wreg ]
+[v LEDS_setIntensitat@valor valor `uc  1 p 1 0 ]
+[v LEDS_setIntensitat@quinLed quinLed `uc  1 p 1 1 ]
+"63
+} 0
+"224 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _handleEscKey handleEscKey `(v  1 e 1 0 ]
+{
+[v handleEscKey@received_char received_char `uc  1 p 1 wreg ]
+[v handleEscKey@received_char received_char `uc  1 p 1 wreg ]
+[v handleEscKey@received_char received_char `uc  1 p 1 0 ]
+"230
+} 0
+"34 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_SIO.c
+[v _SIO_Receive SIO_Receive `(uc  1 e 1 0 ]
+{
+[v SIO_Receive@character character `*.30uc  1 p 1 0 ]
+"40
+} 0
+"32 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_Init MENU_Init `(v  1 e 1 0 ]
+{
+"41
+} 0
+"69 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\LcTLCD.c
+[v _LcInit LcInit `(v  1 e 1 0 ]
+{
+[v LcInit@rows rows `uc  1 p 1 wreg ]
+"75
+[v LcInit@i i `i  1 a 2 22 ]
+"69
+[v LcInit@rows rows `uc  1 p 1 wreg ]
+[v LcInit@columns columns `uc  1 p 1 20 ]
+"77
+[v LcInit@rows rows `uc  1 p 1 21 ]
+"108
+} 0
+"215
+[v _Espera Espera `(v  1 e 1 0 ]
+{
+[v Espera@Timer Timer `uc  1 p 1 wreg ]
+[v Espera@Timer Timer `uc  1 p 1 wreg ]
+[v Espera@ms ms `i  1 p 2 13 ]
+[v Espera@Timer Timer `uc  1 p 1 19 ]
+"218
+} 0
+"284
+[v _EscriuPrimeraOrdre EscriuPrimeraOrdre `(v  1 e 1 0 ]
+{
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 p 1 wreg ]
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 p 1 wreg ]
+"286
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 p 1 1 ]
+"293
+} 0
+"122
+[v _LcCursorOn LcCursorOn `(v  1 e 1 0 ]
+{
+"127
+} 0
+"266
+[v _WaitForBusy WaitForBusy `(v  1 e 1 0 ]
+{
+[v WaitForBusy@Busy Busy `uc  1 a 1 13 ]
+"282
+} 0
+"234
+[v _CantaIR CantaIR `(v  1 e 1 0 ]
+{
+[v CantaIR@IR IR `uc  1 p 1 wreg ]
+[v CantaIR@IR IR `uc  1 p 1 wreg ]
+[v CantaIR@IR IR `uc  1 p 1 2 ]
+"248
+} 0
+"227
+[v _CantaPartBaixa CantaPartBaixa `(v  1 e 1 0 ]
+{
+[v CantaPartBaixa@c c `uc  1 p 1 wreg ]
+[v CantaPartBaixa@c c `uc  1 p 1 wreg ]
+[v CantaPartBaixa@c c `uc  1 p 1 1 ]
+"232
+} 0
+"220
+[v _CantaPartAlta CantaPartAlta `(v  1 e 1 0 ]
+{
+[v CantaPartAlta@c c `uc  1 p 1 wreg ]
+[v CantaPartAlta@c c `uc  1 p 1 wreg ]
+[v CantaPartAlta@c c `uc  1 p 1 1 ]
+"225
+} 0
+"28 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_LEDS.c
+[v _LEDS_Motor LEDS_Motor `(v  1 e 1 0 ]
+{
+[v LEDS_Motor@quinLed quinLed `uc  1 p 1 wreg ]
+[v LEDS_Motor@quinLed quinLed `uc  1 p 1 wreg ]
+"30
+[v LEDS_Motor@quinLed quinLed `uc  1 p 1 20 ]
+"59
+} 0
+"56 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TIMER.c
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+{
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 p 1 0 ]
+"58
+} 0
+"61
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+{
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+"62
+[v TI_GetTics@CopiaTicsActual CopiaTicsActual `ul  1 a 4 8 ]
+"61
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 p 1 wreg ]
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 p 1 12 ]
+"64
+} 0
+"17 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_LEDS.c
+[v _LEDS_setState LEDS_setState `(v  1 e 1 0 ]
+{
+[v LEDS_setState@quinLed quinLed `uc  1 p 1 wreg ]
+[v LEDS_setState@quinLed quinLed `uc  1 p 1 wreg ]
+[v LEDS_setState@estat estat `uc  1 p 1 0 ]
+[v LEDS_setState@quinLed quinLed `uc  1 p 1 1 ]
+"26
+} 0
+"7
+[v _LEDS_Init LEDS_Init `(v  1 e 1 0 ]
+{
+"11
+[v LEDS_Init@i i `i  1 a 2 3 ]
+"15
+} 0
+"46 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TIMER.c
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+{
+"47
+[v TI_NewTimer@Comptador Comptador `uc  1 a 1 2 ]
+"46
+[v TI_NewTimer@TimerHandle TimerHandle `*.30uc  1 p 1 0 ]
+"54
+} 0
+"81 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\main.c
+[v _Init_Interrupcions Init_Interrupcions `(v  1 e 1 0 ]
+{
+"85
+} 0
+"70
+[v _RSI_High RSI_High `IIH(v  1 e 1 0 ]
+{
+"79
+} 0
+"28 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_TIMER.c
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+{
+"33
+} 0
+"192 C:\Users\pinol\Desktop\uni\24-25\Compus\2025.02.28-SDM-2425-P2-FA-jan.pinol\P2-F1-JAN-PINOL.X\TAD_MENU.c
+[v _MENU_addMinute MENU_addMinute `(v  1 e 1 0 ]
+{
+"205
+} 0
+"207
+[v _addHour addHour `(v  1 e 1 0 ]
+{
+"221
+} 0

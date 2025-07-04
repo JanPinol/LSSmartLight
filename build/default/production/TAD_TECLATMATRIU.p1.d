@@ -1,0 +1,5 @@
+build/default/production/TAD_TECLATMATRIU.p1:  \
+TAD_TECLATMATRIU.c  \
+TAD_TECLATMATRIU.h  \
+TAD_TIMER.h  \
+TAD_SIO.h 
